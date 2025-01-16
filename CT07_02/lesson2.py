@@ -17,7 +17,17 @@
 # 2. from 1 to 30
 # 3. from 2 to 24
 
-skibidi = 2
-while skibidi <= 24:
-    print(skibidi)
-    skibidi+=1
+# skibidi = 2
+# while skibidi <= 24:
+#     print(skibidi)
+#     skibidi+=1
+
+# ## Task 2: while... break
+# The **break** keyword will **break** out (exit) the loop.
+# When a **break** is encountered, the code in the **else** will
+# not be run.
+
+# Using a while loop:
+# 1. print the numbers from 1 to 10
+# 2. if the number is 5, **break** out of the loop
+
