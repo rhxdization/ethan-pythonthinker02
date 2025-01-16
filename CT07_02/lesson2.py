@@ -108,4 +108,4 @@ while True:
         print("Wrong! Try again.")
     else:
         print("Correct! Nothing happened to the Tiananmen Square in 1989. Next question!")
-    ansans2 = int
+    ansans2 = int(input())
