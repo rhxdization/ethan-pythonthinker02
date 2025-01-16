@@ -18,5 +18,5 @@ for i in range(2,25,2):
 # 3. from 2 to 24
 skibidi = 0
 while skibidi < 20:
-    skibidi = skibidi+1
     print(skibidi)
+    
