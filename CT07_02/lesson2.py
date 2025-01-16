@@ -76,7 +76,7 @@
 #    has chosen.
 topping = ""
 while True:
-    if "end" or "End" in topping:
+    if "end" in topping:
         print("Your toppings are: " + topping)
         break
     else:
