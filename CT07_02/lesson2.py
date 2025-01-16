@@ -77,7 +77,7 @@
 topping = ""
 toppinglist = ""
 while True:
-    if "end" in topping:
+    if topping == "end":
         print("Your toppings are: " + toppinglist)
         break
     else:
