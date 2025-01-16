@@ -120,5 +120,6 @@ while True:
         counter+=1
     else:
         print("Correct! The answer is 2. Final question!")
-    
+        counter=0
+        
     
