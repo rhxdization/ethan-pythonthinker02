@@ -10,4 +10,4 @@
 for outer in range(2):
     print("skibidi toilet!!!")
     for inner in range(5):
-        print()
+        print("i like skibidi toilet")
