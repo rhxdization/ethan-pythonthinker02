@@ -80,8 +80,7 @@ while True:
         print("Your toppings are: " + topping)
         break
     else:
-        topping = topping + input("hi what topping do you want on your pissa: ") + ", "
-        print(topping)
+        topping = topping + input("Please add topping  ") + ", "
     
 
 
