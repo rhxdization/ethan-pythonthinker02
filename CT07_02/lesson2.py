@@ -78,7 +78,7 @@ topping = ""
 toppinglist = ""
 while True:
     if "end" in topping:
-        print("Your toppings are: " + topping)
+        print("Your toppings are: " + toppinglist)
         break
     else:
         topping = input("Please add topping of choise to pissa: ") + ", "
