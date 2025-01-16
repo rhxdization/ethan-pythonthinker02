@@ -103,4 +103,4 @@ ans2 = "2"
 ans3 = "school"
 
 while True:
-    print("Welcome to the Game Show!")
+    print("Welcome to the Game Show! You will answer 3 questions and answer all 3")
