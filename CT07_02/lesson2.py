@@ -38,18 +38,18 @@
 #     if counter > 5:
 #         break
 
-## Task 3: while... else
-The else condition will run when the loop exits normally
-i.e. when the while condition is no longer true.
+# ## Task 3: while... else
+# The else condition will run when the loop exits normally
+# i.e. when the while condition is no longer true.
 
-**Task 3a**: Using a while loop
-1. print the numbers from 1 to 10
-2. once count has reached 10, use the else and print "Count
-   has reached 10"
+# **Task 3a**: Using a while loop
+# 1. print the numbers from 1 to 10
+# 2. once count has reached 10, use the else and print "Count
+#    has reached 10"
 
-**Task 3b**:
-Now, modify your 'while' loop such that:
-1. If the number is 5, **break** out of the loop
-2. Ensure your code has an else
+# **Task 3b**:
+# Now, modify your 'while' loop such that:
+# 1. If the number is 5, **break** out of the loop
+# 2. Ensure your code has an else
 
-Observe if the code in the **else** runs.
+# Observe if the code in the **else** runs.
