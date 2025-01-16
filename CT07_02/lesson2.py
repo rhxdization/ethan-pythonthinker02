@@ -76,5 +76,6 @@
 #    has chosen.
 
 while true:
-    topping = input("hi what topping do you want on your pissa: ")
+    topping = topping + input("hi what topping do you want on your pissa: ")
     
+
