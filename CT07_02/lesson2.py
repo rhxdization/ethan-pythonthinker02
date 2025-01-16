@@ -75,6 +75,7 @@
 # 4. On program end, print out the toppings that the customer
 #    has chosen.
 topping = ""
+toppinglist = ""
 while True:
     if "end" in topping:
         print("Your toppings are: " + topping)
