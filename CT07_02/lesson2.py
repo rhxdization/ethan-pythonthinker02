@@ -8,4 +8,6 @@
 # 3. from 2 to 24 (in even numbers)
 
 for outer in range(2):
-    print(skibidi)
+    print("skibidi toilet!!!")
+    for inner in range(5):
+        print()
