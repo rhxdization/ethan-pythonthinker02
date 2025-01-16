@@ -74,13 +74,15 @@
 # 3. exit the while loop if the user enters "end"
 # 4. On program end, print out the toppings that the customer
 #    has chosen.
-topping = ""
-toppinglist = ""
-while True:
-    if topping == "end, ":
-        print("Your toppings are: " + toppinglist)
-        break
-    else:
-        toppinglist+=topping
-        topping = input("Please add topping of choise to pissa: ") + ", "
+
+# topping = ""
+# toppinglist = ""
+# while True:
+#     if topping == "end, ":
+#         print("Your toppings are: " + toppinglist)
+#         break
+#     else:
+#         toppinglist+=topping
+#         topping = input("Please add topping of choise to pissa: ") + ", "
+
 
