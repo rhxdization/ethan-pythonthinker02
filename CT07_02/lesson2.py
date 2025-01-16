@@ -139,10 +139,6 @@ counter = 0
 print("Welcome to the Game Show! You will answer 3 questions and if you answer all 3 correctly, you get a million Vietnamese dong!")
 
 while True:
-    if counter == 3:
-        print("You've used up all your 3 attempts! You're disqualified!")
-        break
-    
     ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
     while ansans1 != ans1:
         print("Wrong! Try again.")
@@ -150,7 +146,6 @@ while True:
         ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
     print("Correct! Nothing happened to Tiananmen Square in 1989. Next question!")
     counter = 0
-    
     if counter < 3:
         ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2? "))
         while ansans2 != ans2:
