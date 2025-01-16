@@ -7,8 +7,8 @@
 # 2. from 1 to 30
 # 3. from 2 to 24 (in even numbers)
 
-for i in range(2,25,2):
-    print(i)
+# for i in range(2,25,2):
+#     print(i)
 
 # # Task 1: Introduction to while loop
 # **Task: Using a separate 'while' loop, print each of the
