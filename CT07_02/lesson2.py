@@ -16,3 +16,6 @@ for i in range(2,25,2):
 # 1. from 0 to 20
 # 2. from 1 to 30
 # 3. from 2 to 24
+skibidi = 0
+while skibidi < 20:
+    print(skibid)
