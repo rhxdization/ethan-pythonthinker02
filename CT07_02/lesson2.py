@@ -143,6 +143,9 @@ while True:
     while ansans1 != ans1:
         print("Wrong! Try again.")
         counter += 1
+        if counter == 3:
+            print("You've used up all your 3 attempts! You're disqualified!")
+            break
         ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
     print("Correct! Nothing happened to Tiananmen Square in 1989. Next question!")
     counter = 0
