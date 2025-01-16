@@ -100,4 +100,7 @@
 # 3. Disqualify user when they have tried too many times
 ans1 = "nothing"
 ans2 = "2"
-ans3 = ""
+ans3 = "school"
+
+while True:
+    print("Welcome to the Game Show!")
