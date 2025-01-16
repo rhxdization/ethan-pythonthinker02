@@ -98,7 +98,4 @@
 # 1. Add a score system
 # 2. Add an ability for users to skip by saying “skip”
 # 3. Disqualify user when they have tried too many times
-
-while True:
-    for i in range(3):
-        question1 = input()
+ans1 = "nothing"
