@@ -101,9 +101,8 @@
 ans1 = "nothing"
 ans2 = "2"
 ans3 = "school"
-
+print("Welcome to the Game Show! You will answer 3 questions and answer all 3, you get idk actually")
 while True:
-    print("Welcome to the Game Show! You will answer 3 questions and answer all 3, you get idk actually")
     ansans1 = input("Lets start! What happened to the Tiananmen Square in 1989?")
     if ansans1 != ans1:
-        print()
+        print("Wrong! Try again.")
