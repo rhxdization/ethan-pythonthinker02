@@ -124,5 +124,7 @@ while True:
     ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house?")
     if ansans3 != ans3:
         print("Wrong! Try again.")
-        
+        counter+=1
+    else:
+        print("Correct! You")
     
