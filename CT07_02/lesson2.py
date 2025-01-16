@@ -163,5 +163,5 @@ while True:
             print("Wrong! Try again.")
             counter += 1
         else:
-            print("Correct! You've won the game show! You get a million Vietnamese dong. Ok, now go buy McDonald's or something!")
+            print("Correct! You've won the game show! You get a million vietnamese dong now go buy mcdonalds or something")
             break
