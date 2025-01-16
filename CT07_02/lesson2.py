@@ -80,5 +80,6 @@ while True:
     print(topping)
     if "end" in topping:
         print("Your toppings are: " + topping)
+        break
 
 
