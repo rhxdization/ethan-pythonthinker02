@@ -20,4 +20,4 @@
 skibidi = 2
 while skibidi <= 24:
     print(skibidi)
-    skibidi+=2
+    skibidi+=1
