@@ -17,7 +17,7 @@
 # 2. from 1 to 30
 # 3. from 2 to 24
 
-skibidi = 1
-while skibidi <= 30:
+skibidi = 2
+while skibidi <= 24:
     print(skibidi)
-    skibidi+=1
+    skibidi+=2
