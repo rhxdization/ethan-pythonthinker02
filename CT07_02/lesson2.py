@@ -75,4 +75,4 @@
 # 4. On program end, print out the toppings that the customer
 #    has chosen.
 
-toppin
+topping = ""
