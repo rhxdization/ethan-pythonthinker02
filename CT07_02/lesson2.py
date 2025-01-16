@@ -78,6 +78,7 @@ topping = ""
 while True:
     topping = topping + input("hi what topping do you want on your pissa: ") + " "
     print(topping)
-    
+    if "end" in topping:
+        
 
 
