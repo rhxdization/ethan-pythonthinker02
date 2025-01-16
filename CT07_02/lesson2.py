@@ -82,6 +82,6 @@ while True:
         break
     else:
         topping = input("Please add topping of choise to pissa: ") + ", "
-        toppinglist+=topping
+        toppinglist=toppinglist+topping
 
 
