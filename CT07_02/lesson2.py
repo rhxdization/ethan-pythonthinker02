@@ -115,11 +115,13 @@ while True:
         print("Correct! Nothing happened to the Tiananmen Square in 1989. Next question!")
         counter=0
     ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2?"))
-    if ansans2 != ans1:
+    if ansans2 != ans2:
         print("Wrong! Try again.")
         counter+=1
     else:
         print("Correct! The answer is 2. Final question!")
         counter=0
-    ansans3 = input("It is a house. Someone goes in ")
+    ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house?")
+    if ansans3 != ans3:
+        
     
