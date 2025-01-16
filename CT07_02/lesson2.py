@@ -135,7 +135,7 @@ ans2 = 2
 ans3 = "school"
 counter = 0
 
-print("Welcome to the Game Show! You will answer 3 questions and if you answer all 3 correctly, you get a million Vietnamese dong!")
+print("Welcome to the Game Show! You will answer 3 questions and if you answer all 3 correctly, you get a million vietnamese dong")
 
 while True:
     if counter == 3:
