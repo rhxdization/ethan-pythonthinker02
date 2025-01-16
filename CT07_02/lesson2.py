@@ -121,7 +121,7 @@ while True:
     else:
         print("Correct! The answer is 2. Final question!")
         counter=0
-    ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house?")
+    ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house? ")
     if ansans3 != ans3:
         print("Wrong! Try again.")
         counter+=1
