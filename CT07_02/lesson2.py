@@ -166,5 +166,5 @@ while True:
             print("Wrong! Try again.")
             counter += 1
             ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house? ")
-        print("Correct! You've won the game show! You get a million Vietnamese dong. Ok, now go buy McDonald's or something!")
+        print("Correct! Youve won the gameshow! You get a million vietnamese dong ok now go buy mcdonalds or something")
         break
