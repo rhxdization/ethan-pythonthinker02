@@ -11,5 +11,5 @@ for outer in range(5):
     print("skibidi toilet!!!")
     for inner in range(2):
         print("i like skibidi toilet")
-    print("im so skibidi")
+    print("im so skibid toileti")
 print("ok")
