@@ -130,3 +130,38 @@
 #         print("Correct! Youve won the gameshow! You get a million vietnamese dong ok now go buy mcdonalds or something")
 #         break
     
+ans1 = "nothing"
+ans2 = 2
+ans3 = "school"
+counter = 0
+
+print("Welcome to the Game Show! You will answer 3 questions and if you answer all 3 correctly, you get a million Vietnamese dong!")
+
+while True:
+    if counter == 3:
+        print("You've used up all your 3 attempts! You're disqualified!")
+        break
+    
+    ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
+    if ansans1 != ans1:
+        print("Wrong! Try again.")
+        counter += 1
+    else:
+        print("Correct! Nothing happened to Tiananmen Square in 1989. Next question!")
+    
+    if counter < 3:
+        ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2? "))
+        if ansans2 != ans2:
+            print("Wrong! Try again.")
+            counter += 1
+        else:
+            print("Correct! The answer is 2. Final question!")
+    
+    if counter < 3:
+        ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house? ")
+        if ansans3 != ans3:
+            print("Wrong! Try again.")
+            counter += 1
+        else:
+            print("Correct! You've won the game show! You get a million Vietnamese dong. Ok, now go buy McDonald's or something!")
+            break
