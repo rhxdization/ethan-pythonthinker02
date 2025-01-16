@@ -157,8 +157,6 @@ while True:
             ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2? "))
         print("Correct! The answer is 2. Final question!")
         counter = 0
-    
-    if counter < 3:
         ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house? ")
         while ansans3 != ans3:
             print("Wrong! Try again.")
