@@ -116,4 +116,6 @@ while True:
         counter=0
     ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2?"))
     if ansans2 != ans1:
-        print("Wrong")
+        print("Wrong! Try again.")
+        counter+=1
+        
