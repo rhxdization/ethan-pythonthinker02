@@ -118,4 +118,5 @@ while True:
     if ansans2 != ans1:
         print("Wrong! Try again.")
         counter+=1
+    else:
         
