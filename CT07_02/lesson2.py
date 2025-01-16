@@ -102,7 +102,7 @@ ans1 = "nothing"
 ans2 = "2"
 ans3 = "school"
 counter = 0
-print("Welcome to the Game Show! You will answer 3 questions and answer all 3, you get idk actually")
+print("Welcome to the Game Show! You will answer 3 questions and answer all 3, you get a million vietnamese dong")
 while True:
     if counter == 3:
         print("Youve used up all your 3 attempts! Your disqualified!")
@@ -120,4 +120,4 @@ while True:
         counter+=1
     else:
         print("Correct! The answer is 2. Final question!")
-        
+    
