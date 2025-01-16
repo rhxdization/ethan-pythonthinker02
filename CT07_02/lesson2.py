@@ -19,4 +19,4 @@ for i in range(2,25,2):
 skibidi = 0
 while skibidi < 20:
     print(skibidi)
-    skibidi=+1
+    skibidi+=1
