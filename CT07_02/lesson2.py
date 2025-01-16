@@ -126,5 +126,6 @@ while True:
         print("Wrong! Try again.")
         counter+=1
     else:
-        print("Correct! You")
+        print("Correct! Youve won the gameshow! You get a million vietnamese dong ok now go buy mcdonalds or something")
+        break
     
