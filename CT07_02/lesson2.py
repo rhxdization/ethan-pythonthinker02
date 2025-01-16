@@ -163,6 +163,9 @@ while True:
     while ansans3 != ans3:
         print("Wrong! Try again.")
         counter += 1
+        if counter == 3:
+            print("You've used up all your 3 attempts! You're disqualified!")
+            break
         ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house? ")
         print("Correct! Youve won the gameshow! You get a million vietnamese dong ok now go buy mcdonalds or something")
         break
