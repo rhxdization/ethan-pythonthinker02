@@ -7,4 +7,5 @@
 # 2. from 1 to 30
 # 3. from 2 to 24 (in even numbers)
 
-for i in range()
+for i in range(1,20):
+    print(i)
