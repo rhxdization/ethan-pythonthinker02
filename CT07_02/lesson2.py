@@ -105,8 +105,8 @@ counter = 0
 print("Welcome to the Game Show! You will answer 3 questions and answer all 3, you get idk actually")
 while True:
     if counter == 3:
-        print("Youvs used up all your 3 attempts! Your disqualified!")
-        
+        print("Youve used up all your 3 attempts! Your disqualified!")
+        break
     ansans1 = input("Lets start! What happened to the Tiananmen Square in 1989?")
     if ansans1 != ans1:
         print("Wrong! Try again.")
