@@ -12,3 +12,4 @@ for outer in range(5):
     for inner in range(2):
         print("i like skibidi toilet")
     print("im so skibidi")
+print("ok")
