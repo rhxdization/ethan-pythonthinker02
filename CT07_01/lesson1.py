@@ -29,12 +29,22 @@
 
 # print("Average score for " + student_name + " is: " + str(average_score))
 
-score = int(input("score please "))
-if score >= 75:
-    print("you got a")
-elif score >= 60:
-    print("you got b")
-elif score >= 50:
-    print("you got c")
-else:
-    print("fail")
+# score = int(input("score please "))
+# if score >= 75:
+#     print("you got a")
+# elif score >= 60:
+#     print("you got b")
+# elif score >= 50:
+#     print("you got c")
+# else:
+#     print("fail")
+
+# lesson 2
+
+# recap 1
+
+# **Task: write a separate 'for' loop to print the following
+# numbers:**
+# 1. from 0 - 20
+# 2. from 1 to 30
+# 3. from 2 to 24 (in even numbers)
