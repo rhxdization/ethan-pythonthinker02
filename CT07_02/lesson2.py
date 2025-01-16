@@ -119,4 +119,5 @@ while True:
         print("Wrong! Try again.")
         counter+=1
     else:
+        print("Correct! The answer is 2. Final question!")
         
