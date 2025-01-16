@@ -121,5 +121,5 @@ while True:
     else:
         print("Correct! The answer is 2. Final question!")
         counter=0
-    ansans3 = input("I")
+    ansans3 = input("It is a house. Someone goes in ")
     
