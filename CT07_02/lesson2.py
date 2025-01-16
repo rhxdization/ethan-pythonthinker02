@@ -54,9 +54,9 @@
 
 # Observe if the code in the **else** runs.
 
-counter = 1
+counter = 0
 while counter <= 10:
-    print(counter)
     counter+=1
+    print("counter")
     if counter == 10:
         print("Counter has reached 10")
