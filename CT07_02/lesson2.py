@@ -107,4 +107,5 @@ while True:
     if ansans1 != ans1:
         print("Wrong! Try again.")
     else:
-        
+        print("Correct! Nothing happened to the Tiananmen Square in 1989. Next question!")
+    
