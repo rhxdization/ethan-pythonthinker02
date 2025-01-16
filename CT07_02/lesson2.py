@@ -106,3 +106,5 @@ while True:
     ansans1 = input("Lets start! What happened to the Tiananmen Square in 1989?")
     if ansans1 != ans1:
         print("Wrong! Try again.")
+    else:
+        
