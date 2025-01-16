@@ -7,9 +7,5 @@
 # 2. from 1 to 30
 # 3. from 2 to 24 (in even numbers)
 
-for outer in range(5):
-    print("skibidi toilet!!!")
-    for inner in range(2):
-        print("i like skibidi toilet")
-    print("im so skibid toileti")
-print("ok")
+for i in range(1,21):
+    print(i)
