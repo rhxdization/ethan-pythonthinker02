@@ -74,8 +74,9 @@
 # 3. exit the while loop if the user enters "end"
 # 4. On program end, print out the toppings that the customer
 #    has chosen.
-
+topping = ""
 while true:
     topping = topping + input("hi what topping do you want on your pissa: ")
     
+
 
