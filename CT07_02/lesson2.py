@@ -56,7 +56,5 @@
 
 counter = 0
 while counter < 10:
-    counter+=1
-    print(counter)
-    if counter == 10:
-        print("Counter has reached 10")
+    if counter == 5:
+        
