@@ -140,6 +140,7 @@ while True:
         print("Correct! The answer is 2. Final question!")
         score+=scoreearned
     counter = 0
+    scoreearned=5
     ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house? ")
     while ansans3 != ans3:
         print("Wrong! Try again.")
