@@ -103,9 +103,10 @@ ans1 = "nothing"
 ans2 = 2
 ans3 = "school"
 counter = 0
+score = 0
 
 print("Welcome to the Game Show! In this game, if you get 15 points, you will earn 1 million Vietnamese Dong!")
-print("")
+print("You can say 'skip' to skip the question, but it will cost you 3 points!")
 
 while True:
     ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
