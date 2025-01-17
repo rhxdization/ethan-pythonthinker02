@@ -104,6 +104,7 @@ ans2 = 2
 ans3 = "school"
 counter = 0
 score = 0
+scoreearned = 5
 
 print("Welcome to the Game Show! In this game, if you get 15 points, you will earn 1 million Vietnamese Dong!")
 print("You can say 'skip' to skip the question, but it will cost you 3 points!")
