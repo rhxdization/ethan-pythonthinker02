@@ -152,7 +152,6 @@ while True:
         print("Correct! The answer is a school. Now lets check if youve scored enough...")
         if score == 15:
             print("Congrats! Youve won 1 million Vietnamese Dong! ok now go buy mcdonalds or smth")
-            break
         else:
             print("Sorry, you lost! your score: " +str(score) + " points. Better luck next time!")
         break
