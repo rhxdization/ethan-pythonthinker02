@@ -113,7 +113,7 @@ while True:
     ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
     if ansans1 == "skip":
         if score <= 3:
-            
+            print("You do not have enough score to skip!")
     while ansans1 != ans1:
         print("Wrong! Try again.")
         counter += 1
