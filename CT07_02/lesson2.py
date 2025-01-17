@@ -122,6 +122,7 @@ while True:
         break   
     else:
         print("Correct! Nothing happened to Tiananmen Square in 1989. Next question!")
+        score+=scoreearned
     counter = 0
     ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2? "))
     while ansans2 != ans2:
