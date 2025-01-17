@@ -149,5 +149,5 @@ while True:
     if counter == 3:
         break   
     else:
-        print("Correct! Youve won the gameshow! You get a million vietnamese dong ok now go buy mcdonalds or something")
+        print("Correct! Since")
         break
