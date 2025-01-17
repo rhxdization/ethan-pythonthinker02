@@ -132,14 +132,14 @@ while True:
             print("Wrong! Try again.")
             counter += 1
             scoreearned-=2
+            if counter == 3:
+                print("You've used up all your 3 attempts! You're disqualified!")
+                break
+            ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2? "))
         if counter == 3:
-            print("You've used up all your 3 attempts! You're disqualified!")
-            break
-        ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2? "))
-    if counter == 3:
-        break   
-    else:
-        print("Correct! The answer is 2. Final question!")
+            break   
+        else:
+            print("Correct! The answer is 2. Final question!")
         score+=scoreearned
     counter = 0
     scoreearned=5
