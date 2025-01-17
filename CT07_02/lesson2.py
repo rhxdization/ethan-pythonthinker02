@@ -107,10 +107,16 @@ score = 0
 scoreearned = 5
 
 print("Welcome to the Game Show! In this game, if you get 15 points, you will earn 1 million Vietnamese Dong!")
-print("You can say 'skip' to skip the question, but it will cost you 3 points! (You can only skip after question 1)")
 
 while True:
     ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
+    if ansans1 == "skip":
+        if score <= 3:
+            print("You do not have enough score to skip!")
+        else:
+            score-=3
+            print("Question skipped!")
+            break
     while ansans1 != ans1:
         print("Wrong! Try again.")
         counter += 1
@@ -127,20 +133,19 @@ while True:
     counter = 0
     scoreearned=5
     ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2? "))
-    if score != "skip":
-        while ansans2 != ans2:
-            print("Wrong! Try again.")
-            counter += 1
-            scoreearned-=2
-            if counter == 3:
-                print("You've used up all your 3 attempts! You're disqualified!")
-                break
-            ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2? "))
+    while ansans2 != ans2:
+        print("Wrong! Try again.")
+        counter += 1
+        scoreearned-=2
         if counter == 3:
-            break   
-        else:
-            print("Correct! The answer is 2. Final question!")
-            score+=scoreearned
+            print("You've used up all your 3 attempts! You're disqualified!")
+            break
+        ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2? "))
+    if counter == 3:
+        break   
+    else:
+        print("Correct! The answer is 2. Final question!")
+        score+=scoreearned
     counter = 0
     scoreearned=5
     ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house? ")
