@@ -104,7 +104,7 @@ ans2 = 2
 ans3 = "school"
 counter = 0
 
-print("Welcome to the Game Show! You will answer 3 questions and if you answer all 3 correctly, you get a million Vietnamese dong!")
+print("Welcome to the Game Show! You will answer 3 questions!, you get a million Vietnamese dong!")
 
 while True:
     ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
