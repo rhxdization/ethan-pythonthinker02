@@ -154,6 +154,8 @@ while True:
     else:
         print("Correct! The answer is a school. Now lets check if youve scored enough...")
         score+=scoreearned
+        counter=0
+        scoreeearned=5
         if score == 15:
             print("Congrats! Youve won 1 million Vietnamese Dong! ok now go buy mcdonalds or smth (Score: " + str(score) + ")")
         else:
