@@ -134,7 +134,7 @@
 ans1 = "nothing"
 ans2 = 2
 ans3 = "school"
-counter = 0
+counter = 1
 
 print("Welcome to the Game Show! You will answer 3 questions and if you answer all 3 correctly, you get a million Vietnamese dong!")
 
