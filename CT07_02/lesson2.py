@@ -111,13 +111,6 @@ print("You can say 'skip' to skip the question, but it will cost you 3 points! (
 
 while True:
     ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
-    if ansans1 == "skip":
-        if score <= 3:
-            print("You do not have enough score to skip!")
-        else:
-            score-=3
-            print("Question skipped!")
-            break
     while ansans1 != ans1:
         print("Wrong! Try again.")
         counter += 1
