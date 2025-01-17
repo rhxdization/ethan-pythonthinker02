@@ -129,6 +129,7 @@ while True:
     while ansans2 != ans2:
         print("Wrong! Try again.")
         counter += 1
+        scoreearned -=2
         if counter == 3:
             print("You've used up all your 3 attempts! You're disqualified!")
             break
