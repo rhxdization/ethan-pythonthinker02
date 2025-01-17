@@ -149,5 +149,6 @@ while True:
     if counter == 3:
         break   
     else:
-        print("Correct! Since")
+        print("Correct! The answer is a school. Now lets check if youve scored enough...")
+        if score
         break
