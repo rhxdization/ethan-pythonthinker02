@@ -123,7 +123,7 @@ while True:
             if counter == 3:
                 print("You've used up all your 3 attempts! You're disqualified!")
                 break
-        ansans1 = input("What happened to Tiananmen Square in 1989? ")
+            ansans1 = input("What happened to Tiananmen Square in 1989? ")
     if counter == 3:
         break   
     else:
