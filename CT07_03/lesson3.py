@@ -30,8 +30,8 @@ import time
 
 timer = int(input("how long u want to study (minutes)")) * 60
 
-while seconds != 0:
+while timer != 0:
     time.sleep(1)
-    seconds-=1
+    timer-=1
 
 print("good job")
