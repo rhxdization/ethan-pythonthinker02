@@ -101,4 +101,4 @@
 
 score = 0
 att = 0
-max_att = 0
+max_att = 3
