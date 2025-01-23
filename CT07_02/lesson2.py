@@ -163,3 +163,37 @@ while True:
         else:
             print("Sorry, you lost! your score: " +str(score) + ". Better luck next time!")
         break
+
+# # Define my variables
+# max_attempts = 3
+# score = 0
+
+# questions_answers = [
+#     "qn1?", "ans1",
+#     "qn2?", "ans2", 
+#     "qn3?", "ans3"
+# ]
+
+# for i in range(0, len(questions_answers), 2):
+#     question = questions_answers[i]
+#     answer = questions_answers[i + 1]
+#     attempts = 0
+
+#     while attempts < max_attempts:
+#         user_input = input(question)
+        
+#         if user_input.lower() == answer.lower():
+#             score += 1
+#             print("Correct!")
+#             break
+#         elif user_input.lower() == "skip":
+#             print("Question skipped.")
+#             break
+#         else:
+#             print("Wrong!")
+#             attempts += 1
+
+#         if attempts == max_attempts:
+#             print("Too many attempts! Try the next question.")
+
+# print(f"Your final score is {score} out of {len(questions_answers) // 2}.")
