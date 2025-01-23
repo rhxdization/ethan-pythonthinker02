@@ -76,6 +76,7 @@
 
 import random
 
+questions = 5
 lives = 3
 questionno = 1
 ans = 0
