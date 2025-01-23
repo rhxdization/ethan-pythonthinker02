@@ -99,12 +99,72 @@
 # 2. Add an ability for users to skip by saying “skip”
 # 3. Disqualify user when they have tried too many times
 
+ans1 = "nothing"
+ans2 = 2
+ans3 = "school"
+counter = 0
 score = 0
-att = 0
-max_att = 3
-questions_answers = [
-    "What happened to the Tiananmen Square in 1989?", "yes"
-    "What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2?", "2"
-    "Someone goes in blind but comes out seeing. What is it?", "school"
-]
+scoreearned = 5
+questionskip = 0
 
+print("Welcome to the Game Show! In this game, if you get 10 points, you will earn 1 million Vietnamese Dong!")
+
+while True:
+    ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
+    if ansans1 == "skip":
+        print("Question skipped!")
+        score-=2
+        questionskip = 1
+    if questionskip != 1:
+        while ansans1 != ans1:
+            print("Wrong! Try again.")
+            counter += 1
+            scoreearned-=2
+            if counter == 3:
+                print("You've used up all your 3 attempts! You're disqualified!")
+                break
+        ansans1 = input("What happened to Tiananmen Square in 1989? ")
+    if counter == 3:
+        break   
+    else:
+        print("Correct! Nothing happened to Tiananmen Square in 1989. Next question!")
+        score+=scoreearned
+    counter = 0
+    scoreearned=5
+    ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2? "))
+    while ansans2 != ans2:
+        print("Wrong! Try again.")
+        counter += 1
+        scoreearned-=2
+        if counter == 3:
+            print("You've used up all your 3 attempts! You're disqualified!")
+            break
+        ansans2 = int(input("What is ( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / pi) ) / ( ( (3 + (7/2))^2 / (log(1000) - log(100)) )^(1/2) + (16)^(1/4) ) ) * 2? "))
+    if counter == 3:
+        break   
+    else:
+        print("Correct! The answer is 2. Final question!")
+        score+=scoreearned
+    counter = 0
+    scoreearned=5
+    ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house? ")
+    while ansans3 != ans3:
+        print("Wrong! Try again.")
+        counter += 1
+        scoreearned-=2
+        if counter == 3:
+            print("You've used up all your 3 attempts! You're disqualified!")
+            break
+        ansans3 = input("It is a house. Someone goes in blind, but comes out seeing. What is the house? ")
+    if counter == 3:
+        break   
+    else:
+        print("Correct! The answer is a school. Now lets check if youve scored enough...")
+        score+=scoreearned
+        counter=0
+        scoreeearned=5
+        if score >= 10:
+            print("Congrats! Youve won 1 million Vietnamese Dong! ok now go buy mcdonalds or smth (Score: " + str(score) + ")")
+        else:
+            print("Sorry, you lost! your score: " +str(score) + ". Better luck next time!")
+        break
