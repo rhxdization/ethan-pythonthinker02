@@ -79,4 +79,4 @@ import random
 lives = 3
 questions = 15
 while questions != 15:
-    
+    print("hi ")
