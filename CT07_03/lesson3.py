@@ -5,3 +5,4 @@
 #    check the answer
 # 3. While answer is not correct, repeat the question
 
+ans = "2"
