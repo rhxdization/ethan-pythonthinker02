@@ -51,4 +51,5 @@
 savings = 0
 while savings < 100:
     savings += int(input("How much did you save today? "))
+    print("You now have " + str(savings) + ".")
 print("You saved $100 or more. (" + str(savings) + "). Congrats!")
