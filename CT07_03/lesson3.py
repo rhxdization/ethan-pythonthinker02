@@ -93,4 +93,3 @@ while questionno != 15:
         no2 = random.randint(2,20)
     if lives == 0:
         print("GO AND MEET TEACHER IN DETENTION ROOM 😡😡😡😡😡😡🤬🤬🤬")
-
