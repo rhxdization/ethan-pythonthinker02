@@ -157,7 +157,7 @@ while True:
         score+=scoreearned
         counter=0
         scoreeearned=5
-        if score == 15:
+        if score >= 10:
             print("Congrats! Youve won 1 million Vietnamese Dong! ok now go buy mcdonalds or smth (Score: " + str(score) + ")")
         else:
             print("Sorry, you lost! your score: " +str(score) + ". Better luck next time!")
