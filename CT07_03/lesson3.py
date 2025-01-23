@@ -82,7 +82,7 @@ ans = 0
 no1 = random.randint(2,20)
 no2 = random.randint(2,20)
 print("hi ms tan told me to give tihs to you so uhh suffer")
-while questionno != 5:
+while questionno != (5+1):
     ans = int(input("question " + str(questionno) + ": what is " + str(no1) + " * " + str(no2) + "? "))
     if ans != (no1*no2):
         print("WRONG 👿👿👿")
