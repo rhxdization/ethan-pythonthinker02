@@ -26,14 +26,24 @@
 # You will need to write a conversion algorithm to change
 # minutes to seconds.
 
-import time
+# import time
 
-timer = int(input("how long u want to study (minutes) ")) * 60
+# timer = int(input("how long u want to study (minutes) ")) * 60
 
-while timer != 0:
-    time.sleep(1)
-    if (timer % 60) == 0:
-        print(str(timer/60) + " minutes left")
-    timer-=1
+# while timer != 0:
+#     time.sleep(1)
+#     if (timer % 60) == 0:
+#         print(str(timer/60) + " minutes left")
+#     timer-=1
 
-print("good job")
+# print("good job")
+
+## Task 2: Allowance Savings Tracker
+**Task: Write a program to track how much you save, and
+inform you when your savings is more than $100**
+1. Create a variable called savings
+2. Using a while loop, ask how much money you save every
+   day
+3. While savings is less than 100, you continue to save
+4. Exit the program when savings is more than 100 and
+   congratulate the user.
