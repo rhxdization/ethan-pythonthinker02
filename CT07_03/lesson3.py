@@ -86,3 +86,4 @@ while questionno != 15:
     ans = int(input("question " + str(questionno) + ": what is " + str(no1) + " * " + str(no2) + "? "))
     if ans != (no1*no2):
         print("WRONG 👿👿👿")
+        
