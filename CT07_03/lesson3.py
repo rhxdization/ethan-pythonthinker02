@@ -32,4 +32,5 @@ minutes = int(input("how long u want to study")) * 60
 
 while minutes != 0:
     time.sleep(1)
+    minutes-=1
     
