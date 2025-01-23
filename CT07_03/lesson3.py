@@ -79,8 +79,9 @@ import random
 lives = 3
 questions = 15
 questionno = 1
+ans = 0
 no1 = random.randint(2,20)
 no2 = random.randint(2,20)
+print("hi ms tan told me to give tihs to you so uhh suffer")
 while questions != 15:
-    print("hi ms tan told me to give tihs to you so uhh suffer")
-
+    ans = int(input("question " + str(questionno) + ": what is " + str(no1) + " + " + ))
