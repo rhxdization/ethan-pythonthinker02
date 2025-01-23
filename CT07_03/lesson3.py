@@ -87,3 +87,7 @@ while questionno != 15:
     if ans != (no1*no2):
         print("WRONG 👿👿👿")
         lives -= 1
+    else:
+        print("ok good")
+        no1 = random.randint(2,20)
+        no2 = random.randint(2,20)
