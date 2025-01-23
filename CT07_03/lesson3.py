@@ -49,3 +49,6 @@
 #    congratulate the user.
 
 savings = 0
+while savings < 100:
+    savings += int(input("How much did you save today? "))
+    
