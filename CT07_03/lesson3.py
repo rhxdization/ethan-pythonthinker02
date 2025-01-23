@@ -79,7 +79,7 @@ import random
 lives = 3
 questions = 15
 no1 = random.randint(2,20)
-no2 = 
+no2 = random.randint(2,20)
 while questions != 15:
     print("hi ms tan told me to give tihs to you so uhh suffer")
 
