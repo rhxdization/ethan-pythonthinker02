@@ -15,3 +15,15 @@
 
 # print("ok you pass")
 
+# ## Task 1: Study Timer
+# **Task: Write a program that acts as a study timer**
+# 1. The user must input how many minutes they plan to study
+# 2. Use a while loop to count down the minutes
+# 3. Display "Good job!" once the timer is up
+
+# Hint: you will need the time.sleep(). However this function
+# only takes in seconds.
+# You will need to write a conversion algorithm to change
+# minutes to seconds.
+
+import time
