@@ -114,6 +114,8 @@ while True:
     if ansans1 == "skip":
         print("Question skipped!")
         score-=2
+        questionskip = 1
+        break
     while ansans1 != ans1:
         print("Wrong! Try again.")
         counter += 1
