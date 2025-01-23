@@ -102,3 +102,6 @@
 score = 0
 att = 0
 max_att = 3
+questions_answers = [
+    ""
+]
