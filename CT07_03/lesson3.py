@@ -96,4 +96,4 @@ while questionno != (questions+1):
         print("GO AND MEET TEACHER IN DETENTION ROOM 😡😡😡😡😡😡🤬🤬🤬")
         break
 if lives != 0:  
-    print("you passed... for now")
+    print("you passed... for now 😈😈")
