@@ -78,6 +78,7 @@ import random
 
 lives = 3
 questions = 15
+questionno = 1
 no1 = random.randint(2,20)
 no2 = random.randint(2,20)
 while questions != 15:
