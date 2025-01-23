@@ -11,4 +11,6 @@ riddle = "( ( ( (16)^(1/3) - log2(64) + 8 * (2^4 / 2^2) )^(1/2) + (asin(0.5) / p
 userinput = input(riddle)
 while userinput != ans:
     print("no.")
-    
+    userinput = input(riddle)
+
+print("ok you pass")
