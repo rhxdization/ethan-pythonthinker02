@@ -74,4 +74,8 @@
 # 7. If the student has no more lives, exit and print
 #     "GO AND SEE MS TAN FOR REMEDIAL"
 
+import random
+
 lives = 3
+
+while 
