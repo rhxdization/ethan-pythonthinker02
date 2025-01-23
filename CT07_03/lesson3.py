@@ -32,6 +32,8 @@ timer = int(input("how long u want to study (minutes) ")) * 60
 
 while timer != 0:
     time.sleep(1)
+    if (timer % 60) == 0:
+        print()
     print(str(timer) + " seconds left")
     timer-=1
 
