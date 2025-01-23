@@ -103,5 +103,5 @@ score = 0
 att = 0
 max_att = 3
 questions_answers = [
-    "What happened to the Tiananmen Square in"
+    "What happened to the Tiananmen Square in 1989?", "yes"
 ]
