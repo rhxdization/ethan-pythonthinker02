@@ -91,6 +91,7 @@ while questionno != 15:
         print("ok good")
         no1 = random.randint(2,20)
         no2 = random.randint(2,20)
+        questionno += 1
     if lives == 0:
         print("GO AND MEET TEACHER IN DETENTION ROOM 😡😡😡😡😡😡🤬🤬🤬")
 print("you passed... for now")
