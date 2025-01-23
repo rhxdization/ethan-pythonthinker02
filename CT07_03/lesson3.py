@@ -27,3 +27,8 @@
 # minutes to seconds.
 
 import time
+
+minutes = int(input("how long u want to study")) * 60
+
+while minutes != 0:
+    
