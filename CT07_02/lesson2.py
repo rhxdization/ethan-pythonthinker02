@@ -111,6 +111,8 @@ print("Welcome to the Game Show! In this game, if you get 10 points, you will ea
 
 while True:
     ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
+    if ansans1 == "skip":
+        print("Question skipped!")
     while ansans1 != ans1:
         print("Wrong! Try again.")
         counter += 1
