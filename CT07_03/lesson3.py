@@ -75,15 +75,14 @@
 #     "GO AND SEE MS TAN FOR REMEDIAL"
 
 import random
-
-questions = 5
+questions = 15
 lives = 3
 questionno = 1
 ans = 0
 no1 = random.randint(2,20)
 no2 = random.randint(2,20)
 print("hi ms tan told me to give tihs to you so uhh suffer")
-while questionno != (5+1):
+while questionno != (questions+1):
     ans = int(input("question " + str(questionno) + ": what is " + str(no1) + " * " + str(no2) + "? "))
     if ans != (no1*no2):
         print("WRONG 👿👿👿")
