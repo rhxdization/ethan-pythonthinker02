@@ -99,3 +99,6 @@
 # 2. Add an ability for users to skip by saying “skip”
 # 3. Disqualify user when they have tried too many times
 
+score = 0
+att = 0
+max_att = 0
