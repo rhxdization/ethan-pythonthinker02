@@ -106,7 +106,7 @@ counter = 0
 score = 0
 scoreearned = 5
 
-print("Welcome to the Game Show! In this game, if you get 15 points, you will earn 1 million Vietnamese Dong!")
+print("Welcome to the Game Show! In this game, if you get 10 points, you will earn 1 million Vietnamese Dong!")
 
 while True:
     ansans1 = input("Let's start! What happened to Tiananmen Square in 1989? ")
