@@ -105,6 +105,7 @@ ans3 = "school"
 counter = 0
 score = 0
 scoreearned = 5
+questionskip = 0
 
 print("Welcome to the Game Show! In this game, if you get 10 points, you will earn 1 million Vietnamese Dong!")
 
