@@ -77,5 +77,6 @@
 import random
 
 lives = 3
-
-while 
+questions = 15
+while questions != 15:
+    
