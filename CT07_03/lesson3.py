@@ -48,7 +48,7 @@
 # 4. Exit the program when savings is more than 100 and
 #    congratulate the user.
 
-savings = 0
+savings = 0.0
 while savings < 100:
     savings += float(input("How much did you save today? "))
     print("You now have $" + str(savings) + ".")
