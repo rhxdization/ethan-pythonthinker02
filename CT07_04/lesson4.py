@@ -129,3 +129,4 @@ while user_input != "end":
     user_input = input("what do you want on your menu ")
 print("heres your menu: " + str(menu))
 print("a customer has come in")
+customer_input = 
