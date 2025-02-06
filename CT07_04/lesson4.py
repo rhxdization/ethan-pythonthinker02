@@ -75,5 +75,6 @@ while counter != len(planets):
     print(planets[counter])
     if counter == planets.index("earth"):
         print("i live here")
-    elif counter == planets.index("∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx"):
+    elif counter == planets.index("skibidi toilet land"):
         print("i conquered this")
+    elif counter == planets.index("∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx")
