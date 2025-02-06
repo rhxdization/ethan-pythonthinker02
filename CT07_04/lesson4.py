@@ -121,3 +121,5 @@ import random
 # 2. If the food is in the list, say "Yes we sell that,
 #    please have a seat"
 # 3. else, say "Sorry, please go next door, bye."
+
+menu = []
