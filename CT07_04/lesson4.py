@@ -131,4 +131,4 @@ print("heres your menu: " + str(menu))
 print("a customer has come in")
 customer_input = input("hi what would you like to eat ")
 if customer_input not in menu:
-    print("")
+    print("get out bro why u waste my time")
