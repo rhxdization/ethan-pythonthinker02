@@ -129,6 +129,6 @@ while user_input != "end":
     user_input = input("what do you want on your menu ")
 print("heres your menu: " + str(menu))
 print("a customer has come in")
-customer_input = input("hi what would you like to eat ")
+customer_input = input("hi what would you like to eat heres our menu: " + str(menu))
 if customer_input not in menu:
     print("get out bro why u waste my time")
