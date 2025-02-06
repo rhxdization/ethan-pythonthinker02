@@ -134,3 +134,5 @@ customer_input = input("hi what would you like to eat heres our menu: " + str(me
 if customer_input != "end":
     customer.append(customer_input)
     customer_input = input("what else (menu: " + str(menu) + ") ")
+if any(item in menu for item in customer):
+    
