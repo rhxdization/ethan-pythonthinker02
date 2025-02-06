@@ -133,5 +133,4 @@ print("a customer has come in")
 customer_input = input("hi what would you like to eat heres our menu: " + str(menu) + " ")
 if customer_input != "end":
     customer.append(customer_input)
-    customer_input = input("hi what would you like to eat heres our menu: " + str(menu) + " ")
-    
+    customer_input = input("what else (menu: " + str(menu) + ") ")
