@@ -68,4 +68,5 @@ print("ok here are the planets " + str(planets))
 earth = planets.index("earth")
 planets.insert(earth, "∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx")
 print("i created planet ∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx, heres the planets " + str(planets))
-
+print("i hate jupiter i will kill it")
+lists.pop()
