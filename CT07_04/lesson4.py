@@ -135,4 +135,4 @@ if customer_input != "end":
     customer.append(customer_input)
     customer_input = input("what else (menu: " + str(menu) + ") ")
 if any(item in menu for item in customer):
-    
+    print()
