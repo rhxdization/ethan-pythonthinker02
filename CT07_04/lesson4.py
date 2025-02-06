@@ -94,6 +94,7 @@ import random
 #    "I would like to visit Japan"
 #    ... 
 
-
+countries = []
 while user_input != "end":
     user_input = input("what country do you wanna visit ")
+    countries
