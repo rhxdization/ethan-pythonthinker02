@@ -131,7 +131,7 @@ while user_input != "end":
 print("heres your menu: " + str(menu))
 print("a customer has come in")
 customer_input = input("hi what would you like to eat heres our menu: " + str(menu) + " ")
-if customer_input != "end":
+while customer_input != "end":
     customer.append(customer_input)
     customer_input = input("what else (menu: " + str(menu) + ") ")
 if any(item in menu for item in customer):
