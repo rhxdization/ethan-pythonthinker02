@@ -72,4 +72,8 @@ print("i hate jupiter i will kill it")
 del(planets[5])
 print("heres the planets " + str(planets))
 counter = 0
-for counter in range()
+for counter in range(len(planets)):
+    print(planets[counter])
+    if counter == planets.index("earth"):
+        print("i live here
+        ")
