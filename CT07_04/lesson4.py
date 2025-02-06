@@ -71,3 +71,5 @@ print("i created planet ∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx, heres
 print("i hate jupiter i will kill it")
 del(planets[5])
 print("heres the planets " + str(planets))
+while counter != len(planets):
+    print(planets[counter])
