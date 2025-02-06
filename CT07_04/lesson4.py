@@ -42,5 +42,7 @@ else:
 
 planets =[
     "mercury",
-    "venus"
+    "venus",
+    "earth",
+    ""
 ]
