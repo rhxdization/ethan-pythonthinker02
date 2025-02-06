@@ -65,7 +65,7 @@ while counter != len(planets):
 print("pluto is a planet now muahahaha")
 planets.insert(10,"pluto")
 print("ok here are the planets " + str(planets))
-
-planets.insert(3, "∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx")
+earth = planet.index("earth")
+planets.insert(earth, "∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx")
 print("i created planet ∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx, heres the planets " + str(planets))
 
