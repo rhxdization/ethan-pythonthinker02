@@ -73,3 +73,4 @@ del(planets[5])
 print("heres the planets " + str(planets))
 while counter != len(planets):
     print(planets[counter])
+    if counter == planets.index("earth"):
