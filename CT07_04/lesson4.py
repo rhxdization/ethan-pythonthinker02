@@ -47,5 +47,6 @@ planets =[
     "mars",
     "jupiter",
     "saturn",
-    "uranus"
+    "uranus",
+    "neptune"
 ]
