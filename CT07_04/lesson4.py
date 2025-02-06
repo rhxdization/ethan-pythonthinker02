@@ -40,6 +40,7 @@ import random
 # You launched a war againts Jupiter and destroyed it,
 # **delete** Jupiter from the list
 
+counter = 0
 planets =[
     "mercury",
     "venus",
@@ -56,3 +57,6 @@ print("ok guys i conquered mars now its " + str(planets[3]))
 print("lets read out all the planets individually")
 for counter in range(len(planets)):
     print(planets[counter])
+print("do it again!1!")
+while counter != len(planets):
+    print
