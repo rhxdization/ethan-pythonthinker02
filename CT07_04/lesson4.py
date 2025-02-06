@@ -123,6 +123,7 @@ import random
 # 3. else, say "Sorry, please go next door, bye."
 
 menu = []
+customer = []
 user_input = input("what do you want on your menu ")
 while user_input != "end":
     menu.append(user_input)
@@ -130,7 +131,5 @@ while user_input != "end":
 print("heres your menu: " + str(menu))
 print("a customer has come in")
 customer_input = input("hi what would you like to eat heres our menu: " + str(menu) + " ")
-if customer_input not in menu:
-    print("get out bro why u waste my time")
-else:
-    print("good now have a seat")
+if customer_input != "end":
+    
