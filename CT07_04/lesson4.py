@@ -65,6 +65,6 @@ while counter != len(planets):
 print("pluto is a planet now muahahaha")
 planets.insert(10,"pluto")
 print("ok here are the planets " + str(planets))
-
+planets.insert
 print("i created")
 
