@@ -60,4 +60,4 @@ for counter in range(len(planets)):
 print("do it again!1!")
 while counter != len(planets):
     print(planets[counter])
-    
+    counter+=1
