@@ -10,13 +10,13 @@ import random
 # 3. Use the time library to pause 1 seconds between each
 #    number
 
-counter = 10
-while counter != 0:
-    print(counter)
-    counter -= 1
-    time.sleep(1)
-else:
-    print("happy new year")
+# counter = 10
+# while counter != 0:
+#     print(counter)
+#     counter -= 1
+#     time.sleep(1)
+# else:
+#     print("happy new year")
 
 # ## Task 1: List of planets
 # **Task: Create a list of 8 planets in the solar system**
@@ -50,4 +50,4 @@ planets =[
     "uranus",
     "neptune"
 ]
-print("here are the planets " + )
+print("here are the planets " + planets)
