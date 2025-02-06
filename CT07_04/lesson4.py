@@ -57,6 +57,7 @@ print("ok guys i conquered mars now its " + str(planets[3]))
 print("lets read out all the planets individually")
 for counter in range(len(planets)):
     print(planets[counter])
+counter=0
 print("do it again!1!")
 while counter != len(planets):
     print(planets[counter])
