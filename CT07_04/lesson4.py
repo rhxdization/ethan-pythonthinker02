@@ -51,3 +51,5 @@ planets =[
     "neptune"
 ]
 print("here are the planets " + str(planets))
+planets[3] = "skibidi toilet land"
+print("")
