@@ -62,3 +62,5 @@ print("do it again!1!")
 while counter != len(planets):
     print(planets[counter])
     counter+=1
+print("pluto is a planet now muahahaha")
+lists.insert
