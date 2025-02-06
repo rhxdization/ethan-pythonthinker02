@@ -97,4 +97,5 @@ import random
 countries = []
 while user_input != "end":
     user_input = input("what country do you wanna visit ")
-    countries
+    countries.append(user_input)
+    
