@@ -50,3 +50,4 @@ planets =[
     "uranus",
     "neptune"
 ]
+print("here are the planets " + )
