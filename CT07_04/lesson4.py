@@ -128,3 +128,4 @@ while user_input != "end":
     menu.append(user_input)
     user_input = input("what do you want on your menu ")
 print("heres your menu: " + str(menu))
+print("a customer has come in")
