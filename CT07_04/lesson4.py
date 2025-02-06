@@ -52,4 +52,4 @@ planets =[
 ]
 print("here are the planets " + str(planets))
 planets[3] = "skibidi toilet land"
-print("ok guys i conquered mars now its " + str)
+print("ok guys i conquered mars now its " + str(planets[3]))
