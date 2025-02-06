@@ -95,8 +95,9 @@ import random
 #    ... 
 
 countries = []
+user_input = input("what country do you wanna visit ")
 while user_input != "end":
-    user_input = input("what country do you wanna visit ")
     countries.append(user_input)
-for counter in range(len(countries)):
-    print()
+    user_input = input("what country do you wanna visit ")
+for country in range(len(countries)):
+    print("i would like to visit " + )
