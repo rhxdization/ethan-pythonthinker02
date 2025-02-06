@@ -39,3 +39,5 @@ else:
 # **Task 1d**:
 # You launched a war againts Jupiter and destroyed it,
 # **delete** Jupiter from the list
+
+planets 
