@@ -123,3 +123,6 @@ import random
 # 3. else, say "Sorry, please go next door, bye."
 
 menu = []
+user_input = input("what do you want on your menu ")
+while user_input != "end":
+    menu.append(user_input)
