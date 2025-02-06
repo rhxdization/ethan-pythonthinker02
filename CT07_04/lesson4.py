@@ -40,4 +40,7 @@ else:
 # You launched a war againts Jupiter and destroyed it,
 # **delete** Jupiter from the list
 
-planets 
+planets =[
+    "mercury",
+    "venus"
+]
