@@ -7,3 +7,8 @@
 # 3. Use the time library to pause 1 seconds between each
 #    number
 
+counter = 10
+while counter != 0:
+    print(counter)
+    counter -= 1
+    
