@@ -1,4 +1,5 @@
-
+import time
+import random
 
 # ## Recap 1: While Loop
 # Task: Code a New Year Countdown timer. 
