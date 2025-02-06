@@ -100,4 +100,5 @@ while user_input != "end":
     countries.append(user_input)
     user_input = input("what country do you wanna visit ")
 for country in range(len(countries)):
-    print("i would like to visit " + )
+    print("i would like to visit " + countries[country])
+    
