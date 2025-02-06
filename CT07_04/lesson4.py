@@ -40,6 +40,7 @@ import random
 # You launched a war againts Jupiter and destroyed it,
 # **delete** Jupiter from the list
 
+counter=0
 planets =[
     "mercury",
     "venus",
