@@ -135,3 +135,4 @@ pokemons = [
 powers = []
 for i in range(0,20):
     select = random.randint(1,200)
+    
