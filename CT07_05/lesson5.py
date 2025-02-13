@@ -22,3 +22,4 @@ food = [
     "egg"
 ]
 print("i like these foods " + str(food))
+del food[2]
