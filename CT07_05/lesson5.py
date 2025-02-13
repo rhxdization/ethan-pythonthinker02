@@ -40,3 +40,4 @@
 # 1. Use a loop to add 100 random numbers into your list.
 # 2. Each number added range between 1 to 1000
 
+random
