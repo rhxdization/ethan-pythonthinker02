@@ -30,3 +30,13 @@
 # for foods in food:
 #     print(foods)
 
+# ## Task 1: List of 100 numbers 
+# You are preparing for an upcoming lucky draw session at your
+# school. You have been tasked to create a program that will pick
+# 100 lucky winners.
+
+# By importing the 'random' library and using 'random.randint()',
+# create a program to create 100 random numbers in a list
+# 1. Use a loop to add 100 random numbers into your list.
+# 2. Each number added range between 1 to 1000
+
