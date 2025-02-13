@@ -14,18 +14,19 @@
 # **Recap 1d**:
 # Write a for loop to say all the food items in your list
 
-food = [
-    "pizza",
-    "burger",
-    "noodles",
-    "fish",
-    "egg"
-]
-print("i like these foods " + str(food))
-del food[2]
-print("nevermind i hate noodles now i only like " + str(food))
-food.append("humans")
-print("i like humans now i like " + str(food))
-print("heres all the stuff i like")
-for foods in food:
-    print(foods)
+# food = [
+#     "pizza",
+#     "burger",
+#     "noodles",
+#     "fish",
+#     "egg"
+# ]
+# print("i like these foods " + str(food))
+# del food[2]
+# print("nevermind i hate noodles now i only like " + str(food))
+# food.append("humans")
+# print("i like humans now i like " + str(food))
+# print("heres all the stuff i like")
+# for foods in food:
+#     print(foods)
+
