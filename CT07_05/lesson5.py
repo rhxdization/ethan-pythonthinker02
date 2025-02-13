@@ -40,10 +40,25 @@
 # 1. Use a loop to add 100 random numbers into your list.
 # 2. Each number added range between 1 to 1000
 
-import random
-numbers = []
-for i in range(0,100):
-    added = random.randint(1,1000)
-    if added not in numbers:
-        numbers.append(added)
-print("The winning numbers are: " + str(numbers))
+# import random
+# numbers = []
+# for i in range(0,100):
+#     added = random.randint(1,1000)
+#     if added not in numbers:
+#         numbers.append(added)
+# print("The winning numbers are: " + str(numbers))
+
+# ## Task 2: List of 100 unique numbers
+# The program you have created from the previous task will
+# sometimes generate duplicate numbers. Modify your program so
+# that the 100 numbers generated are all unique.
+
+# Modify your program from the previous task to create 100 random
+# unique numbers in a list.
+# 1. Use a loop to add 100 random numbers into your list.
+# 2. Each number added range between 1 to 1000
+# 3. Ensure that all the numbers are unique
+# 4. Print the list of 100 unique numbers created
+
+# Hint: Use a while loop to check if the number already exists in
+# the loop
