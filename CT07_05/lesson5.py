@@ -44,4 +44,4 @@ import random
 numbers = []
 for i in range(0,100):
     added = random.randint(1,1000)
-    numbers.append()
+    numbers.append(added)
