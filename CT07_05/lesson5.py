@@ -146,4 +146,4 @@ p2_index = pokemons.index(p2_pokemon)
 p1_power = powers[p1_index]
 p2_power = powers[p2_index]
 
-print("WE")
+print("Welcome to the Squid Games- I meant Pokemon Games!")
