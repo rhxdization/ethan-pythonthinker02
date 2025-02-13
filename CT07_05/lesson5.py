@@ -123,3 +123,4 @@
 # 3. Calculate who is the winner of the fight between these 2
 #    pokemons
 #    (pokemon with the higher power will always win)
+
