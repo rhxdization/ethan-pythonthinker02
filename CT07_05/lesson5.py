@@ -27,5 +27,5 @@ print("nevermind i hate noodles now i only like " + str(food))
 food.append("humans")
 print("i like humans now i like " + str(food))
 print("heres all the stuff i like")
-for food in len(food):
+for foods in food:
     print(food)
