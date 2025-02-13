@@ -82,3 +82,5 @@ for i in range(0,100):
         numbers.append(added)
 print("biggest score is " + str(max(numbers)))
 print("smallest score is " + str(min(numbers)))
+for i in numbers:
+    print(i)
