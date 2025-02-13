@@ -138,4 +138,4 @@ for i in range(0,20):
     if select not in powers:
         powers.append(select)
 p1_pokemon = random.choice(pokemons)
-p2_
+p2_pokemon = random.choice(pokemons)
