@@ -152,7 +152,7 @@ print("Today we have 2 contestants, *insert player 1 name* and *insert player 2 
 print("Player 1's pokemon is " + p1_pokemon + " with a power of " + str(p1_power) + "!")
 print("Player 2's pokemon is " + p2_pokemon + " with a power of " + str(p2_power) + "!")
 print("Lets see what happens... *fight begins*")
-time.sleep(3)
+time.sleep(5)
 if p1_power > p2_power:
     print("and Player 1's pokemon, " + str(p1_pokemon) + ", wins 2 fries and a chicken nugget! Congrats!")
 else:
