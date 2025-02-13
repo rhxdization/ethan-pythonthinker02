@@ -40,46 +40,46 @@ import random
 # You launched a war againts Jupiter and destroyed it,
 # **delete** Jupiter from the list
 
-# counter = 0
-# planets =[
-#     "mercury",
-#     "venus",
-#     "earth",
-#     "mars",
-#     "jupiter",
-#     "saturn",
-#     "uranus",
-#     "neptune"
-# ]
-# print("here are the planets " + str(planets))
-# planets[3] = "skibidi toilet land"
-# print("ok guys i conquered mars now its " + str(planets[3]))
-# print("lets read out all the planets individually")
-# for counter in range(len(planets)):
-#     print(planets[counter])
-# counter=0
-# print("do it again!1!")
-# while counter != len(planets):
-#     print(planets[counter])
-#     counter+=1
-# print("pluto is a planet now muahahaha")
-# planets.insert(10,"pluto")
-# print("ok here are the planets " + str(planets))
-# earth = planets.index("earth")
-# planets.insert(earth, "∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx")
-# print("i created planet ∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx, heres the planets " + str(planets))
-# print("i hate jupiter i will kill it")
-# del(planets[5])
-# print("heres the planets " + str(planets))
-# counter = 0
-# for counter in range(len(planets)):
-#     print(planets[counter])
-#     if counter == planets.index("earth"):
-#         print("i live here")
-#     elif counter == planets.index("skibidi toilet land"):
-#         print("i conquered this")
-#     elif counter == planets.index("∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx"):
-#         print("i made this")
+counter = 0
+planets =[
+    "mercury",
+    "venus",
+    "earth",
+    "mars",
+    "jupiter",
+    "saturn",
+    "uranus",
+    "neptune"
+]
+print("here are the planets " + str(planets))
+planets[3] = "skibidi toilet land"
+print("ok guys i conquered mars now its " + str(planets[3]))
+print("lets read out all the planets individually")
+for counter in range(len(planets)):
+    print(planets[counter])
+counter=0
+print("do it again!1!")
+while counter != len(planets):
+    print(planets[counter])
+    counter+=1
+print("pluto is a planet now muahahaha")
+planets.insert(10,"pluto")
+print("ok here are the planets " + str(planets))
+earth = planets.index("earth")
+planets.insert(earth, "∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx")
+print("i created planet ∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx, heres the planets " + str(planets))
+print("i hate jupiter i will kill it")
+del(planets[5])
+print("heres the planets " + str(planets))
+counter = 0
+for counter in range(len(planets)):
+    print(planets[counter])
+    if counter == planets.index("earth"):
+        print("i live here")
+    elif counter == planets.index("skibidi toilet land"):
+        print("i conquered this")
+    elif counter == planets.index("∫ from 0 to ∞ of (e^(-x²)) / √(x² + 1) dx"):
+        print("i made this")
 
 # ## Task 3: Flight Round the Globe
 # Task: Write a program to keep track of the countries you
@@ -122,19 +122,19 @@ import random
 #    please have a seat"
 # 3. else, say "Sorry, please go next door, bye."
 
-menu = []
-customer = []
-user_input = input("what do you want on your menu ")
-while user_input != "end":
-    menu.append(user_input)
-    user_input = input("what do you want on your menu ")
-print("heres your menu: " + str(menu))
-print("a customer has come in")
-customer_input = input("hi what would you like to eat heres our menu: " + str(menu) + " ")
-while customer_input != "end":
-    customer.append(customer_input)
-    customer_input = input("what else (menu: " + str(menu) + ") ")
-if any(item in menu for item in customer):
-    print("have a seat")
-else:
-    print("bro why you waste my time get out")
+# menu = []
+# customer = []
+# user_input = input("what do you want on your menu ")
+# while user_input != "end":
+#     menu.append(user_input)
+#     user_input = input("what do you want on your menu ")
+# print("heres your menu: " + str(menu))
+# print("a customer has come in")
+# customer_input = input("hi what would you like to eat heres our menu: " + str(menu) + " ")
+# while customer_input != "end":
+#     customer.append(customer_input)
+#     customer_input = input("what else (menu: " + str(menu) + ") ")
+# if any(item in menu for item in customer):
+#     print("have a seat")
+# else:
+#     print("bro why you waste my time get out")
