@@ -106,5 +106,6 @@ heightlist = [160, 165, 158, 170, 162, 669, 159, 172, 164, 166]
 
 tallest = max(heightlist)
 shortest = min(heightlist)
-tallest_name = index(tallest)
+tallest_name = heightlist(tallest)
 print("The tallest person in our class is ")
+print(tallest_name)
