@@ -21,3 +21,4 @@ food = [
     "fish",
     "egg"
 ]
+print("i like these foods " + str(food))
