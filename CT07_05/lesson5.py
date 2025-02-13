@@ -28,4 +28,4 @@ food.append("humans")
 print("i like humans now i like " + str(food))
 print("heres all the stuff i like")
 for foods in food:
-    print(food)
+    print(foods)
