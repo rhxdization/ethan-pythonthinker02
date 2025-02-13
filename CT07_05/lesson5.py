@@ -16,5 +16,8 @@
 
 food = [
     "pizza",
-    "burger"
+    "burger",
+    "noodles",
+    "fish",
+    "egg"
 ]
