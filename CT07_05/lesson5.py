@@ -74,14 +74,25 @@
 # 3. Using the 'sum()' and 'len()' function, calculate the
 #    average score.
 
-import random
-numbers = []
-for i in range(0,100):
-    added = random.randint(1,1000)
-    if added not in numbers:
-        numbers.append(added)
-for i in numbers:
-    print(i)
-print("average score is " + str(sum(numbers) / len(numbers)))
-print("biggest score is " + str(max(numbers)))
-print("smallest score is " + str(min(numbers)))
+# import random
+# numbers = []
+# for i in range(0,100):
+#     added = random.randint(1,1000)
+#     if added not in numbers:
+#         numbers.append(added)
+# for i in numbers:
+#     print(i)
+# print("average score is " + str(sum(numbers) / len(numbers)))
+# print("biggest score is " + str(max(numbers)))
+# print("smallest score is " + str(min(numbers)))
+
+# ## Task 4: Who is the tallest?
+# Task: You are given 2 lists, 
+# **namelist** contains a list of students in your class
+# **heightlist** contains a list of the corresponding student's
+#                height
+
+# 1. Determine who is the tallest in class, and what is his/ her
+#    name
+# 2. Determine who is the shortest in class, and what is his/ her
+#    name
