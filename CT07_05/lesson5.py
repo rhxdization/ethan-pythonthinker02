@@ -151,7 +151,7 @@ p2_name = input("Please enter player 2's name:")
 
 print("Welcome to the Squid Games- I meant Pokemon Games!")
 time.sleep(3)
-print("Today we have 2 contestants, *insert player 1 name* and *insert player 2 name*!")
+print("Today we have 2 contestants, " + p1_name)
 time.sleep(3)
 print("Player 1's pokemon is " + p1_pokemon + " with a power of " + str(p1_power) + "!")
 print("Player 2's pokemon is " + p2_pokemon + " with a power of " + str(p2_power) + "!")
