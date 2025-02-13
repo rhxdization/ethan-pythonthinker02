@@ -42,5 +42,5 @@
 
 import random
 numbers = []
-for i in range(0,1000):
-    numbers.append
+for i in range(0,100):
+    numbers.append(random.randint(1,1000))
