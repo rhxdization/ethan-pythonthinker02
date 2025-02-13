@@ -134,7 +134,7 @@ pokemons = [
     "Electabuzz"
 ]
 powers = []
-for i in range(0,20):
+for i in pokemons:
     select = random.randint(1,200)
     if select not in powers:
         powers.append(select)
