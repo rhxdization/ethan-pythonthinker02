@@ -24,3 +24,4 @@ food = [
 print("i like these foods " + str(food))
 del food[2]
 print("nevermind i hate noodles now i only like " + str(food))
+food.append("humans")
