@@ -55,10 +55,21 @@
 # Hint: Use a while loop to check if the number already exists in
 # the loop
 
-import random
-numbers = []
-for i in range(0,100):
-    added = random.randint(1,1000)
-    if added not in numbers:
-        numbers.append(added)
-print("The winning numbers are: " + str(numbers))
+# import random
+# numbers = []
+# for i in range(0,100):
+#     added = random.randint(1,1000)
+#     if added not in numbers:
+#         numbers.append(added)
+# print("The winning numbers are: " + str(numbers))
+
+# ## Task 3: Score Taker
+# Imagine the list that you have created in Task 2 represent the
+# score of a 100 students.
+
+# Find the maximum, minimum and average from the list.
+
+# 1. Using the 'max()' function, find the maximum score.
+# 2. Using the 'min()' function, find the minimum score.
+# 3. Using the 'sum()' and 'len()' function, calculate the
+#    average score.
