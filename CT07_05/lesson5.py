@@ -41,4 +41,6 @@
 # 2. Each number added range between 1 to 1000
 
 import random
-    for counter in range
+numbers = []
+for i in numbers:
+    
