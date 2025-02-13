@@ -106,4 +106,4 @@ heightlist = [160, 165, 158, 170, 162, 669, 159, 172, 164, 166]
 
 tallest = max(heightlist)
 shortest = min(heightlist)
-print("The tallest person in our class is " )
+print("The tallest person in our class is ")
