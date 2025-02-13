@@ -97,7 +97,7 @@
 # 2. Determine who is the shortest in class, and what is his/ her
 #    name
 
-# use .index("value of something in the list") to find the index
+# Hint: use .index("value of something in the list") to find the index
 # of an item
 namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "your mom",
             "Sophia", "Lucas", "Mia", "Aiden"
