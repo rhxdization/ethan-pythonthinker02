@@ -124,6 +124,7 @@
 #    pokemons
 #    (pokemon with the higher power will always win)
 
+import random
 pokemons = [
     "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
     "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
@@ -131,5 +132,6 @@ pokemons = [
     "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
     "Electabuzz"
 ]
-
 powers = []
+for i in range(0,20):
+    select = random.randint(1,200)
