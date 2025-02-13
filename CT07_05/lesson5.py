@@ -81,4 +81,4 @@ for i in range(0,100):
     if added not in numbers:
         numbers.append(added)
 print("biggest score is " + str(max(numbers)))
-print("smallest score is ")
+print("smallest score is " + str(min(numbers)))
