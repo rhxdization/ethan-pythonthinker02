@@ -125,6 +125,7 @@
 #    (pokemon with the higher power will always win)
 
 import random
+import time
 pokemons = [
     "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
     "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
