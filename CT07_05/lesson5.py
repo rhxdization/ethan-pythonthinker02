@@ -154,4 +154,4 @@ print("Player 2's pokemon is " + p2_pokemon + " with a power of " + str(p2_power
 print("Lets see what happens... *fight begins")
 time.sleep(3)
 if p1_power > p2_power:
-    print("and Player 1's pokemon, " + str(p1_pokemon) + "")
+    print("and Player 1's pokemon, " + str(p1_pokemon) + ", wins 2 fries and a chicken nugget! Congrats!")
