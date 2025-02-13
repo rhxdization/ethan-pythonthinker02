@@ -141,4 +141,5 @@ p1_pokemon = random.choice(pokemons)
 p2_pokemon = random.choice(pokemons)
 while p2_pokemon == p1_pokemon:
     p2_pokemon = random.choice(pokemons)
-p1_index = 
+p1_index = pokemons.index(p1_pokemon)
+p2_index = pokemons.index(p1_pokemon)
