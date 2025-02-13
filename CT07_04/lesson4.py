@@ -122,19 +122,19 @@ import random
 #    please have a seat"
 # 3. else, say "Sorry, please go next door, bye."
 
-# menu = []
-# customer = []
-# user_input = input("what do you want on your menu ")
-# while user_input != "end":
-#     menu.append(user_input)
-#     user_input = input("what do you want on your menu ")
-# print("heres your menu: " + str(menu))
-# print("a customer has come in")
-# customer_input = input("hi what would you like to eat heres our menu: " + str(menu) + " ")
-# while customer_input != "end":
-#     customer.append(customer_input)
-#     customer_input = input("what else (menu: " + str(menu) + ") ")
-# if any(item in menu for item in customer):
-#     print("have a seat")
-# else:
-#     print("bro why you waste my time get out")
+menu = []
+customer = []
+user_input = input("what do you want on your menu ")
+while user_input != "end":
+    menu.append(user_input)
+    user_input = input("what do you want on your menu ")
+print("heres your menu: " + str(menu))
+print("a customer has come in")
+customer_input = input("hi what would you like to eat heres our menu: " + str(menu) + " ")
+while customer_input != "end":
+    customer.append(customer_input)
+    customer_input = input("what else (menu: " + str(menu) + ") ")
+if any(item in menu for item in customer):
+    print("have a seat")
+else:
+    print("bro why you waste my time get out")
