@@ -99,14 +99,27 @@
 
 # Hint: use .index("value of something in the list") to find the index
 # of an item
-namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "your mom",
-            "Sophia", "Lucas", "Mia", "Aiden"
-            ]
-heightlist = [160, 165, 158, 170, 162, 669, 159, 172, 164, 166]
 
-tallest = max(heightlist)
-shortest = min(heightlist)
-tallest_name = heightlist.index(tallest)
-shortest_name = heightlist.index(shortest)
-print("The tallest person in our class is " + namelist[tallest_name] + " at " + str(tallest) + "cm")
-print("The tallest person in our class is " + namelist[shortest_name] + " at " + str(shortest) + "cm")
+# namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "your mom",
+#             "Sophia", "Lucas", "Mia", "Aiden"
+#             ]
+# heightlist = [160, 165, 158, 170, 162, 669, 159, 172, 164, 166]
+
+# tallest = max(heightlist)
+# shortest = min(heightlist)
+# tallest_name = heightlist.index(tallest)
+# shortest_name = heightlist.index(shortest)
+# print("The tallest person in our class is " + namelist[tallest_name] + " at " + str(tallest) + "cm")
+# print("The tallest person in our class is " + namelist[shortest_name] + " at " + str(shortest) + "cm")
+
+# ## Task 5: Pokemon, I choose you!
+# Task: You are given 2 lists,
+# **pokemons** contains a list of pokemons
+# **powers** contains a list of the corresponding pokemon's
+#            powers
+
+# 1. Choose 2 random pokemons from the list
+# 2. Compare the powers of the 2 pokemons
+# 3. Calculate who is the winner of the fight between these 2
+#    pokemons
+#    (pokemon with the higher power will always win)
