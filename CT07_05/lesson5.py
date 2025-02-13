@@ -80,8 +80,8 @@ for i in range(0,100):
     added = random.randint(1,1000)
     if added not in numbers:
         numbers.append(added)
-print("biggest score is " + str(max(numbers)))
-print("smallest score is " + str(min(numbers)))
 for i in numbers:
     print(i)
 print("average score is " + str(sum(numbers) / len(numbers)))
+print("biggest score is " + str(max(numbers)))
+print("smallest score is " + str(min(numbers)))
