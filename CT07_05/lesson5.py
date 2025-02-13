@@ -139,3 +139,5 @@ for i in range(0,20):
         powers.append(select)
 p1_pokemon = random.choice(pokemons)
 p2_pokemon = random.choice(pokemons)
+while p2_pokemon == p1_pokemon:
+    p2_pokemon = random.choice(pokemons)
