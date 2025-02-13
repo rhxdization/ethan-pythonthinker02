@@ -137,4 +137,5 @@ for i in range(0,20):
     select = random.randint(1,200)
     if select not in powers:
         powers.append(select)
-p1_pokemon = random.c
+p1_pokemon = random.choice(pokemons)
+p2_
