@@ -148,3 +148,4 @@ p2_power = powers[p2_index]
 
 print("Welcome to the Squid Games- I meant Pokemon Games!")
 print("Today we have 2 contestants, *insert player 1 name* and *insert player 2 name*!")
+print("Player 1's pokemon power is ")
