@@ -147,7 +147,7 @@ p2_index = pokemons.index(p2_pokemon)
 p1_power = powers[p1_index]
 p2_power = powers[p2_index]
 p1_name = input("Please enter player 1's name: ")
-p2_name = input("Please enter player 2's name:")
+p2_name = input("Please enter player 2's name: ")
 
 print("Welcome to the Squid Games- I meant Pokemon Games!")
 time.sleep(3)
