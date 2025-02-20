@@ -24,10 +24,10 @@
 # 2. Print the combined list.
 ## Task 1: Introduction to List Merging
 
-list1 = ["Apple", "Banana", "Cherry"]
-list2 = ["Durian", "Elderberry", "Figs"]
-fruits = list1 + list2
-print(fruits)
+# list1 = ["Apple", "Banana", "Cherry"]
+# list2 = ["Durian", "Elderberry", "Figs"]
+# fruits = list1 + list2
+# print(fruits)
 
 
 
