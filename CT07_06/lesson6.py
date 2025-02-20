@@ -18,7 +18,8 @@ print("average score is " + str(sum(numbers) / len(numbers)))
 print("biggest score is " + str(max(numbers)))
 print("smallest score is " + str(min(numbers)))
 num = random.choice(numbers)
-
+num2 = numbers.index(num)
+print(num2)
 
 
 # # Lesson 8 - String splitting, list joining, and
