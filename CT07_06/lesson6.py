@@ -52,13 +52,25 @@
 #    e.g. Olivia F
 #         Noah M
 
-students = [
-    ["Olivia", "F"], ["Noah", "M"], ["Emma", "F"],
-    ["Liam", "M"], ["Ava", "F"], ["Ethan", "M"],
-    ["Sophia", "F"], ["Lucas", "M"], ["Mia", "F"],
-    ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
-    ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]]
+# students = [
+#     ["Olivia", "F"], ["Noah", "M"], ["Emma", "F"],
+#     ["Liam", "M"], ["Ava", "F"], ["Ethan", "M"],
+#     ["Sophia", "F"], ["Lucas", "M"], ["Mia", "F"],
+#     ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
+#     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]]
 
-for _ in students:
-    name, gender = _
-    print("gender of " + name + ": " + gender)
+# for _ in students:
+#     name, gender = _
+#     print("gender of " + name + ": " + gender)
+
+# ## Task 3: Boys and Girls
+# Based on the class list given in the previous task, separate
+# the class into 2 lists of boys and girls.
+
+# 1. Create 2 more lists called boys and girls.
+# 2. Loop through the 'students' list from the previous task
+#    a. if the gender is a boy, add the name into the boys list
+#    b. if the gender is a girl, add the name into the girls list
+# 3. Write a for loop and name all the boys
+# 4. Write a for loop and name all the girls
+# 5. Print out how many boys and girls there are
