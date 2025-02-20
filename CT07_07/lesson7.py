@@ -54,3 +54,6 @@
 
 # 1. Use slicing to split the list at the provided index.
 # 2. Print the resulting sublists.
+
+fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+index = 3
