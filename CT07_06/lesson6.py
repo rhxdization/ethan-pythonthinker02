@@ -93,4 +93,4 @@ for i in boys:
 for j in girls:
     print(j)
 print("boys: " + len(boys))
-print("girls: " + len(boys))
+print("girls: " + len(str(girls)))
