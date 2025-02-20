@@ -55,9 +55,9 @@
 # 1. Use slicing to split the list at the provided index.
 # 2. Print the resulting sublists.
 
-fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
-index = 3
-split = fruits[index:]
-split2 = fruits[:index]
-print("right side is " + str(split))
-print("left side is " + str(split2))
+# fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+# index = 3
+# split = fruits[index:]
+# split2 = fruits[:index]
+# print("right side is " + str(split))
+# print("left side is " + str(split2))
