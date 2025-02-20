@@ -26,6 +26,8 @@
 
 list1 = ["Apple", "Banana", "Cherry"]
 list2 = ["Durian", "Elderberry", "Figs"]
+fruits = list1 + list2
+print(fruits)
 
 
 
