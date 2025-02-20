@@ -94,4 +94,5 @@ list1 = ["Apple", "Banana", "Cherry", "Durian"]
 list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 for each in list1:
     if list1 in list2:
-        common.append()
+        common.append(each)
+print(common)
