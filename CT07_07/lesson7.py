@@ -42,8 +42,15 @@
 # 2. Use the sorted() function to sort the combined list.
 # 3. Print the sorted list.
 
-list1 = [3.20, 2.65, 1.75]
-list2 = [6.15, 5.45, 4.20]
-merge = list1+list2
-sort = sorted(merge)
-print(sort)
+# list1 = [3.20, 2.65, 1.75]
+# list2 = [6.15, 5.45, 4.20]
+# merge = list1+list2
+# sort = sorted(merge)
+# print(sort)
+
+# ## Task 3: Splitting Lists at a Point
+# You are required to divide a basket of fruits.
+# Split the given list at the specified index:
+
+# 1. Use slicing to split the list at the provided index.
+# 2. Print the resulting sublists.
