@@ -29,6 +29,8 @@
 # fruits = list1 + list2
 # print(fruits)
 
+# sorted stuff
 
+sorted_num = 
 
 
