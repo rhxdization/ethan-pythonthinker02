@@ -60,4 +60,5 @@ students = [
     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]]
 
 for _ in students:
-    name, gender = 
+    name, gender = _
+    print(_)
