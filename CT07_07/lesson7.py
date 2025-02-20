@@ -133,5 +133,6 @@
 # 1. Use a loop or list comprehension to flatten the list.
 # 2. Print the flattened list.
 
-# nested_list = [[1, 2], [3, 4], [5, 6]]
+nested_list = [[1, 2], [3, 4], [5, 6]]
+
 
