@@ -120,4 +120,5 @@ merged = list1 + list2
 even = []
 for thing in merged:
     if (thing%2) == 0:
-        even.append
+        even.append(thing)
+print(even)
