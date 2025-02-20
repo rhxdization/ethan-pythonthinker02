@@ -59,3 +59,4 @@ fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
 index = 3
 split = fruits[index:]
 split2 = fruits[:index]
+print("right side is ")
