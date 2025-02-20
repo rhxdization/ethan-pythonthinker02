@@ -31,7 +31,7 @@
 
 # sorted stuff
 list = [1,5,69,3,68,81,420]
-sorted_nums = sorted(list, key=len)
+sorted_nums = sorted(list)
 print(sorted.nums)
 
 
