@@ -73,7 +73,18 @@
 # 2. Split the list into 2 halves using slicing.
 # 3. Print both halves.
 
-fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
-midpoint = len(fruits) // 2
-print(fruits[midpoint])
+# fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+# midpoint = len(fruits) // 2
+# print(fruits[midpoint])
 
+# ## Task 5: Identifying Common Elements in Lists
+# You have been given 2 lists of fruits. However, there might be
+# duplicates. Your job is to identify and print the common fruits
+# between them.
+
+# list1 = ["Apple", "Banana", "Cherry", "Durian"]
+# list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
+
+# 1. Create an empty list named 'common'
+# 2. Using 'for' loops, append common elements into 'common'
+# 3. Print the common elements
