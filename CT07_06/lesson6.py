@@ -88,3 +88,6 @@ for _ in students:
         boys.append(name)
     else:
         girls.append(name)
+for i in boys:
+    print(i)
+    
