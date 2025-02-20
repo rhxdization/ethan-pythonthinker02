@@ -114,11 +114,24 @@
 # 1. Merge the lists using a list comprehension with a
 #    condition. 
 # 2. Print the new list.
-list1 = [1, 2, 3, 4]
-list2 = [5, 6, 7, 8]
-merged = list1 + list2
-even = []
-for thing in merged:
-    if (thing%2) == 0:
-        even.append(thing)
-print(even)
+# list1 = [1, 2, 3, 4]
+# list2 = [5, 6, 7, 8]
+# merged = list1 + list2
+# even = []
+# for thing in merged:
+#     if (thing%2) == 0:
+#         even.append(thing)
+# print(even)
+
+# ## Task 8: Nested List Splitting
+# You are given a nested list of 3 groups of students that
+# are each seated in a pair. However, you want to unpack
+# the nested lists in order to have a list of all students.
+
+# nested_list = [[1, 2], [3, 4], [5, 6]]
+
+# 1. Use a loop or list comprehension to flatten the list.
+# 2. Print the flattened list.
+
+# nested_list = [[1, 2], [3, 4], [5, 6]]
+
