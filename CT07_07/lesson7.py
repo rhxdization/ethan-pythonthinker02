@@ -133,7 +133,10 @@
 # 1. Use a loop or list comprehension to flatten the list.
 # 2. Print the flattened list.
 
-nested_list = [[1, 2], [3, 4], [5, 6]]
 flat_list = []
+nested_list = [[1, 2], [3, 4], [5, 6]]
+for thing in nested_list:
+    for thing2 in thing:
+        flat_list.append(thing2)
 
 
