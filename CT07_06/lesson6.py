@@ -74,3 +74,10 @@
 # 3. Write a for loop and name all the boys
 # 4. Write a for loop and name all the girls
 # 5. Print out how many boys and girls there are
+
+students = [
+    ["Olivia", "F"], ["Noah", "M"], ["Emma", "F"],
+    ["Liam", "M"], ["Ava", "F"], ["Ethan", "M"],
+    ["Sophia", "F"], ["Lucas", "M"], ["Mia", "F"],
+    ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
+    ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]]
