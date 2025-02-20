@@ -98,4 +98,5 @@ for each in list1:
 print(common)
 for each in list1:
     if each not in list2:
-        
+        unique.append(each)
+print(uniqpe)
