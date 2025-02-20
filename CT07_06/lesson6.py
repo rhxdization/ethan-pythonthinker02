@@ -40,4 +40,4 @@ contacts.append(contact2)
 contacts.append(contact3)
 for _ in contacts:
     for __ in contact1:
-        
+        print(__)
