@@ -61,4 +61,4 @@ students = [
 
 for _ in students:
     name, gender = _
-    print("gender of " + name + ": ")
+    print("gender of " + name + ": " + gender)
