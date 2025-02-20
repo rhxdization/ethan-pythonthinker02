@@ -133,11 +133,24 @@
 # 1. Use a loop or list comprehension to flatten the list.
 # 2. Print the flattened list.
 
-flat_list = []
-nested_list = [[1, 2], [3, 4], [5, 6]]
-for thing in nested_list:
-    for thing2 in thing:
-        flat_list.append(thing2)
-print(flat_list)
+# flat_list = []
+# nested_list = [[1, 2], [3, 4], [5, 6]]
+# for thing in nested_list:
+#     for thing2 in thing:
+#         flat_list.append(thing2)
+# print(flat_list)
+
+# ## Task 9: Partitioning a List into Smaller Lists
+# You have been tasked to divide a class of 9 students
+# into groups of 3.
+
+# Given a list and a size, split the list into multiple
+# sub-lists where each sub-list is of the given size.
+
+# students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# size = 3
+
+# 1. Use a loop to create sub-lists of the specified size.
+# 2. Print the sub-lists.
 
 
