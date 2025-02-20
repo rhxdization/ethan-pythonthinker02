@@ -112,7 +112,7 @@
 # list2 = [5, 6, 7, 8]
 
 # 1. Merge the lists using a list comprehension with a
-#    condition.
+#    condition. 
 # 2. Print the new list.
 list1 = [1, 2, 3, 4]
 list2 = [5, 6, 7, 8]
