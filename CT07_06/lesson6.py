@@ -20,6 +20,7 @@ print("smallest score is " + str(min(numbers)))
 num = random.choice(numbers)
 
 
+
 # # Lesson 8 - String splitting, list joining, and
 # #            finding substring
 
