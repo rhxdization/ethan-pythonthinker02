@@ -153,8 +153,10 @@
 # 1. Use a loop to create sub-lists of the specified size.
 # 2. Print the sub-lists.
 
-# students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-# size = 3
+students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+size = 3
+for i in range(0, len(students), size):
+    
 
 
 
