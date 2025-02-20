@@ -75,5 +75,5 @@
 
 fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
 midpoint = len(fruits) // 2
-
+print(fruits[midpoint])
 
