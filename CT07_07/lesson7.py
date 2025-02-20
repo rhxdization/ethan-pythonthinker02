@@ -26,4 +26,4 @@
 # 1. Use the + operator to combine the lists.
 # 2. Print the combined list.
 
-
+fruits 
