@@ -44,11 +44,7 @@
     
 # ## Task 2: Student List
 # You have been given a 2d list of students from a class
-# consisting each student's name and their gender:
-
-# ]
-# ### the above is a nested list. Study and discuss it before we
-# ### move on.
+# consisting each student's name and their gender.
 
 # 1. Write a for loop to print out the names of each student and
 #    the gender beside.
