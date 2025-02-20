@@ -30,7 +30,8 @@
 # print(fruits)
 
 # sorted stuff
-list = []
+list = [1,5,69,3,68,81,420]
 sorted_num = sorted(list, key=len)
+print(list)
 
 
