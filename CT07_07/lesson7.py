@@ -61,3 +61,22 @@
 # split2 = fruits[:index]
 # print("right side is " + str(split))
 # print("left side is " + str(split2))
+
+# ## Task 4: Splitting a List in Half
+# You have been tasked to divide the basket of fruits into
+# 2 equal halves. Given a list of even length, split it
+# into 2 equal halves.
+
+# fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+
+# 1. Find the midpoint of the list.
+# 2. Split the list into 2 halves using slicing.
+# 3. Print both halves.
+
+## Task 4: Splitting a List in Half
+You have been tasked to divide the basket of fruits into
+2 equal halves. Given a list of even length, split it
+into 2 equal halves.
+
+fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+
