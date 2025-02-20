@@ -60,5 +60,4 @@ students = [
     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]]
 
 for _ in students:
-    for i in _:
-        
+    name, gender = 
