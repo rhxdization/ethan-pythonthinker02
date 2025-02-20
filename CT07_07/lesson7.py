@@ -31,6 +31,6 @@
 
 # sorted stuff
 
-sorted_num = 
+sorted_num = sorted(list, key=len)
 
 
