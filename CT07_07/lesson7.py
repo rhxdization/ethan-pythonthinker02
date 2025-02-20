@@ -74,5 +74,6 @@
 # 3. Print both halves.
 
 fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+midpoint = len(fruits) // 2
 
 
