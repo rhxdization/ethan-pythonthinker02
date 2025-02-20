@@ -101,3 +101,19 @@
 #         unique.append(each)
 # print(unique)
 
+# ## Task 7: Merging Lists with Conditions
+# You have been given the index number of 2 groups of students.
+# However, only students with even index number is allowed
+# to come into the room. Create a Python script that will
+# merge the 2 lists, including only the elements that are
+# even from both.
+
+# list1 = [1, 2, 3, 4]
+# list2 = [5, 6, 7, 8]
+
+# 1. Merge the lists using a list comprehension with a
+#    condition.
+# 2. Print the new list.
+
+# list1 = [1, 2, 3, 4]
+# list2 = [5, 6, 7, 8]
