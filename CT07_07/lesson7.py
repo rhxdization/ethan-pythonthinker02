@@ -20,10 +20,9 @@
 # You are given 2 lists of fruits. Merge them into 1 list and
 # print the result:
 
-# list1 = ["Apple", "Banana", "Cherry"]
-# list2 = ["Durian", "Elderberry", "Figs"]
 
 # 1. Use the + operator to combine the lists.
 # 2. Print the combined list.
 
-fruits 
+fruits = list1 + list2
+
