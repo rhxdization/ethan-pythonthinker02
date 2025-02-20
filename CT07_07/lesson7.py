@@ -114,8 +114,10 @@
 # 1. Merge the lists using a list comprehension with a
 #    condition.
 # 2. Print the new list.
-
 list1 = [1, 2, 3, 4]
 list2 = [5, 6, 7, 8]
-for even in list1:
-    if even != 
+merged = list1 + list2
+even = []
+for thing in merged:
+    if (thing%2) == 0:
+        even.append
