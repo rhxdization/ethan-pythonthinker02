@@ -29,9 +29,18 @@
 # fruits = list1 + list2
 # print(fruits)
 
-# sorted stuff
-list = [1,5,69,3,68,81,420]
-sorted_nums = sorted(list)
-print(sorted_nums)
+# # sorted stuff
+# list = [1,5,69,3,68,81,420]
+# sorted_nums = sorted(list)
+# print(sorted_nums)
 
+# ## Task 2: Ordered List Merging
+# You are given 2 lists that contain the price of fruits. Now,
+# merge 2 given lists and ensure the resulting list is sorted.
 
+list1 = [3.20, 2.65, 1.75]
+list2 = [6.15, 5.45, 4.20]
+
+# 1. Merge the lists using the + operator.
+# 2. Use the sorted() function to sort the combined list.
+# 3. Print the sorted list.
