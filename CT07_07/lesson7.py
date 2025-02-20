@@ -23,8 +23,10 @@
 # 1. Use the + operator to combine the lists.
 # 2. Print the combined list.
 ## Task 1: Introduction to List Merging
-z
+
+list1 = ["Apple", "Banana", "Cherry"]
 list2 = ["Durian", "Elderberry", "Figs"]
+
 
 
 
