@@ -90,5 +90,5 @@
 # 3. Print the common elements
 
 
-# list1 = ["Apple", "Banana", "Cherry", "Durian"]
-# list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
+list1 = ["Apple", "Banana", "Cherry", "Durian"]
+list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
