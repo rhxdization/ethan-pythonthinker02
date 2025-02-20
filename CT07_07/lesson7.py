@@ -134,5 +134,6 @@
 # 2. Print the flattened list.
 
 nested_list = [[1, 2], [3, 4], [5, 6]]
+flat_list = []
 
 
