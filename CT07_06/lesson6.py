@@ -74,7 +74,8 @@
 # 3. Write a for loop and name all the boys
 # 4. Write a for loop and name all the girls
 # 5. Print out how many boys and girls there are
-
+boys = []
+girls = []
 students = [
     ["Olivia", "F"], ["Noah", "M"], ["Emma", "F"],
     ["Liam", "M"], ["Ava", "F"], ["Ethan", "M"],
@@ -83,4 +84,5 @@ students = [
     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]]
 for _ in students:
     name, gender = _
-    
+    if gender == "M":
+        boys.append()
