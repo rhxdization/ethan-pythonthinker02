@@ -88,7 +88,7 @@
 # 1. Create an empty list named 'common'
 # 2. Using 'for' loops, append common elements into 'common'
 # 3. Print the common elements
-
+unique = []
 common = []
 list1 = ["Apple", "Banana", "Cherry", "Durian"]
 list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
@@ -96,3 +96,6 @@ for each in list1:
     if each in list2:
         common.append(each)
 print(common)
+for each in list1:
+    if each not in list2:
+        
