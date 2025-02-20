@@ -58,3 +58,4 @@
 fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
 index = 3
 split = fruits[3:]
+print(split)
