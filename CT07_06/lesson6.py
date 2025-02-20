@@ -39,6 +39,6 @@ contacts.append(contact1)
 contacts.append(contact2)
 contacts.append(contact3)
 for _ in contacts:
-    for _ in contact1:
+    for i in _:
         print(_)
     
