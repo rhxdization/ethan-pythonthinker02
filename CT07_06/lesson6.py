@@ -90,4 +90,5 @@ for _ in students:
         girls.append(name)
 for i in boys:
     print(i)
-    
+for j in girls:
+    print(j)
