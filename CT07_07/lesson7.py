@@ -88,3 +88,7 @@
 # 1. Create an empty list named 'common'
 # 2. Using 'for' loops, append common elements into 'common'
 # 3. Print the common elements
+
+
+# list1 = ["Apple", "Banana", "Cherry", "Durian"]
+# list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
