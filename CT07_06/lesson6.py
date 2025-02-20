@@ -87,4 +87,4 @@ for _ in students:
     if gender == "M":
         boys.append(name)
     else:
-        girls.append
+        girls.append(name)
