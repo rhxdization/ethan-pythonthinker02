@@ -58,3 +58,4 @@ students = [
     ["Sophia", "F"], ["Lucas", "M"], ["Mia", "F"],
     ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]]
+
