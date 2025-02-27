@@ -35,7 +35,7 @@ list3 = [9, 8, 7]
 # 3. Split the list into 2 sorted halves.
 # 4. Print the halves.
 # 5. 
-
+group = []
 unique = []
 merge = list1+list2+list3
 # create empty unique list
