@@ -48,9 +48,9 @@ print(unique)
 # get midpoint
 mid = len(unique) // 2
 # slice the list for first half list1 = unique[:midpoint]
-first_half = unique[:midpoint]
+first_half = unique[:mid]
 print(first_half)
 
 # slice the list for second half
-second_half = unique[:midpoint]
-print(first_half)
+second_half = unique[m]
+print(second_half)
