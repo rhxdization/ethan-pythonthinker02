@@ -5,7 +5,10 @@
 #     counter+=1
 #     lives-=random.randint(1,3)
 # print(counter)
-list = ["pizza"]
+list = ["pizza",
+        "chicken",
+        "dog"]
+
 
 
 
