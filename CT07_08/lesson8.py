@@ -5,13 +5,12 @@
 #     counter+=1
 #     lives-=random.randint(1,3)
 # print(counter)
+
 list = ["pizza",
         "chicken",
         "dog"]
 for n, i in enumerate(list):
     print(f"{n+1}. {i}")
-
-
 
 # # Lesson 8 - String splitting, list joining, and
 # #            finding substring
