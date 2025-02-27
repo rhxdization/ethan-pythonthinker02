@@ -86,4 +86,9 @@ else:
     eight_ch = True
 if eight_ch == True:
     for i in pw: #in my password "pAs"
-        upperc = i.isupper()
+        if i.isupper():
+            upperc = True
+        if i.islower():
+            lowerc = True
+        if i.isdigit():
+            
