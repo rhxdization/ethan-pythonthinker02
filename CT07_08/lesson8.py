@@ -5,8 +5,9 @@
 #     counter+=1
 #     lives-=random.randint(1,3)
 # print(counter)
-
-
+list = []
+for i in range(0,5):
+    list.append()
 
 # # Lesson 8 - String splitting, list joining, and
 # #            finding substring
