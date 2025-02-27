@@ -12,6 +12,8 @@ list = ["pizza",
 for n, i in enumerate(list):
     print(f"{n+1}. {i}")
 
+
+
 # # Lesson 8 - String splitting, list joining, and
 # #            finding substring
 
