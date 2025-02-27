@@ -79,3 +79,4 @@ upperlowerc = False
 number = False
 alnum = False
 pw = input("enter password: ")
+fr
