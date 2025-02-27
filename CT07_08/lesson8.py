@@ -46,9 +46,9 @@ unique = sorted(unique)
 print(unique)
 
 # get midpoint
-mid = len(
+mid = len(unique) // 2
 # slice the list for first half list1 = unique[:midpoint]
 # slice the list for second half
-for i in range(0, len(unique), 2):
+for i in range(0, len(unique), mid):
         group.append(merge[i:i+2])
 print(group)
