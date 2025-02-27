@@ -75,5 +75,4 @@
 # 4. pa55Me
 
 eight_ch = False
-upperc = False
-lowerc = False
+upperlowerc = False
