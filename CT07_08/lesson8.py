@@ -197,3 +197,7 @@
 # Example:
 # Input: ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
 # Output: "Computers,empower,our,modern,world,with,their,digital,brains"
+
+str = ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
+join = ",".join(str)
+print(join)
