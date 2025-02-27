@@ -2,7 +2,7 @@
 import random
 lives = 10
 while lives > 0:
-    counter =+1
+    counter+=1
     lives-=random.randint(1,3)
 print(counter)
 
