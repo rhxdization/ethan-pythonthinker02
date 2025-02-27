@@ -146,3 +146,4 @@
 #  'brains.']
 
 str = "Computers empower our modern world with their digital brains."
+split = str.split()
