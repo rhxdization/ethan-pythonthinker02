@@ -100,3 +100,4 @@
 # else:
 #     print("bad!!!")
 
+str = input("enter something funny ")
