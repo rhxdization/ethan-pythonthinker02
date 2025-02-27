@@ -15,3 +15,4 @@
 # 3. Split the list into 2 sorted halves.
 # 4. Print the halves.
 # 5. 
+
