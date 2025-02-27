@@ -74,4 +74,4 @@
 # 3. BestF00d
 # 4. pa55Me
 
-ch = False
+eight_ch = False
