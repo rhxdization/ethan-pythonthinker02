@@ -55,3 +55,21 @@
 # second_half = unique[mid:]
 # print(second_half)
 
+## Task 1: Password Validation
+
+# A website requires all password to:
+# 1. Be at least 8 characters long
+# 2. Contain an upper and lower case
+# 3. Contain a number
+# 4. No other characters except alphabets or numbers
+
+# Task:
+# Write a program that will ask the user for a password, and
+# check if the password fits all criteria
+
+# You may use some of the following passwords to test your
+# program:
+# 1. PassW0rd
+# 2. H3ll0W0r1d
+# 3. BestF00d
+# 4. pa55Me
