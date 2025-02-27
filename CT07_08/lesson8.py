@@ -74,28 +74,29 @@
 # 3. BestF00d
 # 4. pa55Me
 
-eight_ch = False
-upperc = False
-lowerc = False
-number = False
-alnum = False
-pw = input("enter password: ")
-if len(pw) < 8:
-    print("password not strong enough")
-else:
-    eight_ch = True
-if eight_ch == True:
-    for i in pw: #in my password "pAs"
-        if i.isupper():
-            upperc = True
-        if i.islower():
-            lowerc = True
-        if i.isdigit():
-            number = True
+# eight_ch = False
+# upperc = False
+# lowerc = False
+# number = False
+# alnum = False
+# pw = input("enter password: ")
+# if len(pw) < 8:
+#     print("password not strong enough")
+# else:
+#     eight_ch = True
+# if eight_ch == True:
+#     for i in pw: #in my password "pAs"
+#         if i.isupper():
+#             upperc = True
+#         if i.islower():
+#             lowerc = True
+#         if i.isdigit():
+#             number = True
 
-if pw.isalnum():
-    alnum = True
-if eight_ch == True and upperc == True and lowerc == True and number == True and alnum == True:
-    print("password is good to go")
-else:
-    print("bad!!!")
+# if pw.isalnum():
+#     alnum = True
+# if eight_ch == True and upperc == True and lowerc == True and number == True and alnum == True:
+#     print("password is good to go")
+# else:
+#     print("bad!!!")
+
