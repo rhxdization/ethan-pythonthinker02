@@ -1,4 +1,4 @@
-
+counter = 0
 import random
 lives = 10
 while lives > 0:
