@@ -101,10 +101,11 @@
 #     print("bad!!!")
 
 counter = 0
+out = ""
 str = input("enter something funny ")
 for i in str:
     if counter % 2 == 0:
-        i.lower()
+        out += i.lower()
         counter+=1
     else:
         i.upper()
