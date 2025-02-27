@@ -44,3 +44,5 @@ for thing in merge:
         unique.append(thing) # add item into unique list
 unique = sorted(unique)
 print(unique)
+for i in range(0, len(unique), 2):
+        group.append(students[i:i+size])
