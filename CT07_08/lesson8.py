@@ -14,7 +14,8 @@ list = ["pizza",
 
 num = 1
 for i in list:
-    print(str(num) + ": " + str(list(i)))
+    print(str(num) + ": " + i)
+    num += 1
 
 
 # # Lesson 8 - String splitting, list joining, and
