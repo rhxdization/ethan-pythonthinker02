@@ -1,6 +1,7 @@
 
 import random
-
+lives = 10
+while lives 
 
 # # Lesson 8 - String splitting, list joining, and
 # #            finding substring
