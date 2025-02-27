@@ -52,3 +52,5 @@ first_half = unique[:midpoint]
 print(first_half)
 
 # slice the list for second half
+second_half = unique[:midpoint]
+print(first_half)
