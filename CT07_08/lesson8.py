@@ -39,6 +39,6 @@ list3 = [9, 8, 7]
 merge = list1+list2+list3
 # create empty unique list
 for thing in merge:
-    for thing2 in thing:
-        merge.remove(thing)
+    for thing2 in thing: # if item it not in unique list
+        merge.remove(thing) # add item into unique list
 print(merge)
