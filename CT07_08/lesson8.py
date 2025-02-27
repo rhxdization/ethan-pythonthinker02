@@ -100,14 +100,14 @@
 # else:
 #     print("bad!!!")
 
-counter = 0
-out = ""
-str = input("enter something funny ")
-for i in str:
-    if counter % 2 == 0:
-        out += i.lower()
-        counter+=1
-    else:
-        out += i.upper()
-        counter+=1
-print(out)
+# counter = 0
+# out = ""
+# str = input("enter something funny ")
+# for i in str:   
+#     if counter % 2 == 0:
+#         out += i.lower()
+#         counter+=1
+#     else:
+#         out += i.upper()
+#         counter+=1
+# print(out)
