@@ -186,3 +186,4 @@
 
 str = ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
 " ".join(str)
+print(str)
