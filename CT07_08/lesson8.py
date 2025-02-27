@@ -84,5 +84,6 @@ if len(pw) < 8:
     print("password not strong enough")
 else:
     eight_ch = True
-for i in pw:
-    print(a)
+if eight_ch == True:
+    for i in pw:
+        print(a)
