@@ -85,5 +85,5 @@ if len(pw) < 8:
 else:
     eight_ch = True
 if eight_ch == True:
-    for i in pw:
+    for i in pw: #in my password "csccbnsocwodWDW"
         upperc = i.isupper()
