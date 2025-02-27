@@ -80,5 +80,10 @@ lowerc = False
 number = False
 alnum = False
 pw = input("enter password: ")
+if len(pw) < 8:
+    print("password not strong enough")
+    pass
+else:
+    eight_ch = True
 for i in pw:
-    i
+    print(a)
