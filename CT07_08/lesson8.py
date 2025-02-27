@@ -47,4 +47,4 @@ print(unique)
 
 
 for i in range(0, len(unique), 2):
-        group.append(merge[i:i+3])
+        group.append(merge[i:i+2])
