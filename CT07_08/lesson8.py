@@ -78,3 +78,4 @@ eight_ch = False
 upperlowerc = False
 number = False
 alnum = False
+pw = input("enter password: ")
