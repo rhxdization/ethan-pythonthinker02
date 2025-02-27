@@ -86,4 +86,5 @@ else:
     eight_ch = True
 if eight_ch == True:
     for i in pw:
-        i.
+        i.isupper()
+        
