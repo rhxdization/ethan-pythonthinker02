@@ -168,6 +168,17 @@
 #          'digital',
 #          'brains.']
 
-str = "Computers,empower,our,modern,world,with,their,digital,brains"
-split = str.split(",")
-print(split)
+# str = "Computers,empower,our,modern,world,with,their,digital,brains"
+# split = str.split(",")
+# print(split)
+
+# ## Task 4: Joining Words into a Sentence (.join())
+# **Task 4a**:
+# Given the following list of words, write a program to join
+# these words into a single string, separated by spaces:
+
+# ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
+
+# Example:
+# Input: ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
+# Output: "Computers empower our modern world with their digital brains."
