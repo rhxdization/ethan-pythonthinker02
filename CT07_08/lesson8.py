@@ -1,21 +1,21 @@
-# counter = 0
-# import random
-# lives = 10
-# while lives > 0:
-#     counter+=1
-#     lives-=random.randint(1,3)
-# print(counter)
+# # counter = 0
+# # import random
+# # lives = 10
+# # while lives > 0:
+# #     counter+=1
+# #     lives-=random.randint(1,3)
+# # print(counter)
 
-list = ["pizza",
-        "chicken",
-        "dog"]
-# for n, i in enumerate(list):
-#     print(f"{n+1}. {i}")
+# list = ["pizza",
+#         "chicken",
+#         "dog"]
+# # for n, i in enumerate(list):
+# #     print(f"{n+1}. {i}")
 
-num = 1
-for i in list:
-    print(str(num) + ": " + i)
-    num += 1
+# num = 1
+# for i in list:
+#     print(str(num) + ": " + i)
+#     num += 1
 
 
 # # Lesson 8 - String splitting, list joining, and
@@ -37,3 +37,8 @@ list3 = [9, 8, 7]
 # 5. 
 
 merge = list1+list2+list3
+# create empty unique list
+for thing in merge:
+    for thing2 in thing:
+        merge.remove(thing)
+print(merge)
