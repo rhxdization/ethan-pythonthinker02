@@ -96,4 +96,4 @@ if eight_ch == True:
             number = True
 
 if pw.isalnum():
-    
+    alnum = True
