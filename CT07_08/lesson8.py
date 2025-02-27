@@ -52,6 +52,3 @@ first_half = unique[:midpoint]
 print(first_half)
 
 # slice the list for second half
-for i in range(0, len(unique), mid):
-        group.append(merge[i:i+mid])
-print(group)
