@@ -5,6 +5,7 @@
 #     counter+=1
 #     lives-=random.randint(1,3)
 # print(counter)
+
 menu = []
 customer = []
 user_input = input("what do you want on your menu ")
