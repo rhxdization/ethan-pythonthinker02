@@ -16,4 +16,4 @@ list3 = [9, 8, 7]
 # 4. Print the halves.
 # 5. 
 
-merge
+merge = list1+list2+list3
