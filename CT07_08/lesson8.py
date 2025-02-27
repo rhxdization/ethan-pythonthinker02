@@ -43,3 +43,4 @@ for thing in merge:
     if thing not in unique: # if item it not in unique list
         unique.append(thing) # add item into unique list
 print(unique)
+unique = sorted()
