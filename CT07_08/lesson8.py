@@ -95,4 +95,5 @@ if eight_ch == True:
         if i.isdigit():
             number = True
 
-pw.isalnum()
+if pw.isalnum():
+    
