@@ -75,8 +75,10 @@
 # 4. pa55Me
 
 eight_ch = False
-upperlowerc = False
+upperc = False
+lowerc = False
 number = False
 alnum = False
 pw = input("enter password: ")
-fr
+for i in pw:
+    i
