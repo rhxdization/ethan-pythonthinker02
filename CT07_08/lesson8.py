@@ -41,5 +41,5 @@ merge = list1+list2+list3
 # create empty unique list
 for thing in merge:
     if thing not in merge: # if item it not in unique list
-        merge.remove(thing) # add item into unique list
+        unique.append(thing) # add item into unique list
 print(merge)
