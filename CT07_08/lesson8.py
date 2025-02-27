@@ -103,3 +103,4 @@
 str = input("enter something funny ")
 for i in str:
     i.lower()
+    
