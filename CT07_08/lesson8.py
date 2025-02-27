@@ -9,7 +9,7 @@ list = ["pizza",
         "chicken",
         "dog"]
 for n, i in enumerate(list):
-    print(f"{n+1}")
+    print(f"{n+1}. {i}")
 
 
 
