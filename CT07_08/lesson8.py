@@ -45,6 +45,9 @@ for thing in merge:
 unique = sorted(unique)
 print(unique)
 
+# get midpoint
 
+# slice the list
 for i in range(0, len(unique), 2):
         group.append(merge[i:i+2])
+print(group)
