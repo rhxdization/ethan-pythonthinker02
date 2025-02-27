@@ -82,6 +82,7 @@ alnum = False
 pw = input("enter password: ")
 if len(pw) < 8:
     print("password not strong enough")
+elif pw
 else:
     eight_ch = True
 if eight_ch == True:
