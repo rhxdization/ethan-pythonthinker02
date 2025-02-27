@@ -105,5 +105,7 @@ str = input("enter something funny ")
 for i in str:
     if counter % 2 == 0:
         i.lower()
+        counter+=1
     else:
-        i.upper
+        i.upper()
+        counter+=1
