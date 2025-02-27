@@ -110,4 +110,4 @@ for i in str:
     else:
         out += i.upper()
         counter+=1
-print(output)
+print(out)
