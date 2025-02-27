@@ -184,6 +184,16 @@
 # Output: "Computers empower our modern world with their digital brains."
 
 
-str = ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
-join = " ".join(str)
-print(join)
+# str = ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
+# join = " ".join(str)
+# print(join)
+
+# **Task 4b**:
+# Given the following list of words, write a program to join
+# these words into a single string, separated by commas:
+
+# ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
+
+# Example:
+# Input: ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
+# Output: "Computers,empower,our,modern,world,with,their,digital,brains"
