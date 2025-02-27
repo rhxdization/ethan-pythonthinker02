@@ -108,6 +108,6 @@ for i in str:
         out += i.lower()
         counter+=1
     else:
-        i.upper()
+        out += i.upper()
         counter+=1
-print(str)
+print(output)
