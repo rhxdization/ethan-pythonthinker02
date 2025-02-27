@@ -7,7 +7,7 @@
 # print(counter)
 list = []
 for i in range(0,5):
-    list.append(input("enter item"))
+    list.append(input("enter item "))
 print(list)
 
 # # Lesson 8 - String splitting, list joining, and
