@@ -92,5 +92,3 @@ if eight_ch == True:
             lowerc = True
         if i.isdigit():
             number = True
-        if i.isalnum():
-            alnum = True
