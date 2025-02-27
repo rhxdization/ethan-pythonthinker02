@@ -1,3 +1,7 @@
+
+import random
+
+
 # # Lesson 8 - String splitting, list joining, and
 # #            finding substring
 
