@@ -6,9 +6,9 @@
 # duplicates, and then split the list into 2 halves,
 # ensuring both halves are sorted.
 
-# list1 = [3, 2, 1]
-# list2 = [6, 5, 5]
-# list3 = [9, 8, 7]
+list1 = [3, 2, 1]
+list2 = [6, 5, 5]
+list3 = [9, 8, 7]
 
 # 1. Merge the 3 lists and remove duplicates.
 # 2. Sort the resulting list.
@@ -16,3 +16,4 @@
 # 4. Print the halves.
 # 5. 
 
+merge
