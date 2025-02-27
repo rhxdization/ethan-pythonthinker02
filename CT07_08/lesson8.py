@@ -48,6 +48,7 @@ print(unique)
 # get midpoint
 
 # slice the list for first half list1 = unique[:midpoint]
+# slice the list for second half
 for i in range(0, len(unique), 2):
         group.append(merge[i:i+2])
 print(group)
