@@ -9,9 +9,12 @@
 list = ["pizza",
         "chicken",
         "dog"]
-for n, i in enumerate(list):
-    print(f"{n+1}. {i}")
+# for n, i in enumerate(list):
+#     print(f"{n+1}. {i}")
 
+num = 1
+for i in list:
+    print()
 
 
 # # Lesson 8 - String splitting, list joining, and
