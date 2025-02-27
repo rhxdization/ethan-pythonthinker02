@@ -97,3 +97,5 @@ if pw.isalnum():
     alnum = True
 if eight_ch == True and upperc == True and lowerc == True and number == True and alnum == True:
     print("password is good to go")
+else:
+    print("bad!!!")
