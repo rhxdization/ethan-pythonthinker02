@@ -8,7 +8,8 @@
 list = ["pizza",
         "chicken",
         "dog"]
-
+for n, i in enumerate(list):
+    print()
 
 
 
