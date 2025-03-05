@@ -27,4 +27,5 @@ order = []
 userinput = ""
 # While loop that will end if users input is "end"
 while userinput != "end":
+    userinput = input("what would you like to order: ")
     
