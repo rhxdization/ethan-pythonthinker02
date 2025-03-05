@@ -10,4 +10,4 @@ while health > 0:
     healthlost = random.randint(1,15)
     # Set health
     health -= healthlost
-    print("player has lost " )
+    print("player has lost " + str(healthlost) + " health and now has " + str(health))
