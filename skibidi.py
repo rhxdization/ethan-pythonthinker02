@@ -15,4 +15,4 @@ while health > 0:
     print("player has lost " + str(healthlost) + " health and now has " + str(health))
     counter += 1
 # Print out how many times player fought
-print()
+print("player fought ")
