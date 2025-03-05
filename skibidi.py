@@ -24,4 +24,6 @@
 
 # Variables
 order = []
+userinput = ""
 # While loop that will end if users input is "end"
+while userinput != "end"
