@@ -25,7 +25,7 @@
 # Variables
 order = []
 userinput = ""
-counter = 0
+
 # While loop that will end if users input is "end"
 while userinput != "end":
     userinput = input("what would you like to order: ")
@@ -39,5 +39,3 @@ print("you have ordered the following:")
 # For loop to print out users order
 for i in range(len(order)):
     print(str(i) , ": " + str(order[i]))
-    # Increase counter by 1 to advance to the next item
-    counter += 1
