@@ -12,10 +12,7 @@ while health > 0:
     healthlost = random.randint(1,15)
     # Set health
     health -= healthlost
+    
     print("player has lost " + str(healthlost) + " health and now has " + str(health))
-    if health < 0:
-        break
-    else:
-        counter += 1
 # Print out how many times player fought
 print("player fought " + str(counter) + " times")
