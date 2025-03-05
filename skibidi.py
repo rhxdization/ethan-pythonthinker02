@@ -8,3 +8,4 @@ print("player has health of " + str(health))
 while health > 0:
     # Random number from 1 to 15 to decide how much health is lost
     healthlost = random.randint(1,15)
+    print("player has lost " )
