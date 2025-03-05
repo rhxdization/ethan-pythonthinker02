@@ -40,3 +40,4 @@ print("you have ordered the following:")
 for i in order:
     print(str(i) , ": " + str(order[counter]))
     # Increase counter by 1 to advance to the next item
+    counter += 1
