@@ -31,4 +31,4 @@ while userinput != "end":
     if userinput == "end":
         break
     else:
-        
+        order.append(userinput)
