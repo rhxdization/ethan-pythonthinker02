@@ -39,3 +39,4 @@ print("you have ordered the following:")
 # For loop to print out users order
 for i in order:
     print(str(i) , ": " + str(order[counter]))
+    # Increase counter by 1 to advance to the next item
