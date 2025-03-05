@@ -29,9 +29,10 @@ userinput = ""
 while userinput != "end":
     userinput = input("what would you like to order: ")
     if userinput == "end":
+        
         break
     else:
-        # Append to list
+        # Append to list order
         order.append(userinput)
 print("you have ordered the following:")
 # For loop
