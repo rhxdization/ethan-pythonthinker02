@@ -20,4 +20,7 @@
 # # Print out how many times player fought
 # print("player fought " + str(counter) + " times")
 
+
+
+# Variables
 order = []
