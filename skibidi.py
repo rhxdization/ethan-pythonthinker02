@@ -40,11 +40,7 @@
 # for i in range(len(order)):
 #     print(str(i+1) , ": " + str(order[i]))
 
-schedule = [
-	["-", "Monday", "Tuesday", "Wednesday"],
-	["9am", "Math", "English Lang.", "Science"],
-	["10am", "Art", "Math", "PE"],
-	["11am", "Recess", "Recess", "Recess"],
-	["11.45am", "Science", "2nd Lang.", "2nd Lang."]
-]
-print(schedule[2][1])
+word = "peanut"
+i = 0
+while i < 10:
+	print(word[i])
