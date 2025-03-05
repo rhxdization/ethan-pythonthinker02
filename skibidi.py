@@ -37,4 +37,4 @@ while userinput != "end":
 print("you have ordered the following:")
 # For loop to print out users order
 for i in order:
-    print(str(i))
+    print(str(i) , ": " + )
