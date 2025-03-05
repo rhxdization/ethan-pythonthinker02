@@ -24,3 +24,4 @@
 
 # Variables
 order = []
+# While loop that will end if users input is "end"
