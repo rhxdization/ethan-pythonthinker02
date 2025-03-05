@@ -28,7 +28,7 @@ userinput = ""
 # While loop that will end if users input is "end"
 while userinput != "end":
     userinput = input("what would you like to order: ")
-    # Check if userinput is equal or not equal to "end" to avoid appending 
+    # Check if userinput is equal or not equal to "end" to avoid appending "end" to order
     if userinput == "end":
         break
     else:
