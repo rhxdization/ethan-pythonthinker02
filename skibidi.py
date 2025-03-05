@@ -31,6 +31,7 @@ while userinput != "end":
     if userinput == "end":
         break
     else:
+        # Append to list
         order.append(userinput)
 print("you have ordered the following:")
 # For loop
