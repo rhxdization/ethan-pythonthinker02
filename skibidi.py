@@ -22,20 +22,29 @@
 
 
 
-# Variables
-order = []
-userinput = ""
+# # Variables
+# order = []
+# userinput = ""
 
-# While loop that will end if users input is "end"
-while userinput != "end":
-    userinput = input("what would you like to order: ")
-    # Check if userinput is equal or not equal to "end" to avoid appending "end" to order
-    if userinput == "end":
-        break
-    else:
-        # Append to list order
-        order.append(userinput)
-print("you have ordered the following:")
-# For loop to print out users order
-for i in range(len(order)):
-    print(str(i+1) , ": " + str(order[i]))
+# # While loop that will end if users input is "end"
+# while userinput != "end":
+#     userinput = input("what would you like to order: ")
+#     # Check if userinput is equal or not equal to "end" to avoid appending "end" to order
+#     if userinput == "end":
+#         break
+#     else:
+#         # Append to list order
+#         order.append(userinput)
+# print("you have ordered the following:")
+# # For loop to print out users order
+# for i in range(len(order)):
+#     print(str(i+1) , ": " + str(order[i]))
+
+schedule = [
+	["-", "Monday", "Tuesday", "Wednesday"],
+	["9am", "Math", "English Lang.", "Science"],
+	["10am", "Art", "Math", "PE"],
+	["11am", "Recess", "Recess", "Recess"],
+	["11.45am", "Science", "2nd Lang.", "2nd Lang."]
+]
+print()
