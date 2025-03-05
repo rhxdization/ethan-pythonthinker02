@@ -32,4 +32,5 @@ while userinput != "end":
         break
     else:
         order.append(userinput)
-# 
+print("you have ordered the following:")
+# For loop
