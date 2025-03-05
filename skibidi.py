@@ -35,4 +35,6 @@ while userinput != "end":
         # Append to list order
         order.append(userinput)
 print("you have ordered the following:")
-# For loop
+# For loop to print out users order
+for i in order:
+    print(str(i))
