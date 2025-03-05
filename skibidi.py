@@ -47,4 +47,4 @@ schedule = [
 	["11am", "Recess", "Recess", "Recess"],
 	["11.45am", "Science", "2nd Lang.", "2nd Lang."]
 ]
-print(schedule[3][2])
+print(schedule[1][2])
