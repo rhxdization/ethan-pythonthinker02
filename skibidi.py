@@ -40,7 +40,7 @@
 # for i in range(len(order)):
 #     print(str(i+1) , ": " + str(order[i]))
 
-word = "peanut"
-i = 0
-while i < 10:
-	print(word[i])
+# word = "peanut"
+# i = 0
+# while i < 10:
+# 	print(word[i])
