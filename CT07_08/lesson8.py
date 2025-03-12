@@ -75,4 +75,4 @@ for i in input:
         i.append(input2)
     else:
         i = i.isupper()
-        
+        i.append(input2)
