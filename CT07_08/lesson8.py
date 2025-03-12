@@ -66,8 +66,9 @@
 # 2. Use loops to iterate through each letter of the sentence
 # 3. Alternate between '.upper()' and '.lower()' for each letter
 # 4. Print the result
-
+counter = 0
 input = input("input ")
 input2 = []
 for i in input:
+    if counter % 2 == 0:
     
