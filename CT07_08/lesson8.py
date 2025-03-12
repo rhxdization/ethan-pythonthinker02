@@ -121,7 +121,8 @@
 #          'brains.']
 
 sentence = "Computers empower our modern world with their digital brains."
-words = sentence.split("","")
+words = sentence.split(",")
+print(words)
 
 
 
