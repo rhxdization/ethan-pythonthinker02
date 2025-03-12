@@ -47,7 +47,8 @@ else:
                 lower = letter.islower()
             if num == True:
                 num = letter.isnumeric()
-        alnum = pw.isalnum()
+            if alnum == False:
+                alnum
         if upper == True and lower == True and num == True and alnum == True:
             print("password is strong")
         else:
