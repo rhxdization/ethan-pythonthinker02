@@ -34,7 +34,7 @@
 upper = False
 lower = False
 num = False
-alnum = False
+alnum = True
 pw = input("what is your password: ")
 
 if len(pw) < 8:
@@ -49,7 +49,7 @@ else:
                 num = letter.isnumeric()
             if alnum == False:
                 alnum = letter.isalnum()
-        if upper == True and lower == True and num == True and alnum == (True):
+        if upper == True and lower == True and num == True and alnum == False:
             print("password is strong")
         else:
             print("password is not good")
