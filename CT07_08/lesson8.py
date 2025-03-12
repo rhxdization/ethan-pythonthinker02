@@ -68,3 +68,6 @@
 # 4. Print the result
 
 input = input("input ")
+input2 = []
+for i in input:
+    
