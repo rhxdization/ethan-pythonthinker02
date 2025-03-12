@@ -76,3 +76,4 @@ for i in input:
     else:
         i = i.upper()
         input2 += i
+print(input2)
