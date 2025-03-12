@@ -31,3 +31,5 @@
 # second_half = unique[mid:]
 # print(second_half)
 
+upper = False
+lower = False
