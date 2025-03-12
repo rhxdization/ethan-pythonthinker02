@@ -54,3 +54,16 @@
 #         else:
 #             print("password is not good")
 
+# ## Task 2: Mocking Text Generator
+
+# Create a program that will turn regular sentences into a
+# "SpongeBob Mocking" meme.
+
+# For example, the program will turn "Hello my name is James"
+# into "HeLlO mY nAmE iS jAmEs"
+
+# 1. Using 'input()', ask the user for a sentence
+# 2. Use loops to iterate through each letter of the sentence
+# 3. Alternate between '.upper()' and '.lower()' for each letter
+# 4. Print the result
+
