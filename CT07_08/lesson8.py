@@ -46,4 +46,7 @@ else:
         if pw.islower():
             lower = True
         if pw.isnumeric():
-            num
+            num = True
+        if pw.isalnum():
+            alnum = True
+    
