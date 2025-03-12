@@ -67,3 +67,4 @@
 # 3. Alternate between '.upper()' and '.lower()' for each letter
 # 4. Print the result
 
+input = input("input ")
