@@ -52,3 +52,5 @@ else:
         break
 if upper == True and lower == True and num == True and alnum == True:
     print("password is strong")
+else:
+    print("password is not good")
