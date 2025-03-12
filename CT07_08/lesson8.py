@@ -72,7 +72,7 @@ input2 = ""
 for i in input:
     if counter % 2 == 0:
         i = i.lower()
-        
+        input2 += i
     else:
         i = i.upper()
         input2 += i
