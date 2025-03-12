@@ -38,20 +38,17 @@
 # group = []
 # unique = []
 # merge = list1+list2+list3
-# # create empty unique list
 # for thing in merge:
 #     if thing not in unique: # if item it not in unique list
 #         unique.append(thing) # add item into unique list
 # unique = sorted(unique)
 # print(unique)
 
-# # get midpoint
 # mid = len(unique) // 2
 # # slice the list for first half list1 = unique[:midpoint]
 # first_half = unique[:mid]
 # print(first_half)
 
-# # slice the list for second half
 # second_half = unique[mid:]
 # print(second_half)
 
