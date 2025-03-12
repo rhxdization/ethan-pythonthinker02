@@ -71,6 +71,6 @@ input = input("input ")
 input2 = []
 for i in input:
     if counter % 2 == 0:
-        (i.islower()).append(input2)
+        i.islower().append(input2)
     else:
-        (i.isupper()).append(input2)
+        i.isupper().append(input2)
