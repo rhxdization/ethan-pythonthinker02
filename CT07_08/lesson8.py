@@ -74,5 +74,5 @@ for i in input:
         i = i.lower()
         
     else:
-        i = i.isupper()
-        i.append(input2)
+        i = i.upper()
+        input2 += i
