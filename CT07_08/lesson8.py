@@ -42,3 +42,5 @@ if len(pw) < 8:
 else:
     while True:
         if pw.isupper():
+            upper = True
+        
