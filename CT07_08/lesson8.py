@@ -49,4 +49,4 @@ else:
             num = True
         if pw.isalnum():
             alnum = True
-    
+        break
