@@ -98,8 +98,28 @@
 #  'digital',
 #  'brains.']
 
-sentence = "Computers empower our modern world with their digital brains."
-words = sentence.split()
-print(words)
+# sentence = "Computers empower our modern world with their digital brains."
+# words = sentence.split()
+# print(words)
+
+# **Task 3b**:
+# Write a program to split the following string into a list of
+# words using a comma (,) as the delimiter:
+
+# "Computers,empower,our,modern,world,with,their,digital,brains"
+
+# Example:
+# Input: "Computers,empower,our,modern,world,with,their,digital,brains"
+# Output: ['Computers',
+#          'empower',
+#          'our',
+#          'modern',
+#          'world',
+#          'with',
+#          'their',
+#          'digital',
+#          'brains.']
+
+
 
 
