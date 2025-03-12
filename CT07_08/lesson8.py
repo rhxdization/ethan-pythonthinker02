@@ -68,7 +68,7 @@
 # 4. Print the result
 counter = 0
 input = input("input ")
-input2 = []
+input2 = ""
 for i in input:
     if counter % 2 == 0:
         i = i.islower()
