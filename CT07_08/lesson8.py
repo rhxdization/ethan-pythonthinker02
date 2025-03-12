@@ -43,13 +43,13 @@ else:
         for letter in pw:
             if upper == True:
                 upper = letter.isupper()
-            if lower == True:
+            if lower == False:
                 lower = letter.islower()
-            if num == True:
+            if num == False:
                 num = letter.isnumeric()
             if alnum == False:
                 alnum = letter.isalnum()
-        if upper == True and lower == True and num == True and alnum == False:
+        if upper == True and lower == True and num == True and alnum == True:
             print("password is strong")
         else:
             print("password is not good")
