@@ -45,6 +45,7 @@ else:
                 upper = letter.isupper()
             if lower == True:
                 lower = letter.islower()
+            if num == True:
                 num = letter.isnumeric()
         alnum = pw.isalnum()
         if upper == True and lower == True and num == True and alnum == True:
