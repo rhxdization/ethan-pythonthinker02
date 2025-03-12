@@ -42,7 +42,8 @@ if len(pw) < 8:
 else:
         for letter in pw:
              upper = letter.isupper()
-            
+             lower = letter.islower()
+             
         if upper == True and lower == True and num == True and alnum == True:
             print("password is strong")
         else:
