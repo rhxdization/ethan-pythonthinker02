@@ -40,14 +40,9 @@ pw = input("what is your password: ")
 if len(pw) < 8:
     print("password is not strong enough")
 else:
-        if pw.isupper():
-            upper = True
-        if pw.islower():
-            lower = True
-        if pw.isnumeric():
-            num = True
-        if pw.isalnum():
-            alnum = True
+        for letter in pw:
+             upper = letter.isupper()
+            
         if upper == True and lower == True and num == True and alnum == True:
             print("password is strong")
         else:
