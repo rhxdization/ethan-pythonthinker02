@@ -34,4 +34,5 @@
 upper = False
 lower = False
 num = False
-alnum = false
+alnum = False
+
