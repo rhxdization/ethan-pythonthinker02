@@ -43,4 +43,7 @@ else:
     while True:
         if pw.isupper():
             upper = True
-        
+        if pw.islower():
+            lower = True
+        if pw.isnumeric():
+            num
