@@ -39,6 +39,7 @@ pw = input("what is your password: ")
 
 if len(pw) < 8:
     print("password is not strong enough")
+    pass
 else:
         if pw.isupper():
             upper = True
