@@ -31,25 +31,26 @@
 # second_half = unique[mid:]
 # print(second_half)
 
-upper = False
-lower = False
-num = False
-alnum = True
-pw = input("what is your password: ")
+# upper = False
+# lower = False
+# num = False
+# alnum = True
+# pw = input("what is your password: ")
 
-if len(pw) < 8:
-    print("password is not strong enough")
-else:
-        for letter in pw:
-            if upper == False:
-                upper = letter.isupper()
-            if lower == False:
-                lower = letter.islower()
-            if num == False:
-                num = letter.isnumeric()
-            if alnum == False:
-                alnum = letter.isalnum()
-        if upper == True and lower == True and num == True and alnum == True:
-            print("password is strong")
-        else:
-            print("password is not good")
+# if len(pw) < 8:
+#     print("password is not strong enough")
+# else:
+#         for letter in pw:
+#             if upper == False:
+#                 upper = letter.isupper()
+#             if lower == False:
+#                 lower = letter.islower()
+#             if num == False:
+#                 num = letter.isnumeric()
+#             if alnum == False:
+#                 alnum = letter.isalnum()
+#         if upper == True and lower == True and num == True and alnum == True:
+#             print("password is strong")
+#         else:
+#             print("password is not good")
+
