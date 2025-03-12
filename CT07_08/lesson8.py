@@ -11,7 +11,6 @@
 # # 2. Sort the resulting list.
 # # 3. Split the list into 2 sorted halves.
 # # 4. Print the halves.
-# # 5. 
 
 list1 = [3, 2, 1]
 list2 = [6, 5, 5]
@@ -27,7 +26,6 @@ unique = sorted(unique)
 print(unique)
 
 mid = len(unique) // 2
-# slice the list for first half list1 = unique[:midpoint]
 first_half = unique[:mid]
 print(first_half)
 
