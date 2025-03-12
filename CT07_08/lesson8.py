@@ -20,8 +20,8 @@ group = []
 unique = []
 merge = list1+list2+list3
 for thing in merge:
-    if thing not in unique: # if item it not in unique list
-        unique.append(thing) # add item into unique list
+    if thing not in unique:
+        unique.append(thing)
 unique = sorted(unique)
 print(unique)
 
