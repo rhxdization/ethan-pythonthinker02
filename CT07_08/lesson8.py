@@ -37,3 +37,5 @@ num = False
 alnum = False
 pw = input("what is your password: ")
 
+if len(pw) <= 8:
+    
