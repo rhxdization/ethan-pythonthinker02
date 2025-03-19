@@ -18,5 +18,6 @@ t = turtle.Turtle()
 t.shape("circle")
 t.fillcolor("black")
 t.speed(10)
+t.forward(1)
 
 window.mainloop()
