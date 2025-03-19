@@ -5,4 +5,4 @@ print(split)
 if split in riddle:
     print("Correct")
 else:
-    print("")
+    print("❌")
