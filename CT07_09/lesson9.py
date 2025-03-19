@@ -27,7 +27,8 @@ t.goto(-300,-225)
 t.pendown()
 t.pencolor("yellow")
 t.seth(0)
-
+t.forward(600)
+t.hideturtle()
 
 
 window.mainloop()
