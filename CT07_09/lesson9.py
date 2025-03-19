@@ -57,6 +57,7 @@ idk.goto(150,-250)
 idk.write("Jose Maria de los Santos Ramirez Garcia", align="center", font=("Arial", 10))
 
 guess = input("guess the winner!!! ")
+sally.down()
 
 while sally.ycor() < 225:
     sally.seth(random.randint(75,115))
