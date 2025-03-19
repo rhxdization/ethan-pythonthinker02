@@ -12,14 +12,13 @@
 
 import turtle
 window = turtle.Screen()
-window.setup(width=600, height=600)
+window.setup(width=300, height=600)
 window.bgcolor("forestgreen")
 t = turtle.Turtle()
-t.shape("circle")
-t.fillcolor("black")
-t.speed(10)
-t.forward(60)
-t.left(90)
-t.forward(60)
+t.shape("square")
+t.fillcolor("grey")
+
+
+
 
 window.mainloop()
