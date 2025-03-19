@@ -3,7 +3,7 @@ ans = "school"
 userinput = input(riddle)
 split = userinput.split()
 print(split)
-if split in ans:
+if str(split) in ans:
     print("Correct")
 else:
     print("❌")
