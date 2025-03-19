@@ -20,8 +20,8 @@ t.fillcolor("grey")
 t.up()
 t.goto(-300,250)
 t.seth(0)
-for i in range():
+for i in range(12):
     t.stamp()
-    t.forward(20)
+    t.forward(25)
 
 window.mainloop()
