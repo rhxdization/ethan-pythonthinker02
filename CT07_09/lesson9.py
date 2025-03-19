@@ -3,4 +3,6 @@ userinput = input(riddle)
 split = userinput.split()
 print(split)
 if split in riddle:
-    print()
+    print("Correct")
+else:
+    print("")
