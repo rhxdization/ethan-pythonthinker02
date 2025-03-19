@@ -46,6 +46,7 @@ X_Æ_A_12.color("yellow")
 X_Æ_A_12.goto(0,-250)
 X_Æ_A_12.write("X Æ A-12", align="center", font=("Arial", 20))
 
+idk = turtle.Turtle()
 
 
 window.mainloop()
