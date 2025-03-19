@@ -60,7 +60,7 @@ guess = input("guess the winner!!! ")
 sally.down()
 X_Æ_A_12.down()
 idk.down()
-while sally.ycor() < 225 or sally.ycor() < 225 or sally.ycor() < 225:
+while sally.ycor() < 225 or X_Æ_A_12.ycor() < 225 or idk.ycor() < 225:
     sally.seth(random.randint(75,115))
     sally.forward(random.randint(1,10))
     X_Æ_A_12.seth(random.randint(75,115))
