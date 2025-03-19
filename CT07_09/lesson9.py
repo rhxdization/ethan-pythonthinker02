@@ -52,7 +52,7 @@ idk.seth(90)
 idk.shape("turtle")
 idk.color("blue")
 idk.goto(150,-250)
-idk.write("X Æ A-12", align="center", font=("Arial", 20))
+idk.write("José María de los Santos Ramírez García", align="center", font=("Arial", 20))
 
 
 window.mainloop()
