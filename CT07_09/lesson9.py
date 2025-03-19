@@ -11,6 +11,8 @@
 #     print("❌")
 
 import turtle
+import random
+
 window = turtle.Screen()
 window.setup(width=600, height=600)
 window.bgcolor("forestgreen")
@@ -54,6 +56,9 @@ idk.color("blue")
 idk.goto(150,-250)
 idk.write("Jose Maria de los Santos Ramirez Garcia", align="center", font=("Arial", 10))
 
-guess = input("guess the winner!!!")
+guess = input("guess the winner!!! ")
 
-window.mainloop()
+while sally.ycor() < 225:
+    
+
+
