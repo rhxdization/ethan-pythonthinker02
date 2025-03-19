@@ -52,6 +52,7 @@ idk.seth(90)
 idk.shape("turtle")
 idk.color("blue")
 idk.goto(150,-250)
+idk.write("X Æ A-12", align="center", font=("Arial", 20))
 
 
 window.mainloop()
