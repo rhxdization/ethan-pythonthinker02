@@ -24,4 +24,8 @@ for i in range(0,24):
     t.stamp()
     t.forward(25)
 
+for i in range(0,24):
+    t.stamp()
+    t.forward(25)
+
 window.mainloop()
