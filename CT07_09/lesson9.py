@@ -14,8 +14,8 @@ import turtle
 window = turtle.Screen()
 window.setup(width=600, height=600)
 window.bgcolor("forestgreen")
-
-
+t = turtle.Turtle()
+t.shape(circle)
 
 
 window.mainloop()
