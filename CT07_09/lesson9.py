@@ -31,6 +31,7 @@ t.forward(600)
 t.hideturtle()
 
 sally = turtle.Turtle()
+sally.up()
 
 
 window.mainloop()
