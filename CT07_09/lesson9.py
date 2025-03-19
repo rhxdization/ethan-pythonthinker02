@@ -37,6 +37,7 @@ sally.shape("turtle")
 sally.color("red")
 sally.goto(0,-250)
 sally.write("Sally", align="center", font=("Arial", 20))
-X_Æ_A_12 
+X_Æ_A_12 = turtle.Turtle()
+
 
 window.mainloop()
