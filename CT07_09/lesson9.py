@@ -25,7 +25,7 @@ for i in range(0,24):
     t.forward(25)
 t.goto(-300,-225)
 t.pendown()
-t.pencolor("red")
+t.pencolor("")
 t.seth(0)
 t.forward(600)
 t.hideturtle()
@@ -42,7 +42,7 @@ X_Æ_A_12 = turtle.Turtle()
 X_Æ_A_12.up()
 X_Æ_A_12.seth(90)
 X_Æ_A_12.shape("turtle")
-X_Æ_A_12.color("nge")
+X_Æ_A_12.color("yellow")
 X_Æ_A_12.goto(0,-250)
 
 
