@@ -24,8 +24,4 @@ for i in range():
     t.stamp()
     t.forward(20)
 
-    
-
-
-
 window.mainloop()
