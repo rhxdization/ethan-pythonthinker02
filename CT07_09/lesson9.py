@@ -59,6 +59,6 @@ idk.write("Jose Maria de los Santos Ramirez Garcia", align="center", font=("Aria
 guess = input("guess the winner!!! ")
 
 while sally.ycor() < 225:
-    
+    sally.seth()
 
 
