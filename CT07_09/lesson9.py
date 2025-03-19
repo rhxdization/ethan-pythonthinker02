@@ -1,5 +1,5 @@
-ans = "school"
-userinput = input("You first enter this place blind. You then come out being able to see. What is the place? ")
+ans = "egg"
+userinput = input("I must be opened before being able to use. What am I? ")
 word = []
 split = userinput.split()
 for i in split:
