@@ -12,7 +12,7 @@
 
 import turtle
 window = turtle.Screen()
-window.setup(width=400, height=800)
+window.setup(width=600, height=600)
 window.bgcolor("forestgreen")
 t = turtle.Turtle()
 t.shape("square")
