@@ -2,3 +2,5 @@ riddle = "You first enter this place blind. You then come out being able to see.
 userinput = input(riddle)
 split = userinput.split()
 print(split)
+if split in riddle:
+    print()
