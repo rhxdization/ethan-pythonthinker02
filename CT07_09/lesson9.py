@@ -30,7 +30,7 @@ t.seth(0)
 t.forward(600)
 t.hideturtle()
 
-sally.
+sally.Turtle()
 
 
 window.mainloop()
