@@ -24,7 +24,9 @@ for i in range(0,24):
     t.stamp()
     t.forward(25)
 t.goto(-300,-225)
-t.
+t.pendown()
+t.pencolor("yellow")
+
 
 
 window.mainloop()
