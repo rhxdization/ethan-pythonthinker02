@@ -17,7 +17,14 @@ window.bgcolor("forestgreen")
 t = turtle.Turtle()
 t.shape("square")
 t.fillcolor("grey")
+t.up()
+t.goto(-300,250)
+t.seth(0)
+for i in range():
+    t.stamp()
+    
 
+    
 
 
 
