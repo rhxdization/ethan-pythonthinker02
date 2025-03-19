@@ -56,6 +56,7 @@ idk.color("blue")
 idk.goto(150,-250)
 idk.write("Jose Maria de los Santos Ramirez Garcia", align="center", font=("Arial", 10))
 
+
 guess = input("guess the winner!!! ")
 sally.down()
 X_Æ_A_12.down()
@@ -73,6 +74,8 @@ while True:
         break
     elif X_Æ_A_12.ycor() >= 225:
         break
+
+
 if sally.ycor() >= 225:
         if guess == "sally":
               print("you win")
