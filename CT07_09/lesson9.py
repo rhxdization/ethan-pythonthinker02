@@ -16,6 +16,8 @@ window.setup(width=600, height=600)
 window.bgcolor("forestgreen")
 t = turtle.Turtle()
 t.shape("circle")
-
+t.fillcolor("black")
+t.left(100)
+t.up
 
 window.mainloop()
