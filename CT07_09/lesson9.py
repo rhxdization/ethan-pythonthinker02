@@ -18,7 +18,6 @@ t = turtle.Turtle()
 t.shape("circle")
 t.fillcolor("black")
 t.speed(10)
-while True:
-    t.seth(0)
-    t.forward(60)
-    t.left(90)
+t.forward(9))
+
+window.mainloop()
