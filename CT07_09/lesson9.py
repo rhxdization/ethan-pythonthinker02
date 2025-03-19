@@ -11,5 +11,5 @@
 #     print("❌")
 
 import turtle
-window = turtle.Screen()
+window = turtle.Screen(800,600)
 window.mainloop()
