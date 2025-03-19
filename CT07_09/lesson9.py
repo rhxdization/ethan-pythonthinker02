@@ -22,6 +22,3 @@ while True:
     t.seth(0)
     t.forward(60)
     t.left(90)
-
-
-window.mainloop()
