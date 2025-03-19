@@ -18,6 +18,6 @@ t = turtle.Turtle()
 t.shape("circle")
 t.fillcolor("black")
 t.left(100)
-t.up
+t.up(100)
 
 window.mainloop()
