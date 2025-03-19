@@ -2,7 +2,6 @@ riddle = "You first enter this place blind. You then come out being able to see.
 ans = "school"
 userinput = input(riddle)
 split = userinput.split()
-print(split)
 if str(split) in ans:
     print("Correct")
 else:
