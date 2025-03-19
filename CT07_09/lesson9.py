@@ -26,6 +26,7 @@ for i in range(0,24):
 t.goto(-300,-225)
 t.pendown()
 t.pencolor("yellow")
+t.seth(0)
 
 
 
