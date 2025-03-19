@@ -60,6 +60,6 @@ guess = input("guess the winner!!! ")
 
 while sally.ycor() < 225:
     sally.seth(random.randint(75,115))
-    sally
+    sally.forward(random.randint(1,20))
 
 
