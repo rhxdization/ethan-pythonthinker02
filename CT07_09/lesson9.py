@@ -62,7 +62,7 @@ X_Æ_A_12.down()
 idk.down()
 while sally.ycor() < 225:
     sally.seth(random.randint(75,115))
-    sally.forward(random.randint(1,20))
+    sally.forward(random.randint(1,5))
 
 
 
