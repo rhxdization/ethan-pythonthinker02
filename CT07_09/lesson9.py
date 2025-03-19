@@ -42,7 +42,7 @@ X_Æ_A_12 = turtle.Turtle()
 X_Æ_A_12.up()
 X_Æ_A_12.seth(90)
 X_Æ_A_12.shape("turtle")
-X_Æ_A_12.color("yellow")
+X_Æ_A_12.color("nge")
 X_Æ_A_12.goto(0,-250)
 
 
