@@ -67,6 +67,10 @@ while True:
     X_Æ_A_12.forward(random.randint(1,10))
     idk.seth(random.randint(75,115))
     idk.forward(random.randint(1,10))
+    if sally.ycor() >= 225:
+        break
+    elif sally.ycor() >= 225:
+        break
 
 
 
