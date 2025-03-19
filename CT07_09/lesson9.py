@@ -95,7 +95,3 @@ elif X_Æ_A_12.ycor() >= 225:
               print("you win")
         else:
               print("you lose")
-
-
-
-
