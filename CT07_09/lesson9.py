@@ -22,7 +22,7 @@ t.goto(-300,250)
 t.seth(0)
 for i in range():
     t.stamp()
-    
+    t.forward(20)
 
     
 
