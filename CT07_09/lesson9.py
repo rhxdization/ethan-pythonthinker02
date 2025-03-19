@@ -32,6 +32,7 @@ t.hideturtle()
 
 sally = turtle.Turtle()
 sally.up()
-
+sally.seth(90)
+sally.
 
 window.mainloop()
