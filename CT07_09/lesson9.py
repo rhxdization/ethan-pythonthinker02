@@ -23,7 +23,7 @@ t.seth(0)
 for i in range(0,24):
     t.stamp()
     t.forward(25)
-
+t.goto(300,200)
 for i in range(0,24):
     t.stamp()
     t.forward(25)
