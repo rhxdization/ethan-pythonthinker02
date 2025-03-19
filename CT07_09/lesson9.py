@@ -25,7 +25,7 @@ for i in range(0,24):
     t.forward(25)
 t.goto(-300,-225)
 t.pendown()
-t.pencolor("yellow")
+t.pencolor("red")
 t.seth(0)
 t.forward(600)
 t.hideturtle()
