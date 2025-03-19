@@ -17,6 +17,7 @@ window.bgcolor("forestgreen")
 t = turtle.Turtle()
 t.shape("circle")
 t.fillcolor("black")
+t.speed(10)
 t.left(100)
 t.up(100)
 
