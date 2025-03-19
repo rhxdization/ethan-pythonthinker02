@@ -69,7 +69,7 @@ while True:
     idk.forward(random.randint(1,10))
     if sally.ycor() >= 225:
         break
-    elif sally.ycor() >= 225:
+    elif X_Æ_A_12.ycor() >= 225:
         break
 
 
