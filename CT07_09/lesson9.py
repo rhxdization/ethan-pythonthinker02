@@ -36,6 +36,6 @@ sally.seth(90)
 sally.shape("Turtle")
 sally.color("red")
 sally.goto(0,-250)
-sally.write("Sally", align="center", font=)
+sally.write("Sally", align="center", font=("Arial", 20))
 
 window.mainloop()
