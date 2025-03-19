@@ -35,14 +35,14 @@ sally.up()
 sally.seth(90)
 sally.shape("turtle")
 sally.color("red")
-sally.goto(-200,-250)
+sally.goto(-150,-250)
 sally.write("Sally", align="center", font=("Arial", 20))
 
 X_Æ_A_12 = turtle.Turtle()
 X_Æ_A_12.up()
 X_Æ_A_12.seth(90)
 X_Æ_A_12.shape("turtle")
-X_Æ_A_12.color("blue")
+X_Æ_A_12.color("yellow")
 X_Æ_A_12.goto(0,-250)
 
 
