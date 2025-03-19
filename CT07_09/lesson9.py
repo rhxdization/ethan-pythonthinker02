@@ -20,6 +20,8 @@ t.fillcolor("black")
 t.speed(10)
 while True:
     t.seth(0)
-    t.forward
+    t.forward(60)
+    t.left(90)
+
 
 window.mainloop()
