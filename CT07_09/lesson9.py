@@ -23,5 +23,7 @@ t.seth(0)
 for i in range(0,24):
     t.stamp()
     t.forward(25)
+    t.goto(-300,-225)
+
 
 window.mainloop()
