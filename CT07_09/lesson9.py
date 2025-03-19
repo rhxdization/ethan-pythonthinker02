@@ -20,7 +20,7 @@ t.fillcolor("grey")
 t.up()
 t.goto(-300,250)
 t.seth(0)
-for i in range(12):
+for i in range(0,12):
     t.stamp()
     t.forward(25)
 
