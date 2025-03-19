@@ -35,6 +35,7 @@ sally.up()
 sally.seth(90)
 sally.shape("Turtle")
 sally.color("red")
-
+sally.goto(0,-250)
+sally.write()
 
 window.mainloop()
