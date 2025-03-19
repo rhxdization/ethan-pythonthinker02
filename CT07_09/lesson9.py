@@ -4,7 +4,7 @@ word = []
 split = userinput.split()
 for i in split:
     i = i.lower()
-    i.append(word)
+    (i)
 if ans in str(word):
     print("✅")
 else:
