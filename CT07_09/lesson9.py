@@ -51,6 +51,7 @@ idk.up()
 idk.seth(90)
 idk.shape("turtle")
 idk.color("blue")
-idk.goto(0,-250)
+idk.goto(150,-250)
+
 
 window.mainloop()
