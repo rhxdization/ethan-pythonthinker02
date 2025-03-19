@@ -54,5 +54,6 @@ idk.color("blue")
 idk.goto(150,-250)
 idk.write("Jose Maria de los Santos Ramirez Garcia", align="center", font=("Arial", 10))
 
+guess = input("guess the winner!!!")
 
 window.mainloop()
