@@ -80,7 +80,8 @@ elif X_Æ_A_12.ycor() >= 225:
         if guess == "X Æ A-12":
               print("you win")
 elif X_Æ_A_12.ycor() >= 225:
-        if guess == "Jose Maria de los Santos Ramirez Garcia"
+        if guess == "Jose Maria de los Santos Ramirez Garcia":
+              print("you win")
 
 
 
