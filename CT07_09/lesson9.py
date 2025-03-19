@@ -11,3 +11,4 @@
 #     print("❌")
 
 import turtle
+window = turtle.Screen()
