@@ -63,7 +63,13 @@ idk.down()
 while sally.ycor() < 225:
     sally.seth(random.randint(75,115))
     sally.forward(random.randint(1,5))
-    
+while sally.ycor() < 225:
+    sally.seth(random.randint(75,115))
+    sally.forward(random.randint(1,5))
+while sally.ycor() < 225:
+    sally.seth(random.randint(75,115))
+    sally.forward(random.randint(1,5))
+
 
 
 
