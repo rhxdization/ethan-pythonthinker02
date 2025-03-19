@@ -13,6 +13,7 @@
 import turtle
 import random
 
+
 window = turtle.Screen()
 window.setup(width=600, height=600)
 window.bgcolor("forestgreen")
@@ -32,6 +33,7 @@ t.seth(0)
 t.forward(600)
 t.hideturtle()
 
+
 sally = turtle.Turtle()
 sally.up()
 sally.seth(90)
@@ -39,6 +41,7 @@ sally.shape("turtle")
 sally.color("red")
 sally.goto(-150,-250)
 sally.write("Sally", align="center", font=("Arial", 15))
+
 
 X_Æ_A_12 = turtle.Turtle()
 X_Æ_A_12.up()
