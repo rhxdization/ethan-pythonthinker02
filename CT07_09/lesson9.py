@@ -33,6 +33,8 @@ t.hideturtle()
 sally = turtle.Turtle()
 sally.up()
 sally.seth(90)
-sally.
+sally.shape("Turtle")
+sally.color("red")
+
 
 window.mainloop()
