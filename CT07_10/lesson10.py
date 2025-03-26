@@ -28,8 +28,11 @@
 # t.shape("turtle")
 # t.fillcolor("orange")
 
-def multiply(x,y):
-    var = x * y
-    print(var)
+# def multiply(x,y):
+#     var = x * y
+#     print(var)
 
-multiply(3,5)
+# multiply(3,5)
+
+def isElderly(age):
+    v = int(input("age? "))
