@@ -34,11 +34,13 @@
 
 # multiply(3,5)
 
+age = 0
 def isElderly(age):
     if age >= 65:
         age = True
     else:
         age = False
     return age
-
-
+isElderly(64)
+if age != 65:
+    
