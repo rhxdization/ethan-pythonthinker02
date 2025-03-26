@@ -29,7 +29,7 @@
 # t.fillcolor("orange")
 
 def multiply(x,y):
-    global var
     var = x * y
     print(var)
-myl
+
+multiply(3,5)
