@@ -7,7 +7,6 @@ t = turtle.Turtle()
 t.shape("turtle")
 t.fillcolor("orange")
 
-t.seth(0)
 while True:
     for i in range(4):
         t.forward(100)
