@@ -5,4 +5,6 @@ window.setup(width=600, height=400)
 
 t = turtle.Turtle()
 t.shape = "turtle"
-t.color = "orange"
+t.fillcolor = "orange"
+t.seth(0)
+
