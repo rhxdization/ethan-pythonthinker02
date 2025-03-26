@@ -8,6 +8,6 @@ t.shape("turtle")
 t.fillcolor("orange")
 
 while True:
-    for i in range(4):
+    for i in range(5):
         t.forward(100)
-        t.right(90)
+        t.right()
