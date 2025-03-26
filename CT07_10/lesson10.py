@@ -42,5 +42,5 @@ def isElderly(age):
         age = False
     return age
 isElderly(64)
-if age != 65:
-    
+if age == False:
+    print
