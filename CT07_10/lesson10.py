@@ -41,4 +41,4 @@
 #     print("your old")
 
 def Whatsappme(num):
-    
+    print("Whatsapp me at https://wa.me/")
