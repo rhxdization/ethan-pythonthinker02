@@ -55,4 +55,6 @@
 num = []
 import random
 def gamble(shakes):
-    num.append()
+    for i in range(shakes):
+        num.append(random.randint(1,100))
+        
