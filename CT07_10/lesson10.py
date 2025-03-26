@@ -40,6 +40,7 @@
 # if isElderly(65):
 #     print("your old")
 
+import random
 def Whatsappme(num):
     print("Whatsapp me at https://wa.me/65" + str(num))
 Whatsappme(88965112)
