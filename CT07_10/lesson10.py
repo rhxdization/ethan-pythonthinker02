@@ -57,4 +57,4 @@ import random
 def gamble(shakes):
     for i in range(shakes):
         num.append(random.randint(1,100))
-        
+    print("you shook the bag " + str(shakes) + " times")
