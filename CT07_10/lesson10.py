@@ -60,3 +60,4 @@ def gamble(shakes):
     print("you shook the bag " + str(shakes) + " times")
     print("the highest number you shook out is " + max(num))
     print("the lowest number you shook out is " + min(num))
+gamble(50)
