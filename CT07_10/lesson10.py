@@ -52,3 +52,7 @@
 #         print("Whatsapp me at https://wa.me/65" + str(randnum))
 # Whatsappme(100)
 
+num = []
+import random
+def gamble(shakes):
+    num.append()
