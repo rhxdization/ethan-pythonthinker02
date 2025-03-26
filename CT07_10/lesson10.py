@@ -7,8 +7,8 @@ t = turtle.Turtle()
 t.shape = "turtle"
 t.fillcolor = "orange"
 
-t.seth(0)
+t.seth())
 while True:
-for i in range(4):
+    for i in range(4):
         t.forward(100)
         t.right(90)
