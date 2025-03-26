@@ -6,8 +6,9 @@ window.setup(width=600, height=400)
 t = turtle.Turtle()
 t.shape = "turtle"
 t.fillcolor = "orange"
+t.seth(0)
+t.goto(0,0)
 
-t.seth())
 while True:
     for i in range(4):
         t.forward(100)
