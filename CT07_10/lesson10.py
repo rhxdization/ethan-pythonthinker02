@@ -30,4 +30,6 @@
 
 def multiply(x,y):
     global var
-    var = 
+    var = x * y
+    print(var)
+myl
