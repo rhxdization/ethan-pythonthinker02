@@ -41,6 +41,8 @@ def isElderly(age):
     else:
         age = False
     return age
-isElderly(64)
+isElderly(66)
 if age == False:
-    print
+    print("you too young")
+else:
+    print("good")
