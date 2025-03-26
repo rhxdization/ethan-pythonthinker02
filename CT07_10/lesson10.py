@@ -42,3 +42,4 @@
 
 def Whatsappme(num):
     print("Whatsapp me at https://wa.me/" + str(num))
+Whatsappme(88965112)
