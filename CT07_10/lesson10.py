@@ -8,4 +8,5 @@ t.shape = "turtle"
 t.fillcolor = "orange"
 t.seth(0)
 for i in range(4):
-    t.forward()
+    t.forward(100)
+    t.right(90)
