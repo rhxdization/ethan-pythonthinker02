@@ -12,9 +12,11 @@
 #         t.forward(100)
 #         t.right(72)
 
-def alert():
-    print("MOTION DETECTED!!!!! ⚠️")
+# def alert():
+#     print("MOTION DETECTED!!!!! ⚠️")
 
-alert()
-alert()
-alert()
+# alert()
+# alert()
+# alert()
+
+import turtle
