@@ -46,7 +46,8 @@ m = []
 def Whatsappme(num):
     for i in range(num):
         randnum = random.randint(80000000,99999999)
-        if randnum in 
+        while randnum in m:
+            randnum = random.randint(80000000,99999999)
         m.append(randnum)
         print("Whatsapp me at https://wa.me/65" + str(randnum))
 Whatsappme(100)
