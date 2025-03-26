@@ -44,5 +44,6 @@ import random
 
 def Whatsappme(num):
     for i in range(100):
-        print("Whatsapp me at https://wa.me/65" + str(num))
+        randnum = random.randint(80000000,9)
+        print("Whatsapp me at https://wa.me/65" + str(randnum))
 Whatsappme(88965112)
