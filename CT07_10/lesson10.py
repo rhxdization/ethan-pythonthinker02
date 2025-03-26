@@ -34,8 +34,9 @@
 
 # multiply(3,5)
 
-def isElderly(age):
-    if age >= 65:
-        return True
-if isElderly(65):
-    print("your old")
+# def isElderly(age):
+#     if age >= 65:
+#         return True
+# if isElderly(65):
+#     print("your old")
+
