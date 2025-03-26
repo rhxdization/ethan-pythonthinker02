@@ -13,4 +13,5 @@
 #         t.right(72)
 
 def alert():
-    print("MOTION DETECTED!!!!! ")
+    print("MOTION DETECTED!!!!! ⚠️")
+alert()
