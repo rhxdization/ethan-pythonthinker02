@@ -36,3 +36,5 @@
 
 def isElderly(age):
     v = int(input("age? "))
+    if v >= 65:
+        
