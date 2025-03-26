@@ -35,9 +35,8 @@
 # multiply(3,5)
 
 def isElderly(age):
-    v = int(input("age? "))
-    if v >= 65:
-        v = True
+    if age >= 65:
+        age = True
     else:
-        v = False
+        age = False
     return v
