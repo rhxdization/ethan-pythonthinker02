@@ -56,4 +56,7 @@ board = initboard()
 printboard(board)
 
 def get_player_move():
-    move = input
+    move = int(input("pick a number from 1-9: "))
+    while move > 9 or not(move.isnumeric()):
+        
+
