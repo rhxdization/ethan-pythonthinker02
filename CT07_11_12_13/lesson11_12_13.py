@@ -61,6 +61,9 @@ def get_player_move():
         move = input("pick a number from 1-9: ")
         if move.isnumeric():
             move = int(move)
+            move -= 1
+            row = move // 3
+            col = move 
             if move > 9 or move < 1:
                 print("your input sucks ngl get better lmaoooooo")
             else:
