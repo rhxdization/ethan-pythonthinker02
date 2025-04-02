@@ -70,5 +70,4 @@ def get_player_move():
         move = input("pick a number from 1-9: ")
     print("finally bro actually put an actual number 😭🙏")
 get_player_move()
-print(move)
 
