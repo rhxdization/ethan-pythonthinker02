@@ -52,7 +52,6 @@ def printboard():
                 print(f"| {count} ", end="")
             count += 1
 
-board = initboard()
 
 
 def get_player_move():
