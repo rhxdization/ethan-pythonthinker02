@@ -41,8 +41,8 @@ def initboard():
 
 board = initboard()
 
-count = 1
 def printboard(argboard):
+    count = 1
     for row in board:
         for col in row:
             if count % 3 == 0:
