@@ -51,5 +51,6 @@ def printboard(argboard):
             else:
                 print(f"| {count} ", end="")
             count += 1
+
 board = initboard()
 printboard(board)
