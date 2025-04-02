@@ -46,6 +46,7 @@ for row in board:
     for col in row:
         if count % 3 == 0:
             print(f"| {count} |", end="\n")
+            print(_)
         else:
             print(f"| {count} ", end="")
         count += 1
