@@ -49,5 +49,4 @@ for row in board:
             print("-"*13)
         else:
             print(f"| {count} ", end="")
-        
         count += 1
