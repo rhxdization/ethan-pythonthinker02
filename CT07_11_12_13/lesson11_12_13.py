@@ -17,3 +17,10 @@
 #     print("Correct!")
 # else:
 #     print("Incorrect.")
+
+import random
+
+def diceguess(guess):
+    a = random.randint(1,6)
+    if a == guess:
+        return True
