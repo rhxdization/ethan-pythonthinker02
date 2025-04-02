@@ -62,7 +62,7 @@ def get_player_move():
         if move.isnumeric():
             move = int(move)
             if move > 9 or move < 1:
-                print("your input is bad")
+                print("your input sucks ngl get better lmaoooooo")
             else:
                 break
         else:
