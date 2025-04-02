@@ -18,14 +18,15 @@
 # else:
 #     print("Incorrect.")
 
-import random
+# import random
 
-def diceguess(guess):
-    a = random.randint(1,6)
-    if a == guess:
-        return True
+# def diceguess(guess):
+#     a = random.randint(1,6)
+#     if a == guess:
+#         return True
     
-if diceguess(4):
-    print("✅")
-else:
-    print("❌")
+# if diceguess(4):
+#     print("✅")
+# else:
+#     print("❌")
+
