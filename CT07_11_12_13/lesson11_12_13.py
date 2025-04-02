@@ -40,3 +40,8 @@ def initboard():
     return board
 
 board = initboard()
+
+count = 1
+for row in board:
+    for col in row:
+        print(f"")
