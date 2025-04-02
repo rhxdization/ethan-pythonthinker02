@@ -25,4 +25,7 @@ def diceguess(guess):
     if a == guess:
         return True
     
-if diceguess(4)
+if diceguess(4):
+    print("✅")
+else:
+    print("")
