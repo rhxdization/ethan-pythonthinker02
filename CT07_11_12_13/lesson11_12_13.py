@@ -55,3 +55,5 @@ def printboard(argboard):
 board = initboard()
 printboard(board)
 
+def get_player_move():
+    move = input
