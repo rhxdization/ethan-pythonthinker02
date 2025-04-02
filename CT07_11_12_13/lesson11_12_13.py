@@ -44,6 +44,8 @@ board = initboard()
 count = 1
 for row in board:
     for col in row:
-        if count 
+        if count % 3 == 0:
+            print(f"| {count} ", end="\n")
+        else:
             print(f"| {count} ", end="")
         count += 1
