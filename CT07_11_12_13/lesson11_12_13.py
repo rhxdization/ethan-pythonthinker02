@@ -63,8 +63,8 @@ def get_player_move():
             move = int(move)
             if move > 9 or move < 1:
                 print("your input is bad")
-        else:
-            break
+            else:
+                break
         move = input("pick a number from 1-9: ")
 get_player_move()
 print(move)
