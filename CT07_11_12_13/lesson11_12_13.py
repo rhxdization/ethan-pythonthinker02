@@ -57,7 +57,8 @@ printboard(board)
 
 def get_player_move():
     global move
-    move =  input("pick a number from 1-9: ")
+    move = input("pick a number from 1-9: ")
+    move = move.upper()
     while True:
         if move > 9 or move < 1 or move is not(move.isnumeric()):
             print("your input is bad")
