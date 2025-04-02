@@ -28,4 +28,4 @@ def diceguess(guess):
 if diceguess(4):
     print("✅")
 else:
-    print("")
+    print("❌")
