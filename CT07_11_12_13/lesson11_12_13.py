@@ -51,7 +51,7 @@ def printboard():
             else:
                 print(f"| {count} ", end="")
             count += 1
-printboard()
+            
 board = printboard()
 
 def get_player_move():
