@@ -52,7 +52,7 @@ def printboard():
                 print(f"| {count} ", end="")
             count += 1
 
-
+board = printboard()
 
 def get_player_move():
     global move
