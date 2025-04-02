@@ -41,7 +41,7 @@ def initboard():
 
 board = initboard()
 
-def printboard(argboard):
+def printboard():
     count = 1
     for row in board:
         for col in row:
@@ -53,7 +53,7 @@ def printboard(argboard):
             count += 1
 
 board = initboard()
-printboard(board)
+
 
 def get_player_move():
     global move
