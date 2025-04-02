@@ -68,7 +68,7 @@ def get_player_move():
         else:
             print("your input sucks ngl get better lmaoooooo")
         move = input("pick a number from 1-9: ")
-    print("finally bro actually put an actual number 😭")
+    print("finally bro actually put an actual number 😭🙏")
 get_player_move()
 print(move)
 
