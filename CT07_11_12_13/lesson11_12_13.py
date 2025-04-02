@@ -24,3 +24,5 @@ def diceguess(guess):
     a = random.randint(1,6)
     if a == guess:
         return True
+    
+if diceguess(4)
