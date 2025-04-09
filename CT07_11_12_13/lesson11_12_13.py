@@ -39,7 +39,7 @@ def initboard():
         board.append(row)
     return board
 
-board = initboard()
+
 
 def printboard():
     count = 1
@@ -80,8 +80,10 @@ def get_player_move(board):
         # print("finally bro actually put an actual number 😭🙏")
     return board
 
+board = initboard()
 
-board = printboard()
+while True:
+    board = printboard()
 
 
 get_player_move()
