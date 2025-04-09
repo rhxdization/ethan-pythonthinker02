@@ -69,6 +69,7 @@ def get_player_move():
             else:
                 if board[row][col] == " ":
                     board[row][col] == "X"
+                    break
                 else:
                     print(f"nevemind {move} is already taken your input sucks still")
         else:
