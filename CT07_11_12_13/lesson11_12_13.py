@@ -64,13 +64,13 @@ def get_player_move():
             move -= 1
             row = move // 3
             col = move % 3
-            print(f"row = {row}, col = {col}")
             if move > 9 or move < 1:
                 print("your input sucks ngl get better lmaoooooo")
             else:
                 break
         else:
             print("your input sucks ngl get better lmaoooooo")
+    print(f"row = {row}, col = {col}")
     print("finally bro actually put an actual number 😭🙏")
 
 get_player_move()
