@@ -30,7 +30,7 @@
 # else:
 #     print("❌")
 
-board = []
+# board = []
 def initboard():
     for i in range(3):
         row = []
