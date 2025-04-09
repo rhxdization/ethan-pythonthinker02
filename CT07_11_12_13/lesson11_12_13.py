@@ -74,6 +74,7 @@ def get_player_move():
     print(f"row = {row}, col = {col}")
     print("finally bro actually put an actual number 😭🙏")
     if board[row][col] == " ":
-        
+        board[row][col] == "X"
+    
 get_player_move()
 
