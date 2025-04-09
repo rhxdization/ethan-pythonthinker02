@@ -49,7 +49,11 @@ def printboard():
                 print(f"| {count} |", end="\n")
                 print("-"*13)
             else:
-                print(f"| {count} ", end="")
+                # if this cell is empty
+                if col == " ":
+                    print(f"| {count} ", end="")
+                else:
+                    print(f"| {col} ", end="")
             count += 1
 
 def get_player_move(board):
@@ -75,6 +79,7 @@ def get_player_move(board):
         # print(f"row = {row}, col = {col}")
         # print("finally bro actually put an actual number 😭🙏")
     return board
+
 
 board = printboard()
 
