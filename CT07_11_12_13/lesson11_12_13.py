@@ -51,10 +51,8 @@ def printboard():
             else:
                 print(f"| {count} ", end="")
             count += 1
-            
-board = printboard()
 
-def get_player_move():
+def get_player_move(argboard):
     global move
    
     while True:
@@ -67,8 +65,8 @@ def get_player_move():
             if move > 9 or move < 0:
                 print("your input sucks ngl get better lmaoooooo")
             else:
-                if board[row][col] == " ":
-                    board[row][col] == "X"
+                if argboard[row][col] == " ":
+                    argboard[row][col] == "X"
                     break
                 else:
                     print(f"nevemind {move} is already taken your input sucks still")
@@ -76,6 +74,10 @@ def get_player_move():
             print("your input sucks ngl get better lmaoooooo")
         # print(f"row = {row}, col = {col}")
         # print("finally bro actually put an actual number 😭🙏")
+    return argboard
+
+board = printboard()
+
 
 get_player_move()
 
