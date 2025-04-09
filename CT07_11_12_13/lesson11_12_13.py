@@ -72,10 +72,6 @@ def get_player_move():
             print("your input sucks ngl get better lmaoooooo")
         print(f"row = {row}, col = {col}")
         print("finally bro actually put an actual number 😭🙏")
-        if board[row][col] == " ":
-           board[row][col] == "X"
-        else:
-           print(f"nevemind {move} is already taken your input sucks still")
 
 get_player_move()
 
