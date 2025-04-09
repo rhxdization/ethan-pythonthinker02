@@ -65,8 +65,8 @@ def get_player_move(argboard):
             if move > 9 or move < 0:
                 print("your input sucks ngl get better lmaoooooo")
             else:
-                if argboard[row][col] == " ":
-                    argboard[row][col] == "X"
+                if board[row][col] == " ":
+                    board[row][col] == "X"
                     break
                 else:
                     print(f"nevemind {move} is already taken your input sucks still")
@@ -74,7 +74,7 @@ def get_player_move(argboard):
             print("your input sucks ngl get better lmaoooooo")
         # print(f"row = {row}, col = {col}")
         # print("finally bro actually put an actual number 😭🙏")
-    return argboard
+    return board
 
 board = printboard()
 
