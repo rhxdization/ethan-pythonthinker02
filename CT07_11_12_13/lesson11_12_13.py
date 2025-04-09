@@ -70,7 +70,7 @@ def get_player_move():
                 if board[row][col] == " ":
                     board[row][col] == "X"
                 else:
-                     rint(f"nevemind {move} is already taken your input sucks still")
+                    print(f"nevemind {move} is already taken your input sucks still")
         else:
             print("your input sucks ngl get better lmaoooooo")
         print(f"row = {row}, col = {col}")
