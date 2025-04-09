@@ -64,7 +64,7 @@ def get_player_move():
             move -= 1
             row = move // 3
             col = move % 3
-            if move > 9 or move < 1:
+            if move > 9 or move > 0:
                 print("your input sucks ngl get better lmaoooooo")
             else:
                 break
