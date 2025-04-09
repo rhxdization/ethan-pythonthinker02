@@ -74,8 +74,8 @@ def get_player_move():
                     print(f"nevemind {move} is already taken your input sucks still")
         else:
             print("your input sucks ngl get better lmaoooooo")
-        print(f"row = {row}, col = {col}")
-        print("finally bro actually put an actual number 😭🙏")
+        # print(f"row = {row}, col = {col}")
+        # print("finally bro actually put an actual number 😭🙏")
 
 get_player_move()
 
