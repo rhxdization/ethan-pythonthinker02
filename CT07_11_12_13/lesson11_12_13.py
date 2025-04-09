@@ -42,6 +42,7 @@ def initboard():
 
 
 def printboard():
+    global board
     count = 1
     for row in board:
         for col in row:
