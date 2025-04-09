@@ -83,6 +83,6 @@ def get_player_move(argboard):
 board = initboard()
 
 while True:
-    board = printboard()
+    printboard()
     board = get_player_move(board)
 
