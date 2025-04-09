@@ -67,7 +67,10 @@ def get_player_move():
             if move > 9 or move > 0:
                 print("your input sucks ngl get better lmaoooooo")
             else:
-                break
+                if board[row][col] == " ":
+                    board[row][col] == "X"
+                else:
+                     rint(f"nevemind {move} is already taken your input sucks still")
         else:
             print("your input sucks ngl get better lmaoooooo")
         print(f"row = {row}, col = {col}")
