@@ -45,7 +45,7 @@ def initboard():
 def printboard(argboard):
     # global board
     count = 1
-    for row in board:
+    for row in argboard:
         for col in row:
             if count % 3 == 0:
                 print(f"| {count} |", end="\n")
@@ -85,6 +85,6 @@ def get_player_move(argboard):
 board = initboard()
 
 while True:
-    printboard()
+    printboard(board)
     board = get_player_move(board)
 
