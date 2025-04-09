@@ -70,7 +70,7 @@ def get_player_move():
                 break
         else:
             print("your input sucks ngl get better lmaoooooo")
-            
+
     print(f"row = {row}, col = {col}")
     print("finally bro actually put an actual number 😭🙏")
 
