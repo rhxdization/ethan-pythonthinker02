@@ -76,6 +76,6 @@ def get_player_move():
     if board[row][col] == " ":
         board[row][col] == "X"
     else:
-        print(f"")
+        print(f"{move}")
 get_player_move()
 
