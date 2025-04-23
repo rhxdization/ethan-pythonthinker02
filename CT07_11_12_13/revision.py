@@ -160,12 +160,13 @@ hourly_temps = [26.4, 25.9, 25.1, 24.6, 24.2, 23.8, 24.5, 25.6,
 max = 0
 min = 40
 count = 1
+maxtime = 0
+mintime = 0
 for i in hourly_temps:
     if max < i:
         max = i
     if min > i:
         min = i
-    count += 1
 print(f"highest tempreature at {count}:00 hours is {max} degrees celsius")
 print(f"lowest tempreature at {count}:00 hours is {min} degrees celsius")
 
