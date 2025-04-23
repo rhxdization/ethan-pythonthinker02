@@ -65,6 +65,8 @@ print(f"the total amount of numbers is {count}")
 ####################################################
 # 1g. find the average of all the numbers
 
+total = 0
+
 ######################################################
 # Question 2:
 # The school's swimming coach has recorded the 50m freestyle 
