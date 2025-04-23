@@ -99,11 +99,11 @@ for i in swim_times:
 for i in swim_times:
     if i > fast:
         fast = i
-        slowlane = count
+        fastlane = count
     count+=1
 
     print(slow)
-print(f"the slowest swimmer is lane {slowlane+1} at a time of {slow}")
+print(f"the slowest swimmer is lane {fastlane+1} at a time of {slow}")
 
 
 
