@@ -43,7 +43,8 @@ print(f"the highest number is {maxnum}")
 min = 0
 for i in list1:
     if i > min:
-        min 
+        min = i
+print(f"the smallest number is {min}")
 
 ####################################################
 # 1e. find the sum of all the numbers
