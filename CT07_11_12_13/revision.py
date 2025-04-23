@@ -94,7 +94,7 @@ count = 0
 for i in swim_times:
     if i > fast:
         fast = i
-        
+    count+=1
 
     print(fast)
 print(f"the fastest swimmer is lane {index} at a time of {fast}")
