@@ -71,7 +71,7 @@ for i in list1:
     total+=i
     count+=1
 avg = total/count
-p
+print(f"average of all numbers is {avg}")
 
 ######################################################
 # Question 2:
