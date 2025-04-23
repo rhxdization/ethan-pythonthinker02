@@ -52,7 +52,7 @@ print(f"the smallest number is {min}")
 total = 0
 for i in list1:
     total+=i
-print(f"the total is ")
+print(f"the total is {total}")
 
 ####################################################
 # 1f. find the count of items in the list
