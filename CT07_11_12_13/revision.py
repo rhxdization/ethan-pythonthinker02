@@ -33,8 +33,7 @@ print(f"The smallest number is {minnum}")
 # Answer for Question 1c here
 
 for i in list1:
-    num = i
-    if num > list1[(i+1)]:
+    if i > list1[(i+1)]:
         num = list1[(i+1)]
 print(f"the highest number is {num}")
 
