@@ -41,6 +41,7 @@ print(f"the highest number is {maxnum}")
 # Answer for Question 1d here
 
 
+
 ####################################################
 # 1e. find the sum of all the numbers
 
