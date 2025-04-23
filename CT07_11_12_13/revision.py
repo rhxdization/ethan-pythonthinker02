@@ -34,7 +34,8 @@ print(f"The smallest number is {minnum}")
 
 for i in list1:
     num = i
-    
+    if num > list1(i+1):
+        
 
 ####################################################
 # Answer for Question 1d here
