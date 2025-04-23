@@ -103,7 +103,7 @@ for i in swim_times:
     count+=1
 
     print(slow)
-print(f"the slowest swimmer is lane {fastlane+1} at a time of {slow}")
+print(f"the fastest swimmer is lane {fastlane+1} at a time of {fast}")
 
 
 
