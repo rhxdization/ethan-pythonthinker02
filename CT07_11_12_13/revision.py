@@ -163,6 +163,8 @@ count = 1
 for i in hourly_temps:
     if max < i:
         max = i
+    if min > i:
+        min = i
 
 
 
