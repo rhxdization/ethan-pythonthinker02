@@ -60,6 +60,7 @@ print(f"the total is {total}")
 count = 0
 for i in list1:
     count+=1
+print(f"the total amount of numbers is {count}")
 
 ####################################################
 # 1g. find the average of all the numbers
