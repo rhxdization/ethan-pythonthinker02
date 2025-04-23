@@ -33,6 +33,7 @@ print(f"The smallest number is {minnum}")
 # Answer for Question 1c here
 
 
+
 ####################################################
 # Answer for Question 1d here
 
