@@ -31,42 +31,21 @@ print(f"The smallest number is {minnum}")
 
 ####################################################
 # Answer for Question 1c here
-maxnum2 = list1[0]
-for i in list1:
-    if i > maxnum2:
-        maxnum2 = i
-print(f"The biggest number is {maxnum2}")
+
 
 ####################################################
 # Answer for Question 1d here
-minnum2 = list1[0]
-for i in list1:
-    if i < minnum2:
-        minnum2 = i
-print(f"The smallest number is {minnum2}")
+
 
 ####################################################
 # 1e. find the sum of all the numbers
-sumnum = 0
-for i in list1:
-    sumnum = sumnum + i
 
-print(f"The sum of all the numbers is {sumnum}")
 
 ####################################################
 # 1f. find the count of items in the list
-count = 0
-for i in list1:
-    count = count + 1
-
-print(f"The count of all the numbers is {count}")
 
 ####################################################
 # 1g. find the average of all the numbers
-average = sumnum / count # OR
-average = sumnum / len(list1)
-
-print(f"The average of all the numbers is {average}")
 
 ######################################################
 # Question 2:
@@ -81,7 +60,6 @@ swim_times = [32.5, 30.1, 33.8, 29.6, 31.2, 34.0, 28.9,
               30.4, 32.1, 27.5, 35.6, 31.8, 29.2, 33.0, 30.5]
 # Answer for Question 2 here
 
-fast = min(swim_times)
 
 
 
