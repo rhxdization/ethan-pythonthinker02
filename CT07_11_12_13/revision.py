@@ -167,7 +167,7 @@ for i in hourly_temps:
         min = i
     count += 1
 print(f"highest tempreature at {count}:00 hours is {max} degrees celsius")
-print(f"highest tempreature at {count}:00 hours is {max} degrees celsius")
+print(f"lowest tempreature at {count}:00 hours is {min} degrees celsius")
 
 
 
