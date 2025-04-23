@@ -69,6 +69,8 @@ count = 0
 total = 0
 for i in list1:
     total+=i
+    count+=1
+avg =
 
 ######################################################
 # Question 2:
