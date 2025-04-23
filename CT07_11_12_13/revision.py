@@ -127,7 +127,7 @@ daily_sales = [120, 98, 135, 105, 150, 112, 80, 130, 95, 110,
 # Answer for Question 4 here
 
 x = 0
-y = 0
+y = 500
 count = 0
 total = 0
 for i in daily_sales:
@@ -135,6 +135,8 @@ for i in daily_sales:
     count+=1
     if x < i:
         x = i
+    if y > i:
+        y = i
 avg = round((total/count),2)
 print(f"highest sales is {x}")
 print(f"total sold is {total}")
