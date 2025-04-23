@@ -104,7 +104,7 @@ for i in swim_times:
 
     print(slow)
 print(f"the fastest swimmer is lane {fastlane+1} at a time of {fast}")
-print(f"the slowest swimmer is lane {slowlane+1} at a time of {fast}")
+print(f"the slowest swimmer is lane {slowlane+1} at a time of {slow}")
 
 
 
