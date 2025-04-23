@@ -32,7 +32,8 @@ print(f"The smallest number is {minnum}")
 ####################################################
 # Answer for Question 1c here
 
-
+for i in list1:
+    num =
 
 ####################################################
 # Answer for Question 1d here
