@@ -8,6 +8,8 @@
 # nested list
 
 def initboard():
+    global row
+    global board
     board = []
 
     # outer loop
@@ -36,6 +38,7 @@ def printboard(argboard):
 
 #### let the player choose a move
 def get_player_move(argboard, currentplayer):
+    global cell
     while True:
         # asking player to enter a number 1 - 9
         move = input(f"Player {currentplayer}, Enter a number from 1 - 9: ")
@@ -50,7 +53,8 @@ def get_player_move(argboard, currentplayer):
                 print(f"row = {row}, col = {col}")
 
                 # check if this particular cell is empty
-                if argboard[row][col] == " ":
+                cell = argboard[row][col]
+                if cell == " ":
                     argboard[row][col] = currentplayer#"X"
                     break
                 else:
@@ -58,9 +62,9 @@ def get_player_move(argboard, currentplayer):
 
                 # pass # i will write some code later
             else:
-                print("Eh, must be between 1 to 9 leh.")
+                print("psl enter number")
         else:
-            print("Eh, you must enter number lah.")
+            print("pls enter number")
     return argboard # the move has been made, return the board
 
 # another function for get current player
@@ -94,6 +98,15 @@ def checkwin(argboard):
             return True
     return False
 
+def boardfull(board):
+    if board in row:
+        if row in cell:
+            if cell == ' ':
+                return False
+            else:
+                return True
+
+
 
 # main game code
 board = initboard()
@@ -113,4 +126,9 @@ while True:
         print("*"*20)
         printboard(board)
         break
-
+    if not(checkwin(board)) and boardfull(board):
+        print("*"*20)
+        print("Tie")
+        print("*"*20)
+        printboard(board)
+        break
