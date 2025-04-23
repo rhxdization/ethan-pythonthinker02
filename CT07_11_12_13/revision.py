@@ -136,7 +136,7 @@ for i in daily_sales:
     if x < i:
         x = i
 avg = round((total/count),2)
-print("high")
+print(f"highest sales is {x}")
 print(f"total sold is {total}")
 print(f"average is {avg}")
 
