@@ -131,7 +131,8 @@ total = 0
 for i in daily_sales:
     total+=i
     count+=1
-prin##################################################################
+avg = total/count
+
 # Question 5: 
 # Hourly temperature measurements (°C) for a specific day are given below. 
 # Write Python code to determine the highest and lowest temperatures, 
