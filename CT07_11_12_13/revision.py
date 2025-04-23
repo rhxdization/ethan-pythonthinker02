@@ -70,7 +70,8 @@ total = 0
 for i in list1:
     total+=i
     count+=1
-avg =
+avg = total/count
+p
 
 ######################################################
 # Question 2:
