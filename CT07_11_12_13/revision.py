@@ -131,9 +131,9 @@ total = 0
 for i in daily_sales:
     total+=i
     count+=1
-avg = round((total/count),2)
+avg = round((total/count),3)
 print(f"total sold is {total}")
-print(f"")
+print(f"average is  {avg}")
 
 # Question 5: 
 # Hourly temperature measurements (°C) for a specific day are given below. 
