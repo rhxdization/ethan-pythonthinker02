@@ -126,8 +126,8 @@ daily_sales = [120, 98, 135, 105, 150, 112, 80, 130, 95, 110,
                132, 108, 75, 88, 142, 115, 97, 121, 89, 100]
 # Answer for Question 4 here
 
-min = 0
-max = 0
+minnum = 0
+maxnum = 0
 count = 0
 total = 0
 for i in daily_sales:
