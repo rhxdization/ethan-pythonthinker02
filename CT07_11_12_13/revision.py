@@ -126,16 +126,12 @@ daily_sales = [120, 98, 135, 105, 150, 112, 80, 130, 95, 110,
                132, 108, 75, 88, 142, 115, 97, 121, 89, 100]
 # Answer for Question 4 here
 
+count = 0
 total = 0
 for i in daily_sales:
     total+=i
     count+=1
-
-
-
-
-
-##################################################################
+prin##################################################################
 # Question 5: 
 # Hourly temperature measurements (°C) for a specific day are given below. 
 # Write Python code to determine the highest and lowest temperatures, 
