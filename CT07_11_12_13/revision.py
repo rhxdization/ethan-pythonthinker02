@@ -36,7 +36,7 @@ for i in list1:
     num = i
     if num > list1(i+1):
         num = list1(i+1)
-print(f"hight")
+print(f"")
 
 ####################################################
 # Answer for Question 1d here
