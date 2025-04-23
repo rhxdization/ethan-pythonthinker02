@@ -57,6 +57,9 @@ print(f"the total is {total}")
 ####################################################
 # 1f. find the count of items in the list
 
+count = 0
+for i in list1:
+    count+=1
 
 ####################################################
 # 1g. find the average of all the numbers
