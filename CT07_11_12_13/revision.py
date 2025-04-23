@@ -134,7 +134,7 @@ for i in daily_sales:
     total+=i
     count+=1
     if x < i:
-        i
+        x = i
 avg = round((total/count),2)
 print(f"total sold is {total}")
 print(f"average is {avg}")
