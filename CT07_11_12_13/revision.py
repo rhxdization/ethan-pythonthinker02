@@ -161,7 +161,8 @@ max = 0
 min = 40
 count = 1
 for i in hourly_temps:
-    max
+    if max < i:
+        max = i
 
 
 
