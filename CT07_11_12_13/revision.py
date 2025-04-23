@@ -89,9 +89,12 @@ swim_times = [32.5, 30.1, 33.8, 29.6, 31.2, 34.0, 28.9,
 fast = 0
 slow = 0
 count = 0
+fastlane = 0
+slowlane = 0
 for i in swim_times:
     if i > fast:
         fast = i
+        
     print(fast)
 print(f"the fastest swimmer is lane {index} at a time of {fast}")
 
