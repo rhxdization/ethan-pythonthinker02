@@ -129,6 +129,7 @@ daily_sales = [120, 98, 135, 105, 150, 112, 80, 130, 95, 110,
 total = 0
 for i in daily_sales:
     total+=i
+    count+=1
 
 
 
