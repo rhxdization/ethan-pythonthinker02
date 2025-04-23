@@ -49,6 +49,9 @@ print(f"the smallest number is {min}")
 ####################################################
 # 1e. find the sum of all the numbers
 
+total = 0
+for i in list1:
+    
 
 ####################################################
 # 1f. find the count of items in the list
