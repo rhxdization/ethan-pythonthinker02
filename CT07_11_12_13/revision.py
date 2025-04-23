@@ -94,6 +94,7 @@ count = 0
 for i in swim_times:
     if i > fast:
         fast = i
+        
     count+=1
 
     print(fast)
