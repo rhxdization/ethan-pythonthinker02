@@ -91,7 +91,7 @@ slow = 0
 for i in swim_times:
     if i < fast:
         fast = i
-    # index = swim_times.index(fast)
+    
 print(f"the fastest swimmer is lane {index} at a time of {fast}")
 
 
