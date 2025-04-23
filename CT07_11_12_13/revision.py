@@ -170,8 +170,8 @@ for i in hourly_temps:
         min = i
         mintime = count
     count += 1
-print(f"highest tempreature at {count}:00 hours is {max} degrees celsius")
-print(f"lowest tempreature at {count}:00 hours is {min} degrees celsius")
+print(f"highest tempreature at {maxtime}:00 hours is {max} degrees celsius")
+print(f"lowest tempreature at {mintime}:00 hours is {min} degrees celsius")
 
 
 
