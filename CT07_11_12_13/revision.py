@@ -92,7 +92,7 @@ slowlane = 0
 fastlane = 0
 count = 0
 for i in swim_times:
-    if i < slow:
+    if i > slow:
         slow = i
         slowlane = count
     count+=1
