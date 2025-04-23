@@ -152,12 +152,16 @@ print(f"average is {avg}")
 
 # Find the average temperature for this day.
 ##################################################################
-hourly_temperatures = [26.4, 25.9, 25.1, 24.6, 24.2, 23.8, 24.5, 25.6, 
+hourly_temps = [26.4, 25.9, 25.1, 24.6, 24.2, 23.8, 24.5, 25.6, 
                        27.3, 29.0, 30.5, 31.2, 32.0, 33.1, 32.8, 31.6,
                        30.8, 29.4, 28.1, 27.5, 27.0, 26.8, 26.0, 25.7]
 # Answer for Question 5 here
 
 max = 0
+min = 40
+count = 1
+for i in hourly_temps:
+    max
 
 
 
