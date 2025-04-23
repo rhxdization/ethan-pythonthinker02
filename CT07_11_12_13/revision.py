@@ -88,6 +88,7 @@ swim_times = [32.5, 30.1, 33.8, 29.6, 31.2, 34.0, 28.9,
 
 fast = 0
 slow = 0
+count = 0
 for i in swim_times:
     if i < fast:
         fast = i
