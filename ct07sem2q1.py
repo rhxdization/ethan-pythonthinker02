@@ -41,6 +41,7 @@ for i in daily_sales:
     if i < min:
         min = i
         minday = counter
+# print out statistics
 
 
 
