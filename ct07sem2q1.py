@@ -44,7 +44,6 @@ for i in daily_sales:
         min = i
         minday = counter
         total += i
-    print(i)
     counter += 1
     total += i
 avg = round(total / counter,2)
