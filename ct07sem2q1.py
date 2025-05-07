@@ -77,7 +77,9 @@
 ##### Task 1: COMPLETE THIS FUNCTION TO CHECK ODD/ EVEN
 def is_even(num):
     if i % 2 == 0:
-        return 
+        return True
+    else:
+        return False
 
 
 # Example output:
