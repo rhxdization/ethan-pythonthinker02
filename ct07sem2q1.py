@@ -47,8 +47,8 @@ for i in daily_sales:
     avg = round(total / counter,2)
 
 # print out statistics
-print(f"{maxday} August has highest sales of ${max}")
-print(f"{minday} August has lowest sales of ${min}")
+print(f"{maxday} August has highest sales of ${max+1}")
+print(f"{minday} August has lowest sales of ${min+1}")
 print(f"Average daily sales for August is ${avg}")
 
 
