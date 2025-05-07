@@ -55,14 +55,12 @@ for chance in range(1, 7):
     for i in range(len(wordle)): # pulling out the index
 
         # i check if correct letter in same position, check dupe
-        if checkguess[i] == wordle[i] and checkguess[i] in checkdupe:
+        if checkguess[i] == wordle[i]:
             display_check = display_check + checkguess[i]
-            checkdupe.remove(checkguess[i])
         
         # i check if correct letter but wrong position, check dupe
-        elif checkguess[i] in wordle and checkguess[i] in checkdupe:
+        elif checkguess[i] in wordle:
             display_check = display_check + "?"
-            checkdupe.remove(checkguess[i])
 
         else:
             display_check = display_check + "#"
