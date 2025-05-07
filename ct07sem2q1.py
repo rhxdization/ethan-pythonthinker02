@@ -26,9 +26,12 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
                8903, 1008, 1530]
 # Write your code here.
 
+# Variables
 counter = 0
 max = 0
 min = 20000
+
+#
 
 
 
