@@ -34,7 +34,7 @@ min = 20000
 minday = 1
 avg = 0
 
-# for loop to check for most and least daily sales
+# for loop to check for most and least daily sales and average
 for i in daily_sales:
     if i > max:
         max = i
