@@ -31,11 +31,11 @@ counter = 1
 max = 0
 min = 20000
 
-# for loop to check for most daily sales
+# for loop to check for most and least daily sales
 for i in daily_sales:
     if i > max:
         max = i
-        
+    
 
 
 
