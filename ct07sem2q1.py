@@ -32,6 +32,7 @@ max = 0
 maxday = 1
 min = 20000
 minday = 1
+avg = 0
 
 # for loop to check for most and least daily sales
 for i in daily_sales:
@@ -45,6 +46,7 @@ for i in daily_sales:
 # print out statistics
 print(f"{maxday} August has highest sales of ${max}")
 print(f"{minday} August has lowest sales of ${min}")
+
 
 
 
