@@ -43,7 +43,7 @@ for i in daily_sales:
         minday = counter
 
 # print out statistics
-print(f"{maxday} ")
+print(f"{maxday} August has highest sales of {max}")
 
 
 
