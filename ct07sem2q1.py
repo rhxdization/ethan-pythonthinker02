@@ -31,7 +31,9 @@ counter = 0
 max = 0
 min = 20000
 
-# for loop to check for most 
+# for loop to check for most daily sales
+for i in daily_sales:
+    counter 
 
 
 
