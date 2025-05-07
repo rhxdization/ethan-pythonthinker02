@@ -45,11 +45,9 @@ with open("ListOf5LetterWords.csv","r") as fileobj:
     wordle = random.choice(wordlist).upper()
 
 # need to handle multiple letters
-# wordle = "ROSES"
-# print(wordle)
+
 for chance in range(1, 7):
     checkguess = getword(wordlist)
-    checkdupe = list(wordle) # change to list for dupe checking
     display_check = ""
 
     for i in range(len(wordle)): # pulling out the index
