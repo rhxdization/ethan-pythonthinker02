@@ -38,17 +38,17 @@ total = 0
 for i in daily_sales:
     if i > max:
         max = i
-        maxday = counter
+        maxday = counter+1
     if i < min:
         min = i
-        minday = counter
+        minday = counter+1
     counter += 1
     total += i
     avg = round(total / counter,2)
 
 # print out statistics
-print(f"{maxday} August has highest sales of ${max+1}")
-print(f"{minday} August has lowest sales of ${min+1}")
+print(f"{maxday} August has highest sales of ${max}")
+print(f"{minday} August has lowest sales of ${min}")
 print(f"Average daily sales for August is ${avg}")
 
 
