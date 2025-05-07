@@ -45,7 +45,7 @@ for i in daily_sales:
         minday = counter
         total += i
     total += i
-
+avg = total/counter
 # print out statistics
 print(f"{maxday} August has highest sales of ${max}")
 print(f"{minday} August has lowest sales of ${min}")
