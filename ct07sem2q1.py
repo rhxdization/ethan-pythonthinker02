@@ -42,8 +42,7 @@ for i in daily_sales:
     if i < min:
         min = i
         minday = counter
-    
-
+    total+=i
 
 # print out statistics
 print(f"{maxday} August has highest sales of ${max}")
