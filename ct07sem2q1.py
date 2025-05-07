@@ -33,7 +33,8 @@ min = 20000
 
 # for loop to check for most daily sales
 for i in daily_sales:
-    if daily_sales[i] > max:
+    if i > max:
+        max = i
         
 
 
