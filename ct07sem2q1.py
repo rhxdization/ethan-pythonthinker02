@@ -50,7 +50,7 @@ avg = round(total / counter,2)
 # print out statistics
 print(f"{maxday} August has highest sales of ${max}")
 print(f"{minday} August has lowest sales of ${min}")
-print()
+print(f"Average sales of August is ${avg}")
 
 
 
