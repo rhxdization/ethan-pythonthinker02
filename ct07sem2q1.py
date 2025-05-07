@@ -34,7 +34,7 @@ min = 20000
 minday = 1
 total = 0
 
-# for loop to check for most and least daily sales and average
+# for loop to check for most and least daily sales and average (2 d.p)
 for i in daily_sales:
     if i > max:
         max = i
@@ -50,7 +50,7 @@ avg = round(total / counter,2)
 # print out statistics
 print(f"{maxday} August has highest sales of ${max}")
 print(f"{minday} August has lowest sales of ${min}")
-
+print()
 
 
 
