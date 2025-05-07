@@ -35,7 +35,8 @@ min = 20000
 for i in daily_sales:
     if i > max:
         max = i
-    
+    if i < min:
+        min = i
 
 
 
