@@ -29,8 +29,9 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
 # Variables
 counter = 1
 max = 0
-maxday = 0
+maxday = 1
 min = 20000
+minday = 1
 
 # for loop to check for most and least daily sales
 for i in daily_sales:
