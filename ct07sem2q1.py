@@ -39,6 +39,7 @@ for i in daily_sales:
     if i > max:
         max = i
         maxday = counter
+        total+=i
     if i < min:
         min = i
         minday = counter
