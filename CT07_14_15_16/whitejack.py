@@ -33,6 +33,7 @@ def calculate(hand):
     for card in hand:
         cardvalue = values[card[1]]
         points += cardvalue
+        return points
 
 # function w 2 parameters (hand, typeofhand (banker_h, player_s)) to show hand
 def show_hand(hand, typeofhand):
