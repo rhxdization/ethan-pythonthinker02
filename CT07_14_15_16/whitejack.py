@@ -33,5 +33,6 @@ def show_hand(hand, typeofhand):
     if typeofhand == "player_s":
         for card in hand:
             print(f"{card[1]} {card[0]}")
+    
 
 show_hand(player_hand, "player_s")
