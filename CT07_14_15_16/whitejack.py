@@ -43,7 +43,7 @@ def show_hand(hand, typeofhand):
         print("😈" * 10)
     print("\n")
 
-# function to 
+# function to calculate
 
 show_hand(player_hand, "player_s")
 show_hand(player_hand, "banker_h")
