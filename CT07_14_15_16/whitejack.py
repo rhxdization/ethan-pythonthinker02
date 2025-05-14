@@ -92,3 +92,5 @@ while True:
                     break
                 elif calculate(banker_hand) == calculate(player_hand):
                     print("push")
+                    print("its a tie")
+                    break
