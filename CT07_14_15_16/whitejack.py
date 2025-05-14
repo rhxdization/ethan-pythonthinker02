@@ -1,14 +1,14 @@
 import random
 
-suits = ["♣ CLUB", "♦ DIAMOND","❤  HEART","♠ SPADE"]
-ranks = ['2','3','4','5','6','7','8','9','JACK','QUEEN','KING','ACE']
+suits = ["♣ Clubs", "♦ Diamonds","❤  Hearts","♠ Spades"]
+ranks = ['2','3','4','5','6','7','8','9','Jack','Queen','King','Ace']
 
 # Step 1: Create the deck of cards
 # Create a dictionary to store the value of each card rank
 # Cards 2–10 are worth their face value, J, Q, K are worth 10, 
 # and Ace can be 1 or 11
 values = {'2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9,
-'JACK':10, 'QUEEN':10,'KING':10, 'ACE':11}
+'Jack':10, 'Queen':10,'King':10, 'Ace':11}
 
 # variable to store your deck
 deck = []
@@ -35,6 +35,8 @@ def calculate(hand):
     for card in hand:
         cardvalue = values[card[1]]
         points += cardvalue
+        if card[1] == "Ace":
+            
 
 # function w 2 parameters (hand, typeofhand (banker_h, player_s)) to show hand
 def show_hand(hand, typeofhand):
