@@ -43,7 +43,7 @@ def show_hand(hand, typeofhand):
         for card in hand:
             print(f" {card[1]} {card[0]}")
             calculate(player_hand)
-        print(f("You have "))
+        print(f("You have {points}"))
         print("😀"*10)
     elif typeofhand == "banker_h":
         print("😈" * 10)
