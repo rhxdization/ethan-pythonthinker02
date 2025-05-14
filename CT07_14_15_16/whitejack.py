@@ -33,3 +33,5 @@ def show_hand(hand, typeofhand):
     if typeofhand == "player_s":
         for card in hand:
             print(card)
+
+show_hand(pla)
