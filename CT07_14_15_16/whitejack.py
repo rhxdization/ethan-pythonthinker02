@@ -31,7 +31,8 @@ player_hand = [deck.pop(), deck.pop()]
 # function w 1 parameter (hand) to calculate score of hand
 def calculate(hand):
     for card in hand:
-        cardvalue = values[card[0][1]]
+        cardvalue = values[card[1]]
+        
         print(cardvalue)
 
 # function w 2 parameters (hand, typeofhand (banker_h, player_s)) to show hand
