@@ -31,6 +31,7 @@ player_hand = [deck.pop(), deck.pop()]
 # function w 2 parameters (hand, typeofhand (banker_h, player_s))
 def show_hand(hand, typeofhand):
     if typeofhand == "player_s":
+        print()
         for card in hand:
             print(f" {card[1]} {card[0]}")
     elif typeofhand == "banker_h":
