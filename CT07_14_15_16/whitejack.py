@@ -87,4 +87,5 @@ while True:
                     print("You win!")
                     break
                 elif calculate(banker_hand) > calculate(player_hand):
-                    print("")
+                    print("imagine losing to the banker")
+                    print("you lose")
