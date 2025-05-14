@@ -111,5 +111,6 @@ while True:
                     print("You scored more points!")
                     print("You win!")
                     break
+                print(banker_hand)
                 time.sleep(1)
             break
