@@ -112,4 +112,4 @@ while True:
                     print("its a tie")
                     break
                 time.sleep(1)
-                break
+            break
