@@ -89,3 +89,6 @@ while True:
                 elif calculate(banker_hand) > calculate(player_hand):
                     print("imagine losing to the banker")
                     print("you lose")
+                    break
+                elif calculate(banker_hand) == calculate(player_hand):
+                    print("push")
