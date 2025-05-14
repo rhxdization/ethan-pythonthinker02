@@ -18,7 +18,8 @@ player_hand = []
 for suit in suits:
     for rank in ranks:
         deck.append([suit, rank])
-    
+
+# shuffle the deck
 for i in range(10):
     random.shuffle(deck)
 
