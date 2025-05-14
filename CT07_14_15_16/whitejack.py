@@ -43,7 +43,7 @@ def calculate(hand):
         count_aces -= 1
     return points
 
-# function w 2 parameters (hand, typeofhand (banker_h, player_s)) to show hand
+# function w 2 parameters (hand, typeofhand (banker_h, player_s, banker_s)) to show hand
 def show_hand(hand, typeofhand):
     if typeofhand == "player_s":
         print("😀"*10)
@@ -59,6 +59,7 @@ def show_hand(hand, typeofhand):
         print(f" {hand[0][1]} {hand[0][0]}\n {"? ? " * 3}")
         print("😈" * 10)
     print("\n")
+    eli
 
 # main game loop
 while True:
