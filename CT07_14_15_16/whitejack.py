@@ -70,4 +70,5 @@ while True:
         break
     else:
         action = input("1 to hit, 2 to check")
-        
+        if action == "1":
+            
