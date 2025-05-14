@@ -28,6 +28,6 @@ for i in range(10):
 banker_hand = [deck.pop(), deck.pop()]
 player_hand = [deck.pop(), deck.pop()]
 
-# function w 2 parameters ()
+# function w 2 parameters (hand, typeofhand)
 print(player_hand)
 print(banker_hand)
