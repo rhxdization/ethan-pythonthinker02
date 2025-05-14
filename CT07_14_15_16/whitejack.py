@@ -34,4 +34,4 @@ def show_hand(hand, typeofhand):
         for card in hand:
             print(card)
 
-show_hand(pla)
+show_hand(player_hand, player)
