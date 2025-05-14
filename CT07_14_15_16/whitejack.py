@@ -28,7 +28,10 @@ for i in range(10):
 banker_hand = [deck.pop(), deck.pop()]
 player_hand = [deck.pop(), deck.pop()]
 
-# function w 1 parameter (hand)
+# function w 1 parameter (hand) to calculate score of hand
+def calculate(hand):
+    for card in hand:
+        cardpoint
 
 # function w 2 parameters (hand, typeofhand (banker_h, player_s)) to show hand
 def show_hand(hand, typeofhand):
