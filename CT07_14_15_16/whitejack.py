@@ -84,6 +84,8 @@ while True:
             time.sleep(1)
             while calculate(banker_hand) <= 17:
                 banker_hand.append(deck.pop())
+                show_hand(player_hand, "player_s")
+                show_hand(player_hand, "banker_h")
                 time.sleep(1)
                 if calculate(banker_hand) > 21:
                     print("Banker busted!")
