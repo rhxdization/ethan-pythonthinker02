@@ -44,5 +44,3 @@ def show_hand(hand, typeofhand):
     print("\n")
 show_hand(player_hand, "player_s")
 show_hand(player_hand, "banker_h")
-
-# 
