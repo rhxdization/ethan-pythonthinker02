@@ -32,6 +32,6 @@ player_hand = [deck.pop(), deck.pop()]
 def show_hand(hand, typeofhand):
     if typeofhand == "player_s":
         for card in hand:
-            print(f"")
+            print(f"{card[0][0]}")
 
 show_hand(player_hand, "player_s")
