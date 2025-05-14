@@ -25,7 +25,7 @@ for i in range(10):
     random.shuffle(deck)
 
 # draw out a card
-card1 = deck.pop()
+banker_hand = [deck.pop(), deck.pop()]
 player_hand = [deck.pop(), deck.pop()]
 
 print(player_hand)
