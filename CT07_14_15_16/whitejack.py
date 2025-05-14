@@ -92,23 +92,23 @@ while True:
             while calculate(banker_hand) <= 17:
                 banker_hand.append(deck.pop())
                 show_hand(player_hand, "player_s")
-                show_hand(player_hand, "banker_h")
+                show_hand(player_hand, "banker_s")
                 time.sleep(1)
                 if calculate(banker_hand) > 21:
                     show_hand(player_hand, "player_s")
-                    show_hand(player_hand, "banker_h")
+                    show_hand(player_hand, "banker_s")
                     print("Banker busted!")
                     print("You win!")
                     break
                 elif calculate(banker_hand) > calculate(player_hand):
                     show_hand(player_hand, "player_s")
-                    show_hand(player_hand, "banker_h")
+                    show_hand(player_hand, "banker_s")
                     print("imagine losing to the banker")
                     print("you lose")
                     break
                 elif calculate(banker_hand) == calculate(player_hand):
                     show_hand(player_hand, "player_s")
-                    show_hand(player_hand, "banker_h")
+                    show_hand(player_hand, "banker_s")
                     print("push")
                     print("its a tie")
                     break
