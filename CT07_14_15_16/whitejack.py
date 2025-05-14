@@ -112,3 +112,4 @@ while True:
                     print("push")
                     print("its a tie")
                     break
+                break
