@@ -29,5 +29,4 @@ banker_hand = [deck.pop(), deck.pop()]
 player_hand = [deck.pop(), deck.pop()]
 
 # function w 2 parameters (hand, typeofhand (banker_hide, banker_show))
-print(player_hand)
-print(banker_hand)
+show_hand(hand)
