@@ -107,7 +107,7 @@ while True:
                     print("push")
                     print("its a tie")
                     break
-                elif calculate(banker_hand) > 21:
+                elif calculate(banker_hand) < calculate(player_hand):
                     print("Banker busted!")
                     print("You win!")
                     break
