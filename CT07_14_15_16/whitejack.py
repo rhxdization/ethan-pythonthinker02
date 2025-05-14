@@ -88,6 +88,7 @@ while True:
                 break
         elif action == "2":
             print("Banker is thinking...")
+            print("\n")
             time.sleep(1)
             while calculate(banker_hand) <= 17:
                 banker_hand.append(deck.pop())
