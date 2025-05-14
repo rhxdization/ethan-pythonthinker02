@@ -13,7 +13,7 @@ values = {'2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9,
 # variable to store your deck
 deck = []
 player_hand = []
-ba
+banker_hand = []
 
 # build the deck
 for suit in suits:
