@@ -70,7 +70,7 @@ def show_hand(hand, typeofhand):
 # main game loop
 while True:
     show_hand(player_hand, "player_s")
-    show_hand(player_hand, "banker_h")
+    show_hand(banker_hand, "banker_h")
 
     # check if player whitejack
     if calculate(player_hand) == 21:
