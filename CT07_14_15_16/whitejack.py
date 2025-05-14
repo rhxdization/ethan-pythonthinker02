@@ -81,7 +81,7 @@ while True:
             print("Banker is thinking...")
             time.sleep(1)
             while calculate(banker_hand) <= 17:
-                banker_hand.append
+                banker_hand.append(deck.pop())
                 if calculate(banker_hand) > 21:
                     print("Banker busted!")
                     print("You win!")
