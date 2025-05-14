@@ -32,12 +32,13 @@ player_hand = [deck.pop(), deck.pop()]
 def calculate(hand):
     global points
     points = 0
-    
+    count_aces = 0
     for card in hand:
         cardvalue = values[card[1]]
         points += cardvalue
         if card[1] == "Ace":
-            count_aces = 0
+            count_aces += 1
+            
 
 # function w 2 parameters (hand, typeofhand (banker_h, player_s)) to show hand
 def show_hand(hand, typeofhand):
