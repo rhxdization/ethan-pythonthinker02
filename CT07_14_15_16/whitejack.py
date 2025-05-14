@@ -72,5 +72,5 @@ while True:
         action = input("1 to hit, 2 to check. ")
         if action == "1":
             player_hand.append(deck.pop())
-            if points == 21:
+            if points > 21:
                 print("g")
