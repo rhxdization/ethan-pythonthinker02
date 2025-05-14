@@ -80,6 +80,9 @@ while True:
         elif action == "2":
             print("Banker is thinking...")
             time.sleep(1)
+            while calculate(banker_hand) <= 17:
+                banker_hand.append
             if calculate(banker_hand) > 21:
                 print("Banker busted!")
-                
+                print("You win!")
+                break
