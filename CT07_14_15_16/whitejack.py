@@ -75,3 +75,5 @@ while True:
             if points > 21:
                 print("imagine busting in the big 25")
                 print("you lose")
+                break
+        
