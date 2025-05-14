@@ -30,6 +30,7 @@ player_hand = [deck.pop(), deck.pop()]
 
 # function w 1 parameter (hand) to calculate score of hand
 def calculate(hand):
+    global points
     points = 0
     for card in hand:
         cardvalue = values[card[1]]
