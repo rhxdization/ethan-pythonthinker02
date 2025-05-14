@@ -38,7 +38,8 @@ def calculate(hand):
         points += cardvalue
         if card[1] == "Ace":
             count_aces += 1
-            
+    while points > 21 and count_aces > 0:
+        points 
 
 # function w 2 parameters (hand, typeofhand (banker_h, player_s)) to show hand
 def show_hand(hand, typeofhand):
