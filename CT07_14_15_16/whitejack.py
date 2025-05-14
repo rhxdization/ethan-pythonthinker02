@@ -88,6 +88,8 @@ while True:
                 show_hand(player_hand, "banker_h")
                 time.sleep(1)
                 if calculate(banker_hand) > 21:
+                    show_hand(player_hand, "player_s")
+                    show_hand(player_hand, "banker_h")
                     print("Banker busted!")
                     print("You win!")
                     break
