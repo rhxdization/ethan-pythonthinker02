@@ -73,9 +73,9 @@ while True:
         action = input("1 to hit, 2 to check. ")
         if action == "1":
             player_hand.append(deck.pop())
-            show_hand(player_hand, "player_s")
-            show_hand(player_hand, "banker_h")
             if calculate(player_hand) > 21:
+                show_hand(player_hand, "player_s")
+                show_hand(player_hand, "banker_h")
                 print("imagine busting in the big 25")
                 print("you lose")
                 break
