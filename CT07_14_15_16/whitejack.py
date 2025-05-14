@@ -81,4 +81,5 @@ while True:
             print("Banker is thinking...")
             time.sleep(1)
             if calculate(banker_hand) > 21:
-                print("Banker busted")
+                print("Banker busted!")
+                
