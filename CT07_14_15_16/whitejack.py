@@ -34,5 +34,5 @@ def show_hand(hand, typeofhand):
         for card in hand:
             print(f"{card[1]} {card[0]}")
     elif typeofhand == "banker_h":
-        print(f"{hand[1]}")
+        print(f"{hand[1]} {hand[0]}")
 show_hand(player_hand, "banker_h")
