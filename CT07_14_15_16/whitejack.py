@@ -31,7 +31,6 @@ player_hand = [deck.pop(), deck.pop()]
 
 # function w 1 parameter (hand) to calculate score of hand
 def calculate(hand):
-    global points
     points = 0
     count_aces = 0
     for card in hand:
@@ -42,6 +41,7 @@ def calculate(hand):
     while points > 21 and count_aces > 0:
         points -= 10
         count_aces -= 1
+    return points
 
 # function w 2 parameters (hand, typeofhand (banker_h, player_s)) to show hand
 def show_hand(hand, typeofhand):
@@ -51,7 +51,7 @@ def show_hand(hand, typeofhand):
         for card in hand:
             print(f" {card[1]} {card[0]}")
             calculate(player_hand)
-        print(f"You have {points} points")
+        print(f"You have {calculate(player_hand)} points")
         print("😀"*10)
     elif typeofhand == "banker_h":
         print("😈" * 10)
@@ -73,11 +73,12 @@ while True:
         action = input("1 to hit, 2 to check. ")
         if action == "1":
             player_hand.append(deck.pop())
-            if points > 21:
+            if calculate(player_hand) > 21:
                 print("imagine busting in the big 25")
                 print("you lose")
                 break
         elif action == "2":
             print("Banker is thinking...")
             time.sleep(1)
-            
+            if calculate(banker_hand) > 21:
+                print("Banker busted")
