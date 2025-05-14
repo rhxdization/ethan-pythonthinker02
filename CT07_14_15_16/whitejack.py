@@ -82,7 +82,7 @@ while True:
             time.sleep(1)
             while calculate(banker_hand) <= 17:
                 banker_hand.append
-            if calculate(banker_hand) > 21:
-                print("Banker busted!")
-                print("You win!")
-                break
+                if calculate(banker_hand) > 21:
+                    print("Banker busted!")
+                    print("You win!")
+                    break
