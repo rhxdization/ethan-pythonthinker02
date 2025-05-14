@@ -58,9 +58,15 @@ def show_hand(hand, typeofhand):
         print("Banker Hand")
         print(f" {hand[0][1]} {hand[0][0]}\n {"? ? " * 3}")
         print("😈" * 10)
-    print("\n")
-    eli
-
+        print("\n")
+    elif typeofhand == "banker_s":
+        print("😀"*10)
+        print("Player Hand")
+        for card in hand:
+            print(f" {card[1]} {card[0]}")
+            calculate(player_hand)
+        print(f"You have {calculate(player_hand)} points")
+        print("😀"*10)
 # main game loop
 while True:
     show_hand(player_hand, "player_s")
