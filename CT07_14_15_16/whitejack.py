@@ -94,10 +94,14 @@ while True:
                     print("You win!")
                     break
                 elif calculate(banker_hand) > calculate(player_hand):
+                    show_hand(player_hand, "player_s")
+                    show_hand(player_hand, "banker_h")
                     print("imagine losing to the banker")
                     print("you lose")
                     break
                 elif calculate(banker_hand) == calculate(player_hand):
+                    show_hand(player_hand, "player_s")
+                    show_hand(player_hand, "banker_h")
                     print("push")
                     print("its a tie")
                     break
