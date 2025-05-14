@@ -78,3 +78,4 @@ while True:
                 break
         elif action == "2":
             print("Banker is thinking...")
+            time.sleep(1)
