@@ -60,6 +60,7 @@ def show_hand(hand, typeofhand):
     print("\n")
 
 # main game loop
-
-show_hand(player_hand, "player_s")
-show_hand(player_hand, "banker_h")
+while True:
+    show_hand(player_hand, "player_s")
+    show_hand(player_hand, "banker_h")
+    
