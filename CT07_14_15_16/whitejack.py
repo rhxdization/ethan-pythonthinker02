@@ -41,6 +41,6 @@ def show_hand(hand, typeofhand):
         print("Banker Hand")
         print(f" {hand[0][1]} {hand[0][0]}\n {"? ? " * 3}")
         print("😈" * 10)
-    print()
+    print("\n")
 show_hand(player_hand, "player_s")
 show_hand(player_hand, "banker_h")
