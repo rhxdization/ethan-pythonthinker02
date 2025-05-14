@@ -86,3 +86,5 @@ while True:
                     print("Banker busted!")
                     print("You win!")
                     break
+                elif calculate(banker_hand) > calculate(player_hand):
+                    print("")
