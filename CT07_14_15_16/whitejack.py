@@ -73,4 +73,5 @@ while True:
         if action == "1":
             player_hand.append(deck.pop())
             if points > 21:
-                print("g")
+                print("imagine busting in the big 25")
+                print("you lose")
