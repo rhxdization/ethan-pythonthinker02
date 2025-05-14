@@ -28,9 +28,9 @@ for i in range(10):
 banker_hand = [deck.pop(), deck.pop()]
 player_hand = [deck.pop(), deck.pop()]
 
+# function
 
-
-# function w 2 parameters (hand, typeofhand (banker_h, player_s))
+# function w 2 parameters (hand, typeofhand (banker_h, player_s)) to show hand
 def show_hand(hand, typeofhand):
     if typeofhand == "player_s":
         print("😀"*10)
