@@ -64,4 +64,6 @@ while True:
     show_hand(player_hand, "player_s")
     show_hand(player_hand, "banker_h")
 
-    # check if player blackjack
+    # check if player whitejack
+    if calculate(player_hand) == 21:
+        
