@@ -76,4 +76,5 @@ while True:
                 print("imagine busting in the big 25")
                 print("you lose")
                 break
-        
+        elif action == "2":
+            print("Banker is thinking...")
