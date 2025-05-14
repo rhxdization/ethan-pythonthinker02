@@ -32,7 +32,7 @@ player_hand = [deck.pop(), deck.pop()]
 def calculate(hand):
     for card in hand:
         cardvalue = values[card[0][1]]
-        
+        print(cardvalue)
 
 # function w 2 parameters (hand, typeofhand (banker_h, player_s)) to show hand
 def show_hand(hand, typeofhand):
