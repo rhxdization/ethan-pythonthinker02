@@ -93,7 +93,6 @@ while True:
                 banker_hand.append(deck.pop())
                 show_hand(player_hand, "player_s")
                 show_hand(player_hand, "banker_s")
-                time.sleep(1)
                 if calculate(banker_hand) > 21:
                     show_hand(player_hand, "player_s")
                     show_hand(player_hand, "banker_s")
@@ -112,4 +111,5 @@ while True:
                     print("push")
                     print("its a tie")
                     break
+                time.sleep(1)
                 break
