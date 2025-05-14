@@ -23,8 +23,6 @@ for suit in suits:
 for i in range(10):
     random.shuffle(deck)
 
-print(deck)
-
 # draw out a card
 card1 = deck.pop()
 player_hand = [deck.pop(), deck.pop()]
