@@ -64,8 +64,8 @@ def show_hand(hand, typeofhand):
         print("Banker Hand")
         for card in hand:
             print(f" {card[1]} {card[0]}")
-            calculate(player_hand)
-        print(f"You have {calculate(player_hand)} points")
+            calculate(banker_hand)
+        print(f"Banker have {calculate(player_hand)} points")
         print("😈"*10)
 # main game loop
 while True:
