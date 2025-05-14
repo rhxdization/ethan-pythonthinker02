@@ -66,4 +66,4 @@ while True:
 
     # check if player whitejack
     if calculate(player_hand) == 21:
-        print("You win! WHite ")
+        print("You win! Whitejack!")
