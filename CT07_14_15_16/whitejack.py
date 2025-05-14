@@ -108,7 +108,7 @@ while True:
                     print("its a tie")
                     break
                 elif calculate(banker_hand) < calculate(player_hand):
-                    print("Banker busted!")
+                    print("You scored more points!")
                     print("You win!")
                     break
                 time.sleep(1)
